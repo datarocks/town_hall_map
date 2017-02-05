@@ -73,7 +73,7 @@ def get_townhall_data():
                               discoveryServiceUrl=discoveryUrl)
 
     spreadsheetId = '1yq1NT9DZ2z3B8ixhid894e77u9rN5XIgOwWtTW72IYA'
-    rangeName = 'Upcoming Events!C11:P16'
+    rangeName = 'Upcoming Events!C11:P26'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
     values = result.get('values', [])
@@ -92,7 +92,8 @@ def get_townhall_data():
                                            town_hall[u'State'] + u' ' + town_hall[u'Zip']
                 town_hall[u'address_string'] = address_string
             else:
-                town_hall[u'address_string'] = None
+                address_string = None
+                town_hall[u'address_string'] = address_string
             print(address_string)
             if address_string and address_string not in address_list:
                 address_list.append(address_string)
@@ -100,7 +101,15 @@ def get_townhall_data():
     return [town_hall_list, address_list]
 
 
-def generate_geocode_dictionary(address_list, cached_geocode_dict=None):
+def generate_geocode_dictionary(address_list):
+    try:
+        pkl_file = open('data.pkl', 'rb')
+        cached_geocode_dict = pickle.load(pkl_file)
+        print('using cached geocoding')
+        pkl_file.close()
+    except IOError:
+        print('no geocoding cache yet, starting from scratch')
+        cached_geocode_dict = None
     if cached_geocode_dict:
         geocode_dictionary = cached_geocode_dict
     else:
@@ -109,6 +118,9 @@ def generate_geocode_dictionary(address_list, cached_geocode_dict=None):
         if address not in geocode_dictionary.keys():
             geocode_response = geocode_address(address)
             geocode_dictionary[address] = geocode_response
+    output = open('data.pkl', 'wb')
+    pickle.dump(geocode_dictionary, output, -1)
+    output.close()
     return geocode_dictionary
 
 
@@ -130,18 +142,7 @@ def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
 
 def main():
     town_hall_list, address_list = get_townhall_data()
-    try:
-        pkl_file = open('data.pkl', 'rb')
-        cached_geocode_dict = pickle.load(pkl_file)
-        print('success?')
-        pkl_file.close()
-    except IOError:
-        print('no file yet')
-        cached_geocode_dict = None
-    geocode_dict = generate_geocode_dictionary(address_list, cached_geocode_dict)
-    output = open('data.pkl', 'wb')
-    pickle.dump(geocode_dict, output, -1)
-    output.close()
+    geocode_dict = generate_geocode_dictionary(address_list)
     geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
     pprint(geo_town_hall_list)
 
