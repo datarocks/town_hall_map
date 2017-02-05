@@ -10,6 +10,7 @@ from oauth2client import client
 from oauth2client import tools
 from oauth2client.file import Storage
 from requests import get
+from geojson import Feature, Point, FeatureCollection, dumps as geojsondumps
 
 try:
     import argparse
@@ -25,8 +26,17 @@ SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
 CLIENT_SECRET_FILE = 'local_config/client_secret.json'
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
 
-# this is for pickling a cached response...it isn't in use quite yet
 
+def xstr(s):
+    """
+    Coerce a nonetype to be an empty string
+    :param s:
+    :return: a string
+    """
+    if s is None:
+        return ''
+    else:
+        return str(s)
 
 
 def get_credentials():
@@ -64,6 +74,7 @@ def geocode_address(address):
     full_response = geocode_response.json()
     return full_response
 
+
 def get_townhall_data():
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
@@ -73,7 +84,7 @@ def get_townhall_data():
                               discoveryServiceUrl=discoveryUrl)
 
     spreadsheetId = '1yq1NT9DZ2z3B8ixhid894e77u9rN5XIgOwWtTW72IYA'
-    rangeName = 'Upcoming Events!C11:P26'
+    rangeName = 'Upcoming Events!C11:P'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
     values = result.get('values', [])
@@ -87,9 +98,9 @@ def get_townhall_data():
         del values[0]
         for town_hall_data in values:
             town_hall = dict(zip(keys, town_hall_data))
-            if town_hall[u'City'] and town_hall[u'State']:
-                address_string = town_hall[u'Street Address'] + u', ' + town_hall[u'City'] + u', ' + \
-                                           town_hall[u'State'] + u' ' + town_hall[u'Zip']
+            if town_hall.get(u'Street Address') and town_hall.get(u'City') and town_hall.get(u'State'):
+                address_string = town_hall.get(u'Street Address') + u', ' + town_hall[u'City'] + u', ' + \
+                                           town_hall[u'State'] + u' ' + xstr(town_hall.get(u'Zip'))
                 town_hall[u'address_string'] = address_string
             else:
                 address_string = None
@@ -118,6 +129,7 @@ def generate_geocode_dictionary(address_list):
         if address not in geocode_dictionary.keys():
             geocode_response = geocode_address(address)
             geocode_dictionary[address] = geocode_response
+            print('geocoded a thing!')
     output = open('data.pkl', 'wb')
     pickle.dump(geocode_dictionary, output, -1)
     output.close()
@@ -137,6 +149,28 @@ def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
     return geo_town_hall_list
 
 
+def generate_geojson(geo_town_hall_list):
+    feature_list = []
+    for town_hall in geo_town_hall_list:
+        if town_hall.get(u'lat_lng'):
+            lat_lng = town_hall[u'lat_lng']
+            point = Point((lat_lng[u'lng'], lat_lng[u'lat']))
+            properties = {
+                u'date': town_hall.get(u'Date'),
+                u'district': town_hall.get(u'District'),
+                u'location': town_hall.get(u'Location'),
+                u'meetingType': town_hall.get(u'Meeting Type'),
+                u'member': town_hall.get(u'Member'),
+                u'notes': town_hall.get(u'Notes'),
+                u'party': town_hall.get(u'Party'),
+                u'state': town_hall.get(u'State Represented'),
+                u'time': town_hall.get(u'Time')+' '+town_hall.get(u'Time Zone'),
+                u'address': town_hall.get(u'address_string')
+            }
+            feature = Feature(geometry=point, properties=properties)
+            feature_list.append(feature)
+    feature_collection = FeatureCollection(feature_list)
+    return feature_collection
 
 
 
@@ -144,7 +178,9 @@ def main():
     town_hall_list, address_list = get_townhall_data()
     geocode_dict = generate_geocode_dictionary(address_list)
     geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
-    pprint(geo_town_hall_list)
+    feature_collection = generate_geojson(geo_town_hall_list)
+    geojson_string = geojsondumps(feature_collection, sort_keys=True)
+    print(geojson_string)
 
 
 
