@@ -26,18 +26,7 @@ CLIENT_SECRET_FILE = 'local_config/client_secret.json'
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
 
 # this is for pickling a cached response...it isn't in use quite yet
-try:
-    pkl_file = open('data.pkl', 'rb')
 
-    data1 = pickle.load(pkl_file)
-    pprint.pprint(data1)
-
-    data2 = pickle.load(pkl_file)
-    pprint.pprint(data2)
-
-    pkl_file.close()
-except IOError:
-    print('no file yet')
 
 
 def get_credentials():
@@ -111,8 +100,11 @@ def get_townhall_data():
     return [town_hall_list, address_list]
 
 
-def generate_geocode_dictionary(address_list):
-    geocode_dictionary = {}
+def generate_geocode_dictionary(address_list, cached_geocode_dict=None):
+    if cached_geocode_dict:
+        geocode_dictionary = cached_geocode_dict
+    else:
+        geocode_dictionary = {}
     for address in address_list:
         if address not in geocode_dictionary.keys():
             geocode_response = geocode_address(address)
@@ -126,7 +118,6 @@ def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
         if town_hall.get(u'address_string'):
             address = town_hall.get(u'address_string')
             geo = geocode_dict.get(address)
-            pprint(geo)
             lat_lng = geo.get('results')[0].get('locations', {})[0].get(u'latLng')
             town_hall[u'lat_lng'] = lat_lng
         else:
@@ -139,7 +130,18 @@ def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
 
 def main():
     town_hall_list, address_list = get_townhall_data()
-    geocode_dict = generate_geocode_dictionary(address_list)
+    try:
+        pkl_file = open('data.pkl', 'rb')
+        cached_geocode_dict = pickle.load(pkl_file)
+        print('success?')
+        pkl_file.close()
+    except IOError:
+        print('no file yet')
+        cached_geocode_dict = None
+    geocode_dict = generate_geocode_dictionary(address_list, cached_geocode_dict)
+    output = open('data.pkl', 'wb')
+    pickle.dump(geocode_dict, output, -1)
+    output.close()
     geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
     pprint(geo_town_hall_list)
 
