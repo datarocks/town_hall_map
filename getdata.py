@@ -1,11 +1,15 @@
 from __future__ import print_function
 import httplib2
 import os
+import pickle
+from copy import deepcopy
+from pprint import pprint
 
 from apiclient import discovery
 from oauth2client import client
 from oauth2client import tools
 from oauth2client.file import Storage
+from requests import get
 
 try:
     import argparse
@@ -13,11 +17,27 @@ try:
 except ImportError:
     flags = None
 
+from local_config import config
+
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/sheets.googleapis.com-python-quickstart.json
 SCOPES = 'https://www.googleapis.com/auth/spreadsheets.readonly'
-CLIENT_SECRET_FILE = 'client_secret.json'
+CLIENT_SECRET_FILE = 'local_config/client_secret.json'
 APPLICATION_NAME = 'Google Sheets API Python Quickstart'
+
+# this is for pickling a cached response...it isn't in use quite yet
+try:
+    pkl_file = open('data.pkl', 'rb')
+
+    data1 = pickle.load(pkl_file)
+    pprint.pprint(data1)
+
+    data2 = pickle.load(pkl_file)
+    pprint.pprint(data2)
+
+    pkl_file.close()
+except IOError:
+    print('no file yet')
 
 
 def get_credentials():
@@ -48,13 +68,14 @@ def get_credentials():
         print('Storing credentials to ' + credential_path)
     return credentials
 
-def main():
-    """Shows basic usage of the Sheets API.
+def geocode_address(address):
+    geocoding_url = "https://open.mapquestapi.com/geocoding/v1/address"
+    params = {'key': config.MAPQUEST_KEY, 'thumbMaps': 'false', 'location': address}
+    geocode_response = get(geocoding_url, params=params)
+    full_response = geocode_response.json()
+    return full_response
 
-    Creates a Sheets API service object and prints the names and majors of
-    students in a sample spreadsheet:
-    https://docs.google.com/spreadsheets/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/edit
-    """
+def get_townhall_data():
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
     discoveryUrl = ('https://sheets.googleapis.com/$discovery/rest?'
@@ -63,18 +84,67 @@ def main():
                               discoveryServiceUrl=discoveryUrl)
 
     spreadsheetId = '1yq1NT9DZ2z3B8ixhid894e77u9rN5XIgOwWtTW72IYA'
-    rangeName = 'Upcoming Events!C12:P'
+    rangeName = 'Upcoming Events!C11:P16'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
     values = result.get('values', [])
-
+    town_hall_list = []
+    address_list = []
     if not values:
         print('No data found.')
     else:
-        print('Name, Date:')
-        for row in values:
-            # Print columns A and E, which correspond to indices 0 and 4.
-            print('%s, %s' % (row[0], row[5]))
+        keys = values[0]
+        keys[2] = u'State Represented'
+        del values[0]
+        for town_hall_data in values:
+            town_hall = dict(zip(keys, town_hall_data))
+            if town_hall[u'City'] and town_hall[u'State']:
+                address_string = town_hall[u'Street Address'] + u', ' + town_hall[u'City'] + u', ' + \
+                                           town_hall[u'State'] + u' ' + town_hall[u'Zip']
+                town_hall[u'address_string'] = address_string
+            else:
+                town_hall[u'address_string'] = None
+            print(address_string)
+            if address_string and address_string not in address_list:
+                address_list.append(address_string)
+            town_hall_list.append(town_hall)
+    return [town_hall_list, address_list]
+
+
+def generate_geocode_dictionary(address_list):
+    geocode_dictionary = {}
+    for address in address_list:
+        if address not in geocode_dictionary.keys():
+            geocode_response = geocode_address(address)
+            geocode_dictionary[address] = geocode_response
+    return geocode_dictionary
+
+
+def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
+    geo_town_hall_list = deepcopy(town_hall_list)
+    for town_hall in geo_town_hall_list:
+        if town_hall.get(u'address_string'):
+            address = town_hall.get(u'address_string')
+            geo = geocode_dict.get(address)
+            pprint(geo)
+            lat_lng = geo.get('results')[0].get('locations', {})[0].get(u'latLng')
+            town_hall[u'lat_lng'] = lat_lng
+        else:
+            town_hall[u'lat_lng'] = None
+    return geo_town_hall_list
+
+
+
+
+
+def main():
+    town_hall_list, address_list = get_townhall_data()
+    geocode_dict = generate_geocode_dictionary(address_list)
+    geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
+    pprint(geo_town_hall_list)
+
+
+
 
 
 if __name__ == '__main__':

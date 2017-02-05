@@ -1,0 +1,1 @@
+This is a script for pulling data from a spreadsheet, geocoding it, and eventually generating mappable data from it.
