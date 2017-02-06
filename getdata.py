@@ -158,30 +158,6 @@ def get_townhall_data():
     return [town_hall_list, address_list]
 
 
-def generate_geocode_dictionary_mapquest(address_list):
-    try:
-        pkl_file = open('data.pkl', 'rb')
-        cached_geocode_dict = pickle.load(pkl_file)
-        print('using cached geocoding')
-        pkl_file.close()
-    except IOError:
-        print('no geocoding cache yet, starting from scratch')
-        cached_geocode_dict = None
-    if cached_geocode_dict:
-        geocode_dictionary = cached_geocode_dict
-    else:
-        geocode_dictionary = {}
-    for address in address_list:
-        if address not in geocode_dictionary.keys():
-            geocode_response = geocode_address_mapquest(address)
-            geocode_dictionary[address] = geocode_response
-            print('geocoded a thing!')
-    output = open('data.pkl', 'wb')
-    pickle.dump(geocode_dictionary, output, -1)
-    output.close()
-    return geocode_dictionary
-
-
 def generate_geocode_dictionary_nominatum(town_hall_list):
     try:
         pkl_file = open('data_nom.pkl', 'rb')
@@ -208,19 +184,6 @@ def generate_geocode_dictionary_nominatum(town_hall_list):
     pickle.dump(geocode_dictionary, output, -1)
     output.close()
     return geocode_dictionary
-
-
-def append_lat_long_to_townhall_data_mapquest(town_hall_list, geocode_dict):
-    geo_town_hall_list = deepcopy(town_hall_list)
-    for town_hall in geo_town_hall_list:
-        if town_hall.get(u'address_string'):
-            address = town_hall.get(u'address_string')
-            geo = geocode_dict.get(address)
-            lat_lng = geo.get('results')[0].get('locations', {})[0].get(u'latLng')
-            town_hall[u'lat_lng'] = lat_lng
-        else:
-            town_hall[u'lat_lng'] = None
-    return geo_town_hall_list
 
 
 def append_lat_long_to_townhall_data_nominatum(town_hall_list, geocode_dict):
