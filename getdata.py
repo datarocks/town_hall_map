@@ -68,14 +68,6 @@ def get_credentials():
         print('Storing credentials to ' + credential_path)
     return credentials
 
-def geocode_address_mapquest(address):
-    # geocoding_url = "https://open.mapquestapi.com/geocoding/v1/address" # the data coming out of the open API is less accurate
-    geocoding_url = 'http://www.mapquestapi.com/geocoding/v1/address'
-    params = {'key': config.MAPQUEST_KEY, 'thumbMaps': 'false', 'location': address}
-    geocode_response = get(geocoding_url, params=params)
-    full_response = geocode_response.json()
-    return full_response
-
 
 def geocode_address_nominatum(street, city, state, postalcode=None, county=None, country='United States of America'):
     params = {
