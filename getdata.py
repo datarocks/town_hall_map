@@ -12,6 +12,8 @@ from oauth2client.file import Storage
 from requests import get
 from geojson import Feature, Point, FeatureCollection, dumps as geojsondumps
 import arrow
+from smartystreets_python_sdk import StaticCredentials, exceptions
+from smartystreets_python_sdk.us_street import ClientBuilder, Lookup
 
 try:
     import argparse
@@ -69,7 +71,7 @@ def get_credentials():
     return credentials
 
 
-def geocode_address_nominatum(street, city, state, postalcode=None, county=None, country='United States of America'):
+def geocode_address_nominatum(street, city, state, postalcode=None, county=None, country=None):
     params = {
         'street': street,
         'city': city,
@@ -86,8 +88,6 @@ def geocode_address_nominatum(street, city, state, postalcode=None, county=None,
     return response_content
 
 
-
-
 def get_townhall_data():
     credentials = get_credentials()
     http = credentials.authorize(httplib2.Http())
@@ -97,7 +97,7 @@ def get_townhall_data():
                               discoveryServiceUrl=discoveryUrl)
 
     spreadsheetId = '1yq1NT9DZ2z3B8ixhid894e77u9rN5XIgOwWtTW72IYA'
-    rangeName = 'Upcoming Events!C11:P16'
+    rangeName = 'Upcoming Events!C11:P'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
     values = result.get('values', [])
@@ -152,7 +152,7 @@ def get_townhall_data():
 
 def generate_geocode_dictionary_nominatum(town_hall_list):
     try:
-        pkl_file = open('data_nom.pkl', 'rb')
+        pkl_file = open('data_geo.pkl', 'rb')
         cached_geocode_dict = pickle.load(pkl_file)
         print('using cached geocoding')
         pkl_file.close()
@@ -168,14 +168,58 @@ def generate_geocode_dictionary_nominatum(town_hall_list):
             geocode_response = geocode_address_nominatum(street=town_hall.get(u'Street Address'),
                                                          city=town_hall.get(u'City'),
                                                          state=town_hall[u'State'].strip())
-            geocode_dictionary[town_hall.get(u'address_string')] = geocode_response
+            geocode_dictionary[town_hall.get(u'address_string')] = {'nominatum': geocode_response}
+            if len(geocode_response) == 0:
+                smartydata = geocode_smartystreets(street=town_hall.get(u'Street Address'), city=town_hall.get(u'City'),
+                                                   state=town_hall.get(u'State'), zipcode=town_hall.get(u'Zip'))
+                if smartydata:
+                    geocode_dictionary[town_hall.get(u'address_string')]['smartystreets'] = smartydata
+
             print(town_hall.get(u'address_string'))
             print(geocode_response)
             print('geocoded a thing!')
-    output = open('data_nom.pkl', 'wb')
+    output = open('data_geo.pkl', 'wb')
     pickle.dump(geocode_dictionary, output, -1)
     output.close()
     return geocode_dictionary
+
+def geocode_smartystreets(street, city, state, zipcode=None):
+    auth_id = config.SMARTY_AUTH_ID  # We recommend storing your keys in environment variables
+    auth_token = config.SMARTY_AUTH_TOKEN
+    credentials = StaticCredentials(auth_id, auth_token)
+
+    client = ClientBuilder(credentials).build()
+
+    lookup = Lookup()
+    lookup.street = street
+    lookup.city = city
+    lookup.state = state
+    lookup.zipcode = zipcode
+
+    try:
+        client.send_lookup(lookup)
+    except exceptions.SmartyException as err:
+        print(err)
+        return None
+
+    result = lookup.result
+
+    if not result:
+        print("No candidates. This means the address is not valid.")
+        return None
+
+    first_candidate = result[0]
+    print("Address is valid. (There is at least one candidate)\n")
+    data = {
+        'street': first_candidate.components.street_name,
+        'city': first_candidate.components.city_name,
+        'zipcode': first_candidate.components.zipcode,
+        'state': first_candidate.components.state_abbreviation,
+        'latitude': first_candidate.metadata.latitude,
+        'longitude': first_candidate.metadata.longitude
+
+    }
+    return data
 
 
 def append_lat_long_to_townhall_data_nominatum(town_hall_list, geocode_dict):
@@ -183,13 +227,19 @@ def append_lat_long_to_townhall_data_nominatum(town_hall_list, geocode_dict):
     for town_hall in geo_town_hall_list:
         if town_hall.get(u'address_string'):
             address = town_hall.get(u'address_string')
-            geo = geocode_dict.get(address)
+            geo = geocode_dict.get(address)['nominatum']
             print(geo)
             if len(geo) > 0:
                 lat_lng = {'lat': float(geo[0]['lat']), 'lng': float(geo[0]['lon'])}
                 town_hall[u'lat_lng'] = lat_lng
             else:
-                town_hall[u'lat_lng'] = None
+                smarty_geo = geocode_dict.get(address, {}).get('smartystreets')
+                print(smarty_geo)
+                if smarty_geo:
+                    lat_lng = {'lat': float(smarty_geo['latitude']), 'lng': float(smarty_geo['longitude'])}
+                    town_hall[u'lat_lng'] = lat_lng
+                else:
+                    town_hall[u'lat_lng'] = None
         else:
             town_hall[u'lat_lng'] = None
     return geo_town_hall_list
@@ -218,7 +268,6 @@ def generate_geojson(geo_town_hall_list):
             feature_list.append(feature)
     feature_collection = FeatureCollection(feature_list)
     return feature_collection
-
 
 
 def main():
