@@ -16,10 +16,12 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 + "<br>Member: " + feature.properties.member
                 + "<br>District: " + feature.properties.district
                 + "<br>State: " + feature.properties.state
+                + "<br>Meeting Type: " + feature.properties.meetingType
                 + "<br>Location: " + feature.properties.location
                 + "<br>Address: " + feature.properties.address
                 + "<br>Date: " + feature.properties.date
-                + "<br>Time: " + feature.properties.time;
+                + "<br>Time: " + feature.properties.time
+                + "<br>Notes: " + feature.properties.notes;
             layer.bindPopup(popupText);
             }
 

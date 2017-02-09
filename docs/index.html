@@ -25,6 +25,8 @@
 		<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
     	<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster-src.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.15/leaflet-providers.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
+
     	<script src="map_data.js"></script>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -38,9 +40,11 @@
 
 	</head>
 	<body>
+        <a class="github-fork-ribbon" href="https://github.com/datarocks/town_hall_map/" title="Fork me on GitHub">Fork me on GitHub</a>
+
 		<div id="page-wrapper">
 
-			<!-- Header -->
+			<!-- Header
 				<header id="header">
 					<div class="logo container">
 						<div>
@@ -49,7 +53,7 @@
 					</div>
 				</header>
 
-
+            -->
 			<!-- Main -->
 				<div id="main-wrapper">
 					<div id="main" class="container">
@@ -63,7 +67,7 @@
 
 											<header>
 												<h2>Town Hall Project Map</h2>
-												<p>Mapping upcoming town halls across the country</p>
+												<p>Mapping upcoming congressional town halls across the country</p>
 											</header>
 
 											
@@ -71,13 +75,12 @@
 										<section>
 										<h3>About this Map</h3>
 										<p>This map is based on data from the <a href="http://www.townhallproject.com">Town Hall Project 2018.</a>  I like working with maps and data, so I decided to
-										give visualizing this important dataset a shot. All credit for the data collected goes to the
-										folks behind the Town Hall Project, though I hope to contribute to actual data collection in the near future.  I hope that this tool will help folks get involved with their members of congress more easily.
+										give visualizing this important dataset a shot. All credit for the data collected goes to the people behind the Town Hall Project.  I hope that this tool will help folks get involved with their members of congress more easily.
 										</p>
 										</section>
 
 										<section>
-											<div style="width: 100%" id="map"></div>
+											<div style="width: 100%; " id="map"></div>
 										</section>
 
 										<section>
@@ -111,6 +114,9 @@
 						<div id="copyright">
 							<ul class="menu">
 								<li><a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/us/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/us/">Creative Commons Attribution 3.0 United States License</a>.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+                            <ul class="menu">
+								<li>Some geocoding and address validation made possible by <a href="https://smartystreets.com/">SmartyStreets</a></li><li>Most geocoding from Open Street Map's <a href="http://nominatim.openstreetmap.org/search">Nominatum</a></li>
 							</ul>
 						</div>
 
