@@ -2,8 +2,8 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 			maxZoom: 18,
 			attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 		});
-		var map = L.map('map')
-				.addLayer(tiles);
+		var map = L.map('map');
+		L.tileLayer.provider('Stamen.Toner').addTo(map);
 		var markers = L.markerClusterGroup({maxClusterRadius: 5, spiderfyDistanceMultiplier:2 });
 
 		function getValue(x) {
