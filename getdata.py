@@ -277,6 +277,11 @@ def main():
     geo_town_hall_list = append_lat_long_to_townhall_data_nominatum(town_hall_list, geocode_dict)
     feature_collection = generate_geojson(geo_town_hall_list)
     geojson_string = geojsondumps(feature_collection, sort_keys=True)
+    map_data = open('docs/map_data.js', 'wb')
+    map_data.write("var geoJsonData = %s" % geojson_string)
+    map_data.close()
+
+
     print(geojson_string)
 
 
