@@ -263,6 +263,7 @@ def generate_geojson(geo_town_hall_list):
                 u'state': town_hall.get(u'State Represented'),
                 u'time': town_hall.get(u'Time')+' '+town_hall.get(u'Time Zone'),
                 u'address': town_hall.get(u'address_string')
+
             }
             feature = Feature(geometry=point, properties=properties)
             feature_list.append(feature)
