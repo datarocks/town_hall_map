@@ -271,7 +271,7 @@ def generate_geojson(geo_town_hall_list):
             }
             feature = Feature(geometry=point, properties=properties)
             feature_list.append(feature)
-    latest_load = arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a ZZ')+' Central'
+    latest_load = arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a')+' Central'
     feature_collection = FeatureCollection(feature_list, properties={'latestLoad': latest_load})
     return feature_collection
 
