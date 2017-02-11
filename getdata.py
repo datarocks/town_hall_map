@@ -3,6 +3,7 @@ import httplib2
 import os
 import pickle
 from copy import deepcopy
+import json
 from pprint import pprint
 
 from apiclient import discovery
@@ -178,7 +179,7 @@ def generate_geocode_dictionary(town_hall_list):
                 no_geocode_town_halls.append(town_hall)
             elif geocoded:
                 print('geocoded a thing!: '+town_hall.get(u'address_string'))
-        elif not town_hall.get(u'address_string'):
+        else:
             no_geocode_town_halls.append(town_hall)
 
     output = open('data_geo.pkl', 'wb')
@@ -283,9 +284,11 @@ def main():
     feature_collection = generate_geojson(geo_town_hall_list)
     geojson_string = geojsondumps(feature_collection, sort_keys=True)
     map_data = open('docs/map_data.js', 'wb')
-    map_data.write("var geoJsonData = %s" % geojson_string)
+    json_geojson = json.loads(geojson_string)
+    map_data.write("var geoJsonData = %s" % json.dumps(json_geojson, indent=4, sort_keys=True) + ";\n"
+                   + "var nonGeoData= %s" % json.dumps(non_geo_town_halls, indent=4, sort_keys=True) + ";")
     map_data.close()
-    print(geojson_string)
+    pprint(non_geo_town_halls)
     print(arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a'))
 
 
