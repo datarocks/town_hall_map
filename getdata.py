@@ -276,7 +276,7 @@ def generate_geojson(geo_town_hall_list):
             }
             feature = Feature(geometry=point, properties=properties)
             feature_list.append(feature)
-    latest_load = arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a')+' Central'
+    latest_load = arrow.now(tz='US/Central').format('MMMM D, YYYY h:mm a')+' Central'
     feature_collection = FeatureCollection(feature_list, properties={'latestLoad': latest_load})
     return feature_collection
 
@@ -313,7 +313,7 @@ def main():
     map_data.write("var geoJsonData = %s" % json.dumps(json_geojson, indent=4, sort_keys=True) + ";\n"
                    + "var nonGeoData= %s" % json.dumps(jsonized_non_geo_town_halls, indent=4, sort_keys=True) + ";")
     map_data.close()
-    print(arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a'))
+    print(arrow.now(tz='US/Central').format('MMMM D, YYYY h:mm a'))
 
 
 if __name__ == '__main__':
