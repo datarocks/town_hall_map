@@ -210,6 +210,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -122.4467279, 
+                    37.7395517
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1001 Arroyo St, San Francisco, CA 91340", 
+                "date": "Tuesday, Feb 21, 2017", 
+                "date8061": null, 
+                "district": "CA-29", 
+                "location": "Cesar E Chavez Learning Academies-Social Justice", 
+                "meetingType": "Town Hall", 
+                "member": "Tony C\u00e1rdenas", 
+                "notes": "RSVP: https://<a href=\"http://www.facebook.com/events/250884468699971/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/250884468699971/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "6:30 PM - 8:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -121.9321554, 
                     37.4871946
                 ], 
@@ -341,7 +364,7 @@ var geoJsonData = {
                 "notes": "Unclear what type of event this is; Website says \"More information coming soon\"", 
                 "party": "Democratic", 
                 "state": "California", 
-                "time": "5:11 PM PST"
+                "time": "5:00 PM PST"
             }, 
             "type": "Feature"
         }, 
@@ -411,6 +434,29 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "2:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -121.7454723, 
+                    38.5564957
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "203 E 14th St, Davis, CA 95616", 
+                "date": "Sunday, February 12, 2017", 
+                "date8061": "2017-02-12", 
+                "district": "CA-03", 
+                "location": "City of Davis Veterans Memorial Theatre", 
+                "meetingType": "Town Hall", 
+                "member": "John Garamendi", 
+                "notes": "https://<a href=\"http://www.facebook.com/events/170186310142764/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/170186310142764/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "5:00 PM - 6:30 PM PST"
             }, 
             "type": "Feature"
         }, 
@@ -2303,6 +2349,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -73.9493712413793, 
+                    42.8157685172414
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "78 Washington Ave, Schenectady, NY 12305", 
+                "date": "Monday, February 20, 2017", 
+                "date8061": "2017-02-20", 
+                "district": "NY-20", 
+                "location": "Schenectady County Community College in the Carl B. Taylor Auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Paul Tonko", 
+                "notes": "https://<a href=\"http://www.facebook.com/events/1407179042688668/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/1407179042688668/</a>", 
+                "party": "Democratic", 
+                "state": "New York", 
+                "time": "5:30 PM - 8:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -83.1233076938775, 
                     40.586800877551
                 ], 
@@ -2900,7 +2969,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 10, 2017 11:22 pm Central"
+        "latestLoad": "February 11, 2017 12:33 pm Central"
     }, 
     "type": "FeatureCollection"
 };
