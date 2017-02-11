@@ -25,6 +25,7 @@
 		<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
     	<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster-src.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.15/leaflet-providers.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/8.0.1/ag-grid.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
 
     	<script src="map_data.js"></script>
@@ -81,6 +82,10 @@
 											<div id="load_time"></div>
                                             <div style="width: 100%; " id="map"></div>
 										</section>
+										<section>
+											<h3>Town Halls without a location</h3>
+											<div id="myGrid" style="height: 200px;" class="ag-fresh"></div>
+										</section>
 
 										<section>
 											<h3>About the Town Hall Project</h3>
@@ -133,6 +138,7 @@
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
 			<script src="make_map.js" type="text/javascript"></script>
+			<script src="make_grid.js" type="text/javascript"></script>
 
 
 	</body>

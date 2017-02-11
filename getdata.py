@@ -179,12 +179,16 @@ def generate_geocode_dictionary(town_hall_list):
                 no_geocode_town_halls.append(town_hall)
             elif geocoded:
                 print('geocoded a thing!: '+town_hall.get(u'address_string'))
-        else:
+        elif town_hall.get(u'address_string') == (None or ',  ,   '):
             no_geocode_town_halls.append(town_hall)
+
+
+
 
     output = open('data_geo.pkl', 'wb')
     pickle.dump(geocode_dictionary, output, -1)
     output.close()
+    pprint(geocode_dictionary)
     return geocode_dictionary, no_geocode_town_halls
 
 
@@ -276,6 +280,26 @@ def generate_geojson(geo_town_hall_list):
     feature_collection = FeatureCollection(feature_list, properties={'latestLoad': latest_load})
     return feature_collection
 
+def generate_non_geo_townhall_list(non_geo_town_halls):
+    cleaned_list = []
+    for town_hall in non_geo_town_halls:
+        jsonized = {
+            u'date': town_hall.get(u'Date'),
+            u'date8061': town_hall.get(u'date_8061'),
+            u'district': town_hall.get(u'District'),
+            u'location': town_hall.get(u'Location'),
+            u'meetingType': town_hall.get(u'Meeting Type'),
+            u'member': town_hall.get(u'Member'),
+            u'notes': town_hall.get(u'Notes'),
+            u'party': town_hall.get(u'Party'),
+            u'state': town_hall.get(u'State Represented'),
+            u'time': town_hall.get(u'Time') + ' ' + town_hall.get(u'Time Zone'),
+            u'address': town_hall.get(u'address_string')
+        }
+        cleaned_list.append(jsonized)
+    print("number of non-geo town halls: " + str(len(cleaned_list)))
+    return cleaned_list
+
 
 def main():
     town_hall_list = get_townhall_data()
@@ -285,10 +309,10 @@ def main():
     geojson_string = geojsondumps(feature_collection, sort_keys=True)
     map_data = open('docs/map_data.js', 'wb')
     json_geojson = json.loads(geojson_string)
+    jsonized_non_geo_town_halls = generate_non_geo_townhall_list(non_geo_town_halls)
     map_data.write("var geoJsonData = %s" % json.dumps(json_geojson, indent=4, sort_keys=True) + ";\n"
-                   + "var nonGeoData= %s" % json.dumps(non_geo_town_halls, indent=4, sort_keys=True) + ";")
+                   + "var nonGeoData= %s" % json.dumps(jsonized_non_geo_town_halls, indent=4, sort_keys=True) + ";")
     map_data.close()
-    pprint(non_geo_town_halls)
     print(arrow.now(tz='US/Central').format('MMMM D, YYYY HH:mm a'))
 
 
