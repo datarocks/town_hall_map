@@ -4,6 +4,7 @@ import os
 import pickle
 from copy import deepcopy
 import json
+import re
 from pprint import pprint
 
 from apiclient import discovery
@@ -41,6 +42,23 @@ def xstr(s):
         return ''
     else:
         return str(s)
+
+
+def convertLinks(text):
+    """
+    see: http://stackoverflow.com/questions/17568168/python-regex-to-replace-urls-in-text-with-links-conversion-from-php
+    :param text:
+    :return:
+    """
+    _link = re.compile(r'(?:(http://)|(www\.))(\S+\b/?)([!"#$%&\'()*+,\-./:;<=>?@[\\\]^_`{|}~]*)(\s|$)', re.I)
+
+    def replace(match):
+        groups = match.groups()
+        protocol = groups[0] or ''  # may be None
+        www_lead = groups[1] or ''  # may be None
+        return '<a href="http://{1}{2}" _target="blank" rel="nofollow">{0}{1}{2}</a>{3}{4}'.format(
+            protocol, www_lead, *groups[2:])
+    return _link.sub(replace, text)
 
 
 def get_credentials():
@@ -129,6 +147,8 @@ def get_townhall_data():
                 town_hall[u'District'] = town_hall[u'District'].strip()
             if town_hall.get(u'State Represented'):
                 town_hall[u'State Represented'] = town_hall[u'State Represented'].strip()
+            if town_hall.get(u'Notes'):
+                town_hall[u'Notes'] = convertLinks(town_hall[u'Notes'])
             if town_hall.get(u'Date'):
                 # dates looks like this: Thursday, February 9, 2017
                 print(town_hall[u'Date'])
