@@ -134,7 +134,7 @@ var geoJsonData = {
                 "notes": "Organizing Meeting", 
                 "party": "Democratic", 
                 "state": "California", 
-                "time": "10:00 AM PST"
+                "time": "10:00 AM - 12:00 PM PST"
             }, 
             "type": "Feature"
         }, 
@@ -157,7 +157,7 @@ var geoJsonData = {
                 "notes": "Organizing Meeting", 
                 "party": "Democratic", 
                 "state": "California", 
-                "time": "10:00 AM PST"
+                "time": "10:00 AM - 12:00 PM PST"
             }, 
             "type": "Feature"
         }, 
@@ -1187,7 +1187,7 @@ var geoJsonData = {
                 "date8061": null, 
                 "district": "Senate", 
                 "location": "Betty's Cafe", 
-                "meetingType": "Constituent Coffee ", 
+                "meetingType": "Coffee", 
                 "member": "Joni Ernst", 
                 "notes": "<a href=\"http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee\" _target=\"blank\" rel=\"nofollow\">http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee</a>", 
                 "party": "Republican", 
@@ -2740,17 +2740,40 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -81.5526179, 
-                    41.241167
+                    -76.1583146769784, 
+                    36.8212291157831
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": ", Peninsula, VA  ", 
-                "date": "Tuesday, Feb 21, 2017", 
+                "address": "5194 Chief Trail, Virginia Beach, VA  ", 
+                "date": "Monday, Feb 20, 2017", 
                 "date8061": null, 
                 "district": "VA-2", 
-                "location": "TBD", 
+                "location": "Kempsville High School", 
+                "meetingType": "Town Hall", 
+                "member": "Scott Taylor", 
+                "notes": "More information to follow.", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "7:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.8573634002103, 
+                    37.4747378237149
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "10227 Rogers Dr, Nassawadox, VA  ", 
+                "date": "Wednesday, Feb 22, 2017", 
+                "date8061": null, 
+                "district": "VA-2", 
+                "location": "Little Italy Restaurant", 
                 "meetingType": "Town Hall", 
                 "member": "Scott Taylor", 
                 "notes": "More information to follow.", 
@@ -2763,17 +2786,17 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -122.17702, 
-                    48.05854
+                    -122.174271, 
+                    48.0550962
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1049 State Ave, #101, Marysville, WA 98270", 
+                "address": "1605 7th Street, Marysville, WA 98270", 
                 "date": "Saturday, Feb 11, 2017", 
                 "date8061": null, 
                 "district": "WA-2", 
-                "location": "Marysville City Hall, Council Chambers", 
+                "location": "Totem Middle School", 
                 "meetingType": "Town Hall", 
                 "member": "Rick Larsen", 
                 "notes": "\"An Affordable Care Act Town Hall with Rep. Rick Larsen\"", 
@@ -2877,7 +2900,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 10, 2017 10:47 pm Central"
+        "latestLoad": "February 10, 2017 11:22 pm Central"
     }, 
     "type": "FeatureCollection"
 };
