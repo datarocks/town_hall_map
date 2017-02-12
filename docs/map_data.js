@@ -486,6 +486,167 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -122.133922702398, 
+                    38.0191029022529
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "651 Pine St, Martinez, CA 94553", 
+                "date": "Saturday, Feb 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-11", 
+                "location": "", 
+                "meetingType": "Town Hall", 
+                "member": "Mark DeSaulnier", 
+                "notes": "ACA Town Hall with Congressman Mike Thompson and Congressman Mike DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "10:30 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.227589, 
+                    34.169486
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1500 N Verdugo rd, Glendale, CA 91208", 
+                "date": "Friday, Feb 24, 2017", 
+                "date8061": "2017-02-24", 
+                "district": "CA-28", 
+                "location": "Glendale Community College", 
+                "meetingType": "Town Hall", 
+                "member": "Adam Schiff", 
+                "notes": "conversation with Rep. Schiff about the crisis in the refugee program. Representatives from the International Rescue Committee (IRC), Muslim Public Affairs Council (MPAC), Hebrew Immigrant Aid Society (HIAS), and ACLU will join Rep. Schiff on a discussion panel.", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "7:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.133922702398, 
+                    38.0191029022529
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "651 Pine St, Martinez, CA 94553", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-05", 
+                "location": "Contra Costa County Board of Supervisors Chambers", 
+                "meetingType": "Town Hall", 
+                "member": "Mike Thompson", 
+                "notes": "<a href=\"https://mikethompson.house.gov/about/events\" target=\"_blank\">https://mikethompson.house.gov/about/events</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "2:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.271430181818, 
+                    38.2690538333333
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2277 Napa Vallejo Hwy, Napa, CA 94558", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "CA-05", 
+                "location": "Napa Valley College, Little Theater, Building 1200", 
+                "meetingType": "Town Hall", 
+                "member": "Mike Thompson", 
+                "notes": "<a href=\"https://mikethompson.house.gov/about/events\" target=\"_blank\">https://mikethompson.house.gov/about/events</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "7:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.769542, 
+                    38.45999
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1700 Fulton Rd, Santa Rosa, CA 95403", 
+                "date": "Saturday, February 25, 2017", 
+                "date8061": "2017-02-25", 
+                "district": "CA-05", 
+                "location": "Piner High School", 
+                "meetingType": "Town Hall", 
+                "member": "Mike Thompson", 
+                "notes": "<a href=\"https://mikethompson.house.gov/about/events\" target=\"_blank\">https://mikethompson.house.gov/about/events</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "9:00 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.027026520203, 
+                    37.9512528174618
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "935 Detroit Ave, Concord, CA 945518", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "CA-11", 
+                "location": "", 
+                "meetingType": "Town Hall", 
+                "member": "Mark DeSaulnier", 
+                "notes": "<a href=\"https://www.facebook.com/events/1379045075470898/\" target=\"_blank\">https://www.facebook.com/events/1379045075470898/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "6:30 PM - 8:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.5473350415803, 
+                    39.7473554
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1105 N Market St, Wilmington, DE 19801", 
+                "date": "Thursday, Feb 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "DE-AL", 
+                "location": "Wilmington District Office", 
+                "meetingType": "Other", 
+                "member": "Lisa Blunt Rochester", 
+                "notes": "Office opening reception - RSVP Link Here", 
+                "party": "Democratic", 
+                "state": "Delaware", 
+                "time": "4:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -82.67428, 
                     28.26772
                 ], 
@@ -848,6 +1009,121 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Illinois", 
                 "time": "10:30 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.6322453, 
+                    41.8098738
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2356 S Wentworth Ave, Chicago, IL 60616", 
+                "date": "Thursday, Feb 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "IL-07", 
+                "location": "Fine Arts Academy", 
+                "meetingType": "Town Hall", 
+                "member": "Danny K. Davis", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Illinois", 
+                "time": "7:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.7716314753097, 
+                    41.88580515
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "301 N Mayfield Ave, Chicago, IL 60644", 
+                "date": "Saturday, Feb 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "IL-07", 
+                "location": "3rd Unitarian Church", 
+                "meetingType": "Other", 
+                "member": "Danny K. Davis", 
+                "notes": "Education Advisory Task Force", 
+                "party": "Democratic", 
+                "state": "Illinois", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -87.7323227, 
+                    42.1060793
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "739 Elm Street, Winnetka, IL 60093", 
+                "date": "Tuesday, Feb 14, 2017", 
+                "date8061": "2017-02-14", 
+                "district": "IL-9", 
+                "location": "New Trier Township", 
+                "meetingType": "Office Hours", 
+                "member": "Jan Schakowsky", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Illinois", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.4537719336806, 
+                    39.3188243323508
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "533 Chestnut Ave, Neoga, IL 62447", 
+                "date": "Wednesday, Feb 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "IL-15", 
+                "location": "Neoga City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "John Shimkus", 
+                "notes": "Traveling Help Desk", 
+                "party": "Republican", 
+                "state": "Illinois", 
+                "time": "10:30 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -82.420039, 
+                    40.171528
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "177 South Main St, Louisville, IL 62858", 
+                "date": "Wednesday, Feb 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "IL-15", 
+                "location": "Louisville Village Hall", 
+                "meetingType": "Office Hours", 
+                "member": "John Shimkus", 
+                "notes": "Traveling Town Hall", 
+                "party": "Republican", 
+                "state": "Illinois", 
+                "time": "2:00 PM CST"
             }, 
             "type": "Feature"
         }, 
@@ -2280,6 +2556,75 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -92.66431, 
+                    37.68241
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "219 N. Adams Street, Lebanon, MO 65536", 
+                "date": "Wednesday, Feb 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "MO-04", 
+                "location": "Lebanon Office", 
+                "meetingType": "Other", 
+                "member": "Vicky Hartzler", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "Missouri", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -99.2688299, 
+                    40.837309
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1347 South Ash Street, Buffalo, MO 65622", 
+                "date": "Thursday, Feb 16, 2017", 
+                "date8061": "2017-02-16", 
+                "district": "MO-04", 
+                "location": "Dallas County Mobile Office Hours", 
+                "meetingType": "Office Hours", 
+                "member": "Vicky Hartzler", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "Missouri", 
+                "time": "12:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -92.2622026233401, 
+                    38.7748277967776
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "109 N. Main Street, Ashland, MO 65010", 
+                "date": "Friday, Feb 17, 2017", 
+                "date8061": "2017-02-17", 
+                "district": "MO-04", 
+                "location": "Boone County Mobile Office Hours", 
+                "meetingType": "Other", 
+                "member": "Vicky Hartzler", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "Missouri", 
+                "time": "9:30 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -102.870680285714, 
                     42.0994085714286
                 ], 
@@ -2602,6 +2947,98 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -77.95773, 
+                    34.97309
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "165 Agriculture drive, Suite A, Kenansville, NC 28349", 
+                "date": "Wednesday, Mar 1, 2017", 
+                "date8061": "2017-03-01", 
+                "district": "NC-07", 
+                "location": "Kenansville Agricultural Center", 
+                "meetingType": "Office Hours", 
+                "member": "David Rouzer", 
+                "notes": "Duplin Office Hours - first Wednesday of each month", 
+                "party": "Republican", 
+                "state": "North Carolina", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.9706521, 
+                    35.5426194
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "120 East Main Street, Fremont, NC 27839", 
+                "date": "Tuesday, Feb 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "NC-07", 
+                "location": "Fremont Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "David Rouzer", 
+                "notes": "Wayne Office Hours - first and third Tuesday of each month", 
+                "party": "Republican", 
+                "state": "North Carolina", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.9962359032392, 
+                    35.38458298281
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "214 N Center St, Goldsboro, NC 27530", 
+                "date": "Tuesday, Feb 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "NC-07", 
+                "location": "Goldsboro Historic City Hall - Community Relations Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "David Rouzer", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "North Carolina", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.32087, 
+                    34.99679
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "221 Lisbon St, Cinton, NC 28328", 
+                "date": "Wednesday, Mar 1, 2017", 
+                "date8061": "2017-03-01", 
+                "district": "NC-07", 
+                "location": "Clinton Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "David Rouzer", 
+                "notes": "Sampson County Office Hours - First Wednesday of each month", 
+                "party": "Republican", 
+                "state": "North Carolina", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -83.1233076938775, 
                     40.586800877551
                 ], 
@@ -2734,6 +3171,52 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Ohio", 
                 "time": "  EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -82.2596999, 
+                    40.774523
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "110 Cottage St., Ashland, OH 44805", 
+                "date": "Monday - Friday", 
+                "date8061": null, 
+                "district": "OH-07", 
+                "location": "Ashland Office", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Gibbs", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "Ohio", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -81.3698779, 
+                    40.77456
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "110 Central Plaza South, Canton, OH 44702", 
+                "date": "", 
+                "date8061": null, 
+                "district": "OH-07", 
+                "location": "Canton Office", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Gibbs", 
+                "notes": "Call (330) 737-1631 to schedule", 
+                "party": "Republican", 
+                "state": "Ohio", 
+                "time": "by appt. EST"
             }, 
             "type": "Feature"
         }, 
@@ -2993,6 +3476,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -86.781648, 
+                    36.1625026666667
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "605 Church St, Nashville, TN 37219", 
+                "date": "Friday, Mar 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "TN-05", 
+                "location": "Nashville Office", 
+                "meetingType": "Other", 
+                "member": "Jim Cooper", 
+                "notes": "An informal \"talking session\" with Congressman Cooper", 
+                "party": "Democratic", 
+                "state": "Tennessee", 
+                "time": "4:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -77.0041745517209, 
                     38.8928461
                 ], 
@@ -3033,627 +3539,6 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Texas", 
                 "time": "9:30 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -79.6797246306441, 
-                    37.5279931041298
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "19753 Main Street, Buchanan, VA 24066", 
-                "date": "Tue, Feb 14, 2017", 
-                "date8061": "2017-02-14", 
-                "district": "VA-6", 
-                "location": "Town Hall", 
-                "meetingType": "Office Hours", 
-                "member": "Bob Goodlatte", 
-                "notes": "Each month a member of Congressman Goodlatte's staff travels throughout the district to hold office hours.", 
-                "party": "Republican", 
-                "state": "Virginia", 
-                "time": "10:30 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -76.1583146769784, 
-                    36.8212291157831
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "5194 Chief Trail, Virginia Beach, VA ", 
-                "date": "Mon, Feb 20, 2017", 
-                "date8061": "2017-02-20", 
-                "district": "VA-2", 
-                "location": "Kempsville High School", 
-                "meetingType": "Town Hall", 
-                "member": "Scott Taylor", 
-                "notes": "More information to follow.", 
-                "party": "Republican", 
-                "state": "Virginia", 
-                "time": "7:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -75.8573634002103, 
-                    37.4747378237149
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "10227 Rogers Dr, Nassawadox, VA ", 
-                "date": "Wed, Feb 22, 2017", 
-                "date8061": "2017-02-22", 
-                "district": "VA-2", 
-                "location": "Little Italy Restaurant", 
-                "meetingType": "Town Hall", 
-                "member": "Scott Taylor", 
-                "notes": "More information to follow.", 
-                "party": "Republican", 
-                "state": "Virginia", 
-                "time": "6:30 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -122.174271, 
-                    48.0550962
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "1605 7th Street, Marysville, WA 98270", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WA-2", 
-                "location": "Totem Middle School", 
-                "meetingType": "Town Hall", 
-                "member": "Rick Larsen", 
-                "notes": "\"An Affordable Care Act Town Hall with Rep. Rick Larsen\"", 
-                "party": "Democratic", 
-                "state": "Washington", 
-                "time": "10:00 AM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -77.0041745517209, 
-                    38.8928461
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "Room 511, Hart Senate Office Building, Washington, DC", 
-                "date": "Every Wed Senate is in session.", 
-                "date8061": null, 
-                "district": "Senate", 
-                "location": "Cantwell Senate office", 
-                "meetingType": "Coffee", 
-                "member": "Maria Cantwell", 
-                "notes": "RSVP at <a href=\"https://www.cantwell.senate.gov/contact/coffee\" target=\"_blank\">https://www.cantwell.senate.gov/contact/coffee</a>", 
-                "party": "Democratic", 
-                "state": "Washington", 
-                "time": "11:30 AM - 12:30 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.8375980003091, 
-                    42.92926675
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "101 N. Main St., Fort Atkinson, WI 53538", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WI-5", 
-                "location": "Fort Atkinson City Hall, Council Chambers on the 2nd Floor", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "9:00 AM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.261189721584, 
-                    43.0800986903282
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "210 Main St., Pewaukee, WI 53072", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WI-5", 
-                "location": "Pewaukee Public Library", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.0870749, 
-                    43.045839
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "13600 Juneau Blvd., Elm Grove, WI 53122", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "WI-5", 
-                "location": "Elm Grove Village Hall", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -90.0742411, 
-                    44.0253283
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "101 Center Street, Necedah, WI 54656", 
-                "date": "Fri, Feb 17, 2017", 
-                "date8061": "2017-02-17", 
-                "district": "Senate", 
-                "location": "Necedah Town Hall", 
-                "meetingType": "Office Hours", 
-                "member": "Tammy Baldwin", 
-                "notes": "Staff only. Sen. Baldwin not in attendance.", 
-                "party": "Democratic", 
-                "state": "Wisconsin", 
-                "time": "12:30 PM - 1:30 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -122.133922702398, 
-                    38.0191029022529
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "651 Pine St, Martinez, CA 94553", 
-                "date": "Saturday, Feb 18, 2017", 
-                "date8061": "2017-02-18", 
-                "district": "CA-11", 
-                "location": "", 
-                "meetingType": "Town Hall", 
-                "member": "Mark DeSaulnier", 
-                "notes": "ACA Town Hall with Congressman Mike Thompson and Congressman Mike DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "10:30 AM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -118.227589, 
-                    34.169486
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "1500 N Verdugo rd, Glendale, CA 91208", 
-                "date": "Friday, Feb 24, 2017", 
-                "date8061": "2017-02-24", 
-                "district": "CA-28", 
-                "location": "Glendale Community College", 
-                "meetingType": "Town Hall", 
-                "member": "Adam Schiff", 
-                "notes": "conversation with Rep. Schiff about the crisis in the refugee program. Representatives from the International Rescue Committee (IRC), Muslim Public Affairs Council (MPAC), Hebrew Immigrant Aid Society (HIAS), and ACLU will join Rep. Schiff on a discussion panel.", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "7:00 PM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -75.5473350415803, 
-                    39.7473554
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "1105 N Market St, Wilmington, DE 19801", 
-                "date": "Thursday, Feb 23, 2017", 
-                "date8061": "2017-02-23", 
-                "district": "DE-AL", 
-                "location": "Wilmington District Office", 
-                "meetingType": "Other", 
-                "member": "Lisa Blunt Rochester", 
-                "notes": "Office opening reception - RSVP Link Here", 
-                "party": "Democratic", 
-                "state": "Delaware", 
-                "time": "4:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -87.6322453, 
-                    41.8098738
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "2356 S Wentworth Ave, Chicago, IL 60616", 
-                "date": "Thursday, Feb 23, 2017", 
-                "date8061": "2017-02-23", 
-                "district": "IL-07", 
-                "location": "Fine Arts Academy", 
-                "meetingType": "Town Hall", 
-                "member": "Danny K. Davis", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Illinois", 
-                "time": "7:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -87.7716314753097, 
-                    41.88580515
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "301 N Mayfield Ave, Chicago, IL 60644", 
-                "date": "Saturday, Feb 18, 2017", 
-                "date8061": "2017-02-18", 
-                "district": "IL-07", 
-                "location": "3rd Unitarian Church", 
-                "meetingType": "Other", 
-                "member": "Danny K. Davis", 
-                "notes": "Education Advisory Task Force", 
-                "party": "Democratic", 
-                "state": "Illinois", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -87.7323227, 
-                    42.1060793
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "739 Elm Street, Winnetka, IL 60093", 
-                "date": "Tuesday, Feb 14, 2017", 
-                "date8061": "2017-02-14", 
-                "district": "IL-9", 
-                "location": "New Trier Township", 
-                "meetingType": "Office Hours", 
-                "member": "Jan Schakowsky", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Illinois", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.4537719336806, 
-                    39.3188243323508
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "533 Chestnut Ave, Neoga, IL 62447", 
-                "date": "Wednesday, Feb 15, 2017", 
-                "date8061": "2017-02-15", 
-                "district": "IL-15", 
-                "location": "Neoga City Hall", 
-                "meetingType": "Office Hours", 
-                "member": "John Shimkus", 
-                "notes": "Traveling Help Desk", 
-                "party": "Republican", 
-                "state": "Illinois", 
-                "time": "10:30 AM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -82.420039, 
-                    40.171528
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "177 South Main St, Louisville, IL 62858", 
-                "date": "Wednesday, Feb 15, 2017", 
-                "date8061": "2017-02-15", 
-                "district": "IL-15", 
-                "location": "Louisville Village Hall", 
-                "meetingType": "Office Hours", 
-                "member": "John Shimkus", 
-                "notes": "Traveling Town Hall", 
-                "party": "Republican", 
-                "state": "Illinois", 
-                "time": "2:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -92.66431, 
-                    37.68241
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "219 N. Adams Street, Lebanon, MO 65536", 
-                "date": "Wednesday, Feb 15, 2017", 
-                "date8061": "2017-02-15", 
-                "district": "MO-04", 
-                "location": "Lebanon Office", 
-                "meetingType": "Other", 
-                "member": "Vicky Hartzler", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "Missouri", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -99.2688299, 
-                    40.837309
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "1347 South Ash Street, Buffalo, MO 65622", 
-                "date": "Thursday, Feb 16, 2017", 
-                "date8061": "2017-02-16", 
-                "district": "MO-04", 
-                "location": "Dallas County Mobile Office Hours", 
-                "meetingType": "Office Hours", 
-                "member": "Vicky Hartzler", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "Missouri", 
-                "time": "12:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -92.2622026233401, 
-                    38.7748277967776
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "109 N. Main Street, Ashland, MO 65010", 
-                "date": "Friday, Feb 17, 2017", 
-                "date8061": "2017-02-17", 
-                "district": "MO-04", 
-                "location": "Boone County Mobile Office Hours", 
-                "meetingType": "Other", 
-                "member": "Vicky Hartzler", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "Missouri", 
-                "time": "9:30 AM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -77.95773, 
-                    34.97309
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "165 Agriculture drive, Suite A, Kenansville, NC 28349", 
-                "date": "Wednesday, Mar 1, 2017", 
-                "date8061": "2017-03-01", 
-                "district": "NC-07", 
-                "location": "Kenansville Agricultural Center", 
-                "meetingType": "Office Hours", 
-                "member": "David Rouzer", 
-                "notes": "Duplin Office Hours - first Wednesday of each month", 
-                "party": "Republican", 
-                "state": "North Carolina", 
-                "time": "9:00 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -77.9706521, 
-                    35.5426194
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "120 East Main Street, Fremont, NC 27839", 
-                "date": "Tuesday, Feb 21, 2017", 
-                "date8061": "2017-02-21", 
-                "district": "NC-07", 
-                "location": "Fremont Town Hall", 
-                "meetingType": "Office Hours", 
-                "member": "David Rouzer", 
-                "notes": "Wayne Office Hours - first and third Tuesday of each month", 
-                "party": "Republican", 
-                "state": "North Carolina", 
-                "time": "9:00 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -77.9962359032392, 
-                    35.38458298281
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "214 N Center St, Goldsboro, NC 27530", 
-                "date": "Tuesday, Feb 21, 2017", 
-                "date8061": "2017-02-21", 
-                "district": "NC-07", 
-                "location": "Goldsboro Historic City Hall - Community Relations Conference Room", 
-                "meetingType": "Office Hours", 
-                "member": "David Rouzer", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "North Carolina", 
-                "time": "1:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -78.32087, 
-                    34.99679
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "221 Lisbon St, Cinton, NC 28328", 
-                "date": "Wednesday, Mar 1, 2017", 
-                "date8061": "2017-03-01", 
-                "district": "NC-07", 
-                "location": "Clinton Town Hall", 
-                "meetingType": "Office Hours", 
-                "member": "David Rouzer", 
-                "notes": "Sampson County Office Hours - First Wednesday of each month", 
-                "party": "Republican", 
-                "state": "North Carolina", 
-                "time": "1:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -82.2596999, 
-                    40.774523
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "110 Cottage St., Ashland, OH 44805", 
-                "date": "Monday - Friday", 
-                "date8061": null, 
-                "district": "OH-07", 
-                "location": "Ashland Office", 
-                "meetingType": "Office Hours", 
-                "member": "Bob Gibbs", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "Ohio", 
-                "time": "9:00 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -81.3698779, 
-                    40.77456
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "110 Central Plaza South, Canton, OH 44702", 
-                "date": "", 
-                "date8061": null, 
-                "district": "OH-07", 
-                "location": "Canton Office", 
-                "meetingType": "Office Hours", 
-                "member": "Bob Gibbs", 
-                "notes": "Call (330) 737-1631 to schedule", 
-                "party": "Republican", 
-                "state": "Ohio", 
-                "time": "by appt. EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -86.781648, 
-                    36.1625026666667
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "605 Church St, Nashville, TN 37219", 
-                "date": "Friday, Mar 3, 2017", 
-                "date8061": "2017-03-03", 
-                "district": "TN-05", 
-                "location": "Nashville Office", 
-                "meetingType": "Other", 
-                "member": "Jim Cooper", 
-                "notes": "An informal \"talking session\" with Congressman Cooper", 
-                "party": "Democratic", 
-                "state": "Tennessee", 
-                "time": "4:00 PM CST"
             }, 
             "type": "Feature"
         }, 
@@ -3936,6 +3821,213 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -79.6797246306441, 
+                    37.5279931041298
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "19753 Main Street, Buchanan, VA 24066", 
+                "date": "Tue, Feb 14, 2017", 
+                "date8061": "2017-02-14", 
+                "district": "VA-6", 
+                "location": "Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Each month a member of Congressman Goodlatte's staff travels throughout the district to hold office hours.", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -76.1583146769784, 
+                    36.8212291157831
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "5194 Chief Trail, Virginia Beach, VA ", 
+                "date": "Mon, Feb 20, 2017", 
+                "date8061": "2017-02-20", 
+                "district": "VA-2", 
+                "location": "Kempsville High School", 
+                "meetingType": "Town Hall", 
+                "member": "Scott Taylor", 
+                "notes": "More information to follow.", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "7:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.8573634002103, 
+                    37.4747378237149
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "10227 Rogers Dr, Nassawadox, VA ", 
+                "date": "Wed, Feb 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "VA-2", 
+                "location": "Little Italy Restaurant", 
+                "meetingType": "Town Hall", 
+                "member": "Scott Taylor", 
+                "notes": "More information to follow.", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "6:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.174271, 
+                    48.0550962
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1605 7th Street, Marysville, WA 98270", 
+                "date": "Sat, Feb 11, 2017", 
+                "date8061": "2017-02-11", 
+                "district": "WA-2", 
+                "location": "Totem Middle School", 
+                "meetingType": "Town Hall", 
+                "member": "Rick Larsen", 
+                "notes": "\"An Affordable Care Act Town Hall with Rep. Rick Larsen\"", 
+                "party": "Democratic", 
+                "state": "Washington", 
+                "time": "10:00 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 511, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Wed Senate is in session.", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Cantwell Senate office", 
+                "meetingType": "Coffee", 
+                "member": "Maria Cantwell", 
+                "notes": "RSVP at <a href=\"https://www.cantwell.senate.gov/contact/coffee\" target=\"_blank\">https://www.cantwell.senate.gov/contact/coffee</a>", 
+                "party": "Democratic", 
+                "state": "Washington", 
+                "time": "11:30 AM - 12:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.8375980003091, 
+                    42.92926675
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "101 N. Main St., Fort Atkinson, WI 53538", 
+                "date": "Sat, Feb 11, 2017", 
+                "date8061": "2017-02-11", 
+                "district": "WI-5", 
+                "location": "Fort Atkinson City Hall, Council Chambers on the 2nd Floor", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "9:00 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.261189721584, 
+                    43.0800986903282
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "210 Main St., Pewaukee, WI 53072", 
+                "date": "Sat, Feb 11, 2017", 
+                "date8061": "2017-02-11", 
+                "district": "WI-5", 
+                "location": "Pewaukee Public Library", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.0870749, 
+                    43.045839
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "13600 Juneau Blvd., Elm Grove, WI 53122", 
+                "date": "Sun, Feb 12, 2017", 
+                "date8061": "2017-02-12", 
+                "district": "WI-5", 
+                "location": "Elm Grove Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -90.0742411, 
+                    44.0253283
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "101 Center Street, Necedah, WI 54656", 
+                "date": "Fri, Feb 17, 2017", 
+                "date8061": "2017-02-17", 
+                "district": "Senate", 
+                "location": "Necedah Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Tammy Baldwin", 
+                "notes": "Staff only. Sen. Baldwin not in attendance.", 
+                "party": "Democratic", 
+                "state": "Wisconsin", 
+                "time": "12:30 PM - 1:30 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -91.24529, 
                     43.81156
                 ], 
@@ -3981,11 +4073,37 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 12, 2017 7:21 am Central"
+        "latestLoad": "February 12, 2017 11:46 am Central"
     }, 
     "type": "FeatureCollection"
 };
 var nonGeoData= [
+    {
+        "address": null, 
+        "date": "", 
+        "date8061": null, 
+        "district": "CA-02", 
+        "location": "Mobile", 
+        "meetingType": "Teletown Hall", 
+        "member": "Jared Huffman", 
+        "notes": "Subcribe at <a href=\"https://huffman.house.gov/telephone-town-hall-request\" target=\"_blank\">https://huffman.house.gov/telephone-town-hall-request</a>", 
+        "party": "Democratic", 
+        "state": "California", 
+        "time": " "
+    }, 
+    {
+        "address": null, 
+        "date": "Thursday, February 16, 2017", 
+        "date8061": "2017-02-16", 
+        "district": "CA-18", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Anna Eshoo", 
+        "notes": "<a href=\"https://vekeo.com/repannaeshoo/\" target=\"_blank\">https://vekeo.com/repannaeshoo/</a>", 
+        "party": "Democratic", 
+        "state": "California", 
+        "time": "9:45 PM PST"
+    }, 
     {
         "address": ", ,  ", 
         "date": "Thu, Feb 16, 2017", 
@@ -4037,6 +4155,19 @@ var nonGeoData= [
         "party": "Republican", 
         "state": "Georgia", 
         "time": "1:00 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Monday, February 13, 2017", 
+        "date8061": "2017-02-13", 
+        "district": "IL-6", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Pete Roskam", 
+        "notes": "RSVP: <a href=\"http://www.roskamforcongress.com/register-for-telephone-town-halls/\" target=\"_blank\">http://www.roskamforcongress.com/register-for-telephone-town-halls/</a>", 
+        "party": "Republican", 
+        "state": "Illinois", 
+        "time": "7:30 PM CST"
     }, 
     {
         "address": null, 
@@ -4150,7 +4281,7 @@ var nonGeoData= [
         "location": "Phone", 
         "meetingType": "Tele-town Hall", 
         "member": "Randy Weber", 
-        "notes": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform\" target=\"_blank\">https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform</a>", 
+        "notes": "<a href=\"https://goo.gl/g2oSqa\" target=\"_blank\">https://goo.gl/g2oSqa</a>", 
         "party": "Republican", 
         "state": "Texas", 
         "time": " "
@@ -4180,18 +4311,5 @@ var nonGeoData= [
         "party": "Republican", 
         "state": "Washington", 
         "time": "1:00 PM PST"
-    }, 
-    {
-        "address": null, 
-        "date": "", 
-        "date8061": null, 
-        "district": "CA-02", 
-        "location": "Mobile", 
-        "meetingType": "Teletown Hall", 
-        "member": "Jared Huffman", 
-        "notes": "Subcribe at <a href=\"https://huffman.house.gov/telephone-town-hall-request\" target=\"_blank\">https://huffman.house.gov/telephone-town-hall-request</a>", 
-        "party": "Democratic", 
-        "state": "California", 
-        "time": " "
     }
 ];

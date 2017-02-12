@@ -51,9 +51,11 @@ def convert_links(value):
     :param value: text that might have urls
     :return: text with hyperlinks
     """
+    value = value.replace('https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform', 'https://goo.gl/g2oSqa')
     # Replace url to link
     urls = re.compile(r"((https?):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*)", re.MULTILINE | re.UNICODE)
     value = urls.sub(r'<a href="\1" target="_blank">\1</a>', value)
+
     # Replace email to mailto
     urls = re.compile(r"([\w\-\.]+@(\w[\w\-]+\.)+[\w\-]+)", re.MULTILINE | re.UNICODE)
     value = urls.sub(r'<a href="mailto:\1">\1</a>', value)
