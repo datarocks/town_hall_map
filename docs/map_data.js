@@ -2533,6 +2533,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -78.6138042, 
+                    34.6310969
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "805 West Broad St, Elizabethtown, NC 28337", 
+                "date": "First and third Tuesday of each month", 
+                "date8061": null, 
+                "district": "NC-9", 
+                "location": "Elizabethtown Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Richard Pittenger", 
+                "notes": "Staff only. Rep. Pittenger not in attendance. ", 
+                "party": "Republican", 
+                "state": "North Carolina", 
+                "time": "1:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -83.1233076938775, 
                     40.586800877551
                 ], 
@@ -3153,7 +3176,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 11, 2017 10:37 pm Central"
+        "latestLoad": "February 11, 2017 10:50 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -3287,19 +3310,6 @@ var nonGeoData= [
         "party": "Republican", 
         "state": "New Mexico", 
         "time": " MST"
-    }, 
-    {
-        "address": "805 West Broadt St, Elizabethtown, NC ", 
-        "date": "First and third Tuesday of each month", 
-        "date8061": null, 
-        "district": "NC-9", 
-        "location": "Elizabethtown Town Hall", 
-        "meetingType": "Office Hours", 
-        "member": "Richard Pittenger", 
-        "notes": "Staff only. Rep. Pittenger not in attendance. ", 
-        "party": "Republican", 
-        "state": "North Carolina", 
-        "time": "1:30 PM EST"
     }, 
     {
         "address": "U.S. Capitol, Washington, DC 20002", 

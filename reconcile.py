@@ -1,5 +1,5 @@
-reconciled_addresses = {"reconciled": {
-    '805 West Broadt St, Elizabethtown, NC ': {
+reconciled_addresses = {
+    '805 West Broadt St, Elizabethtown, NC ': {"reconciled": {
         u'corrected_parts': {
             u'street': '805 West Broad St',
             u'city': 'Elizabethtown',
