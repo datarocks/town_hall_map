@@ -24,6 +24,7 @@ except ImportError:
     flags = None
 
 from local_config import config
+from reconcile import reconciled_addresses
 
 # If modifying these scopes, delete your previously saved credentials
 # at ~/.credentials/sheets.googleapis.com-python-quickstart.json
@@ -44,21 +45,19 @@ def xstr(s):
         return str(s)
 
 
-def convertLinks(text):
+def convert_links(value):
     """
-    see: http://stackoverflow.com/questions/17568168/python-regex-to-replace-urls-in-text-with-links-conversion-from-php
-    :param text:
-    :return:
+    see: https://gist.github.com/guillaumepiot/4539986
+    :param value: text that might have urls
+    :return: text with hyperlinks
     """
-    _link = re.compile(r'(?:(http://)|(www\.))(\S+\b/?)([!"#$%&\'()*+,\-./:;<=>?@[\\\]^_`{|}~]*)(\s|$)', re.I)
-
-    def replace(match):
-        groups = match.groups()
-        protocol = groups[0] or ''  # may be None
-        www_lead = groups[1] or ''  # may be None
-        return '<a href="http://{1}{2}" _target="blank" rel="nofollow">{0}{1}{2}</a>{3}{4}'.format(
-            protocol, www_lead, *groups[2:])
-    return _link.sub(replace, text)
+    # Replace url to link
+    urls = re.compile(r"((https?):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*)", re.MULTILINE | re.UNICODE)
+    value = urls.sub(r'<a href="\1" target="_blank">\1</a>', value)
+    # Replace email to mailto
+    urls = re.compile(r"([\w\-\.]+@(\w[\w\-]+\.)+[\w\-]+)", re.MULTILINE | re.UNICODE)
+    value = urls.sub(r'<a href="mailto:\1">\1</a>', value)
+    return value
 
 
 def get_credentials():
@@ -90,7 +89,7 @@ def get_credentials():
     return credentials
 
 
-def geocode_address_nominatum(street, city, state, postalcode=None, county=None, country=None):
+def geocode_address_nominatum(street, city, state, address_string, postalcode=None, county=None, country=None):
     params = {
         'street': street,
         'city': city,
@@ -104,7 +103,11 @@ def geocode_address_nominatum(street, city, state, postalcode=None, county=None,
     geocoding_url = 'https://nominatim.openstreetmap.org/search'
     response = get(geocoding_url, params=params)
     response_content = response.json()
-    return response_content
+    if len(response_content) == 0:
+        print("no nominatum response for: " + address_string)
+        return None
+    else:
+        return response_content
 
 
 def get_townhall_data():
@@ -131,8 +134,8 @@ def get_townhall_data():
         for town_hall_data in values:
             town_hall = dict(zip(keys, town_hall_data))
             if town_hall.get(u'Street Address') and town_hall.get(u'City') and town_hall.get(u'State'):
-                address_string = town_hall.get(u'Street Address').strip() + u', ' + town_hall[u'City'] + u', ' + \
-                                           town_hall[u'State'].strip() + u' ' + xstr(town_hall.get(u'Zip'))
+                address_string = town_hall.get(u'Street Address').strip() + u', ' + xstr(town_hall.get(u'City')).strip()\
+                                 + u', ' + town_hall[u'State'].strip() + u' ' + xstr(town_hall.get(u'Zip')).strip()
                 town_hall[u'address_string'] = address_string
             else:
                 address_string = None
@@ -148,7 +151,7 @@ def get_townhall_data():
             if town_hall.get(u'State Represented'):
                 town_hall[u'State Represented'] = town_hall[u'State Represented'].strip()
             if town_hall.get(u'Notes'):
-                town_hall[u'Notes'] = convertLinks(town_hall[u'Notes'])
+                town_hall[u'Notes'] = convert_links(town_hall[u'Notes'])
             if town_hall.get(u'Date'):
                 # dates looks like this: Thursday, February 9, 2017
                 print(town_hall[u'Date'])
@@ -159,15 +162,20 @@ def get_townhall_data():
                         date_8061 = arrow.get(date_string, 'MMMM D YYYY')
                         town_hall[u'date_8061'] = date_8061.format('YYYY-MM-DD')
                     except arrow.parser.ParserError:
-                        print("parse error on this date string: "+town_hall[u'Date'])
-                        town_hall[u'date_8061'] = None
+                        try:
+                            date_string = ' '.join([split_date[1].strip(), split_date[2].strip()])
+                            date_8061 = arrow.get(date_string, 'MMM D YYYY')
+                            town_hall[u'date_8061'] = date_8061.format('YYYY-MM-DD')
+                        except arrow.parser.ParserError:
+                            print("parse error on this date string: "+town_hall[u'Date'])
+                            town_hall[u'date_8061'] = None
                 else:
+                    print("no attempt to parse this date string: " + town_hall[u'Date'])
                     town_hall[u'date_8061'] = None
-                print(town_hall.get(u'date_8061'))
     return town_hall_list
 
 
-def generate_geocode_dictionary(town_hall_list):
+def generate_geocode_dictionary(town_hall_list, reconciled_addresses_dictionary):
     try:
         pkl_file = open('data_geo.pkl', 'rb')
         cached_geocode_dict = pickle.load(pkl_file)
@@ -180,39 +188,44 @@ def generate_geocode_dictionary(town_hall_list):
         geocode_dictionary = cached_geocode_dict
     else:
         geocode_dictionary = {}
-    no_geocode_town_halls = []
     for town_hall in town_hall_list:
-        if town_hall.get(u'address_string') and town_hall.get(u'address_string') not in geocode_dictionary.keys():
-            geocode_response = geocode_address_nominatum(street=town_hall.get(u'Street Address'),
-                                                         city=town_hall.get(u'City'),
-                                                         state=town_hall[u'State'].strip())
-            geocode_dictionary[town_hall.get(u'address_string')] = {'nominatum': geocode_response}
-            geocoded = True
-            if len(geocode_response) == 0:
-                geocoded = False
+        th_address_str = town_hall.get(u'address_string')
+        if th_address_str:
+            # first we ask nominatum if they know anything if we already haven't done so
+            if 'nominatum' not in geocode_dictionary.get(th_address_str, {}).keys():
+                nominatum_response = geocode_address_nominatum(street=town_hall.get(u'Street Address'),
+                                                               city=town_hall.get(u'City'),
+                                                               state=town_hall[u'State'].strip(),
+                                                               address_string=th_address_str,
+                                                               postalcode=xstr(town_hall.get(u'State')).strip())
+                # check to see if there is already a dictionary there
+                if geocode_dictionary.get(th_address_str):
+                    geocode_dictionary[th_address_str]['nominatum'] = nominatum_response
+                else:
+                    geocode_dictionary[th_address_str] = {'nominatum': nominatum_response}
+            # then we ask smartystreets if we haven't already:
+            if 'smartystreets' not in geocode_dictionary.get(th_address_str, {}).keys():
                 smartydata = geocode_smartystreets(street=town_hall.get(u'Street Address'), city=town_hall.get(u'City'),
-                                                   state=town_hall.get(u'State'), zipcode=town_hall.get(u'Zip'))
-                if smartydata:
-                    geocode_dictionary[town_hall.get(u'address_string')]['smartystreets'] = smartydata
-                    geocoded = True
-            if geocoded is False:
-                no_geocode_town_halls.append(town_hall)
-            elif geocoded:
-                print('geocoded a thing!: '+town_hall.get(u'address_string'))
-        elif town_hall.get(u'address_string') == (None or ',  ,   '):
-            no_geocode_town_halls.append(town_hall)
-
-
-
+                                                   state=town_hall.get(u'State'), zipcode=town_hall.get(u'Zip'),
+                                                   address_string= th_address_str)
+                if geocode_dictionary.get(th_address_str):
+                    geocode_dictionary[th_address_str]['smartystreets'] = smartydata
+                else:
+                    geocode_dictionary[th_address_str] = {'smartystreets': smartydata}
+        # then we jam in the reconciled data every time because we might keep messing with it and who cares there is no rate limit
+        if th_address_str in reconciled_addresses_dictionary.keys():
+            if geocode_dictionary.get(th_address_str):
+                geocode_dictionary[th_address_str]['reconciled']= reconciled_addresses[th_address_str]['reconciled']
+            else:
+                geocode_dictionary[th_address_str] = {'reconciled': reconciled_addresses[th_address_str]['reconciled']}
 
     output = open('data_geo.pkl', 'wb')
     pickle.dump(geocode_dictionary, output, -1)
     output.close()
-    pprint(geocode_dictionary)
-    return geocode_dictionary, no_geocode_town_halls
+    return geocode_dictionary
 
 
-def geocode_smartystreets(street, city, state, zipcode=None):
+def geocode_smartystreets(street, city, state, address_string, zipcode=None):
     auth_id = config.SMARTY_AUTH_ID  # We recommend storing your keys in environment variables
     auth_token = config.SMARTY_AUTH_TOKEN
     credentials = StaticCredentials(auth_id, auth_token)
@@ -234,18 +247,21 @@ def geocode_smartystreets(street, city, state, zipcode=None):
     result = lookup.result
 
     if not result:
-        print("No candidates. This means the address is not valid.")
+        print("No smarty streets candidates. This address is not valid: " + address_string)
         return None
 
     first_candidate = result[0]
-    print("Address is valid. (There is at least one candidate)\n")
+    # print("Address is valid. (There is at least one candidate)\n")
     data = {
-        'street': first_candidate.components.street_name,
+
+        'street': first_candidate.components.primary_number + " " + first_candidate.components.street_name,
         'city': first_candidate.components.city_name,
         'zipcode': first_candidate.components.zipcode,
         'state': first_candidate.components.state_abbreviation,
         'latitude': first_candidate.metadata.latitude,
-        'longitude': first_candidate.metadata.longitude
+        'longitude': first_candidate.metadata.longitude,
+        'first_candidate': first_candidate,
+        'full_result': result
 
     }
     return data
@@ -253,25 +269,27 @@ def geocode_smartystreets(street, city, state, zipcode=None):
 
 def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
     geo_town_hall_list = deepcopy(town_hall_list)
+    non_geo_town_hall_list = []
     for town_hall in geo_town_hall_list:
         if town_hall.get(u'address_string'):
             address = town_hall.get(u'address_string')
-            geo = geocode_dict.get(address)['nominatum']
-            print(geo)
-            if len(geo) > 0:
-                lat_lng = {'lat': float(geo[0]['lat']), 'lng': float(geo[0]['lon'])}
-                town_hall[u'lat_lng'] = lat_lng
+            reconciled = geocode_dict.get(address, {}).get('reconciled')
+            nominatum = geocode_dict.get(address, {}).get('nominatum')
+            smartystreets = geocode_dict.get(address, {}).get('smartystreets')
+            if nominatum:
+                town_hall[u'lat_lng'] = {'lat': float(nominatum[0]['lat']), 'lng': float(nominatum[0]['lon'])}
+            elif smartystreets:
+                town_hall[u'lat_lng'] = {'lat': float(smartystreets['latitude']), 'lng': float(smartystreets['longitude'])}
+            elif reconciled:
+                town_hall[u'lat_lng'] = reconciled['corrected_lat_long']
+                town_hall[u'address_string'] = reconciled['corrected_string']
             else:
-                smarty_geo = geocode_dict.get(address, {}).get('smartystreets')
-                print(smarty_geo)
-                if smarty_geo:
-                    lat_lng = {'lat': float(smarty_geo['latitude']), 'lng': float(smarty_geo['longitude'])}
-                    town_hall[u'lat_lng'] = lat_lng
-                else:
-                    town_hall[u'lat_lng'] = None
+                town_hall[u'lat_lng'] = None
+                non_geo_town_hall_list.append(town_hall)
         else:
             town_hall[u'lat_lng'] = None
-    return geo_town_hall_list
+            non_geo_town_hall_list.append(town_hall)
+    return geo_town_hall_list, non_geo_town_hall_list
 
 
 def generate_geojson(geo_town_hall_list):
@@ -323,17 +341,24 @@ def generate_non_geo_townhall_list(non_geo_town_halls):
 
 def main():
     town_hall_list = get_townhall_data()
-    geocode_dict, non_geo_town_halls = generate_geocode_dictionary(town_hall_list)
-    geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
+    geocode_dict = generate_geocode_dictionary(town_hall_list, reconciled_addresses)
+    geo_town_hall_list, non_geo_town_hall_list = append_lat_long_to_townhall_data(town_hall_list, geocode_dict)
     feature_collection = generate_geojson(geo_town_hall_list)
     geojson_string = geojsondumps(feature_collection, sort_keys=True)
     map_data = open('docs/map_data.js', 'wb')
     json_geojson = json.loads(geojson_string)
-    jsonized_non_geo_town_halls = generate_non_geo_townhall_list(non_geo_town_halls)
+    jsonized_non_geo_town_halls = generate_non_geo_townhall_list(non_geo_town_hall_list)
     map_data.write("var geoJsonData = %s" % json.dumps(json_geojson, indent=4, sort_keys=True) + ";\n"
                    + "var nonGeoData= %s" % json.dumps(jsonized_non_geo_town_halls, indent=4, sort_keys=True) + ";")
     map_data.close()
-    print(arrow.now(tz='US/Central').format('MMMM D, YYYY h:mm a'))
+    #pprint(geocode_dict)
+    print("list of addresses that don't pass validation:")
+    non_address_list = []
+    for town_hall in non_geo_town_hall_list:
+        if xstr(town_hall.get(u'address_string')) not in non_address_list:
+            non_address_list.append(xstr(town_hall.get(u'address_string')))
+    print(non_address_list)
+    # pprint(geocode_dict)
 
 
 if __name__ == '__main__':

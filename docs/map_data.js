@@ -11,7 +11,7 @@ var geoJsonData = {
             "properties": {
                 "address": "8333 E Sunrise Sky Dr, Gold Canyon, AZ 85118", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "AZ-4", 
                 "location": "Best Western Hotel", 
                 "meetingType": "Town Hall", 
@@ -34,12 +34,12 @@ var geoJsonData = {
             "properties": {
                 "address": "4625 E River Rd, Catalina Foothills, AZ 85718", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "AZ-2", 
                 "location": "St Francis in the Foothills United Methodist Church", 
                 "meetingType": "Town Hall", 
                 "member": "Martha McSally", 
-                "notes": "Rep. McSally not confirmed, only invited. Attendees must register: https://<a href=\"http://www.eventbrite.com/e/arizona-cd-2-town-hall-tickets-31850266003?aff=efbnreg\" _target=\"blank\" rel=\"nofollow\">www.eventbrite.com/e/arizona-cd-2-town-hall-tickets-31850266003?aff=efbnreg</a>", 
+                "notes": "Rep. McSally not confirmed, only invited. Attendees must register: <a href=\"https://www.eventbrite.com/e/arizona-cd-2-town-hall-tickets-31850266003?aff=efbnreg\" target=\"_blank\">https://www.eventbrite.com/e/arizona-cd-2-town-hall-tickets-31850266003?aff=efbnreg</a>", 
                 "party": "Republican", 
                 "state": "Arizona", 
                 "time": "5:30 PM - 7:30 PM MST"
@@ -57,7 +57,7 @@ var geoJsonData = {
             "properties": {
                 "address": "1101 Eucalyptus Dr, San Francisco, CA 94132", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "CA-14", 
                 "location": "Place Lowell High School - Carol Channing theater", 
                 "meetingType": "Town Hall", 
@@ -80,7 +80,7 @@ var geoJsonData = {
             "properties": {
                 "address": "411 Central Ave, Salinas, CA 93901", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "CA-20", 
                 "location": "Hartnell Community College - Steinbeck Hall", 
                 "meetingType": "Town Hall", 
@@ -103,7 +103,7 @@ var geoJsonData = {
             "properties": {
                 "address": "411 Central Ave, Salinas, CA 93901", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "CA-19", 
                 "location": "Hartnell Community College - Steinbeck Hall", 
                 "meetingType": "Town Hall", 
@@ -126,7 +126,7 @@ var geoJsonData = {
             "properties": {
                 "address": "3320 W. Adams Blvd., Los Angeles, CA 90018", 
                 "date": "Saturday, Feb 18, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-18", 
                 "district": "CA-37", 
                 "location": "Holman United Methodist Church", 
                 "meetingType": "Other", 
@@ -149,7 +149,7 @@ var geoJsonData = {
             "properties": {
                 "address": "3376 Motor Ave., Los Angeles, CA 90034", 
                 "date": "Sunday, Feb 19, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-19", 
                 "district": "CA-37", 
                 "location": "IMAN Cultural Center", 
                 "meetingType": "Other", 
@@ -172,7 +172,7 @@ var geoJsonData = {
             "properties": {
                 "address": "891 Watt Ave., Sacremento, CA 95864", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "CA-7", 
                 "location": "SPL- Arden Dimick Branch", 
                 "meetingType": "Office Hours", 
@@ -195,12 +195,12 @@ var geoJsonData = {
             "properties": {
                 "address": "1200 Vale Terrace Dr, Vista, CA 92084", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "CA-49", 
                 "location": "Jim Porter Recreation Center", 
                 "meetingType": "\"Empty Chair\" Town Hall\n", 
                 "member": "Darrell Issa", 
-                "notes": "\"Empty chair town hall.\" Rep. Issa invited and constituents expect his presence. https://<a href=\"http://www.facebook.com/events/150691435436534/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/150691435436534/</a>", 
+                "notes": "\"Empty chair town hall.\" Rep. Issa invited and constituents expect his presence. <a href=\"https://www.facebook.com/events/150691435436534/\" target=\"_blank\">https://www.facebook.com/events/150691435436534/</a>", 
                 "party": "Republican", 
                 "state": "California", 
                 "time": "6:00 PM - 8:00 PM PST"
@@ -218,12 +218,12 @@ var geoJsonData = {
             "properties": {
                 "address": "1001 Arroyo St, San Francisco, CA 91340", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "CA-29", 
                 "location": "Cesar E Chavez Learning Academies-Social Justice", 
                 "meetingType": "Town Hall", 
                 "member": "Tony C\u00e1rdenas", 
-                "notes": "RSVP: https://<a href=\"http://www.facebook.com/events/250884468699971/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/250884468699971/</a>", 
+                "notes": "RSVP: <a href=\"https://www.facebook.com/events/250884468699971/\" target=\"_blank\">https://www.facebook.com/events/250884468699971/</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "6:30 PM - 8:00 PM PST"
@@ -241,12 +241,12 @@ var geoJsonData = {
             "properties": {
                 "address": "43600 Mission Blvd, Fremont, CA 94539", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "CA-17", 
                 "location": "Ohlone College", 
                 "meetingType": "Town Hall", 
                 "member": "Ro Khanna", 
-                "notes": "https://twitter.com/RepRoKhanna/status/829028535725617152", 
+                "notes": "<a href=\"https://twitter.com/RepRoKhanna/status/829028535725617152\" target=\"_blank\">https://twitter.com/RepRoKhanna/status/829028535725617152</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "7:30 PM PST"
@@ -264,7 +264,7 @@ var geoJsonData = {
             "properties": {
                 "address": "6150 Van Nuys Blvd, Suite 306, Van Nuys, CA ", 
                 "date": "Friday, Feb 24, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-24", 
                 "district": "CA-30", 
                 "location": "District Office", 
                 "meetingType": "Open House", 
@@ -287,7 +287,7 @@ var geoJsonData = {
             "properties": {
                 "address": "11200 Baseline Rd., Rancho Cucamonga, CA 91701", 
                 "date": "Tuesday, Mar 7, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-07", 
                 "district": "CA-31", 
                 "location": "James L. Brulte Senior Center", 
                 "meetingType": "Office Hours", 
@@ -310,12 +310,12 @@ var geoJsonData = {
             "properties": {
                 "address": "6132 66th Avenue, Sacramento, CA 95823", 
                 "date": "Tuesday, Mar 7, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-07", 
                 "district": "CA-7", 
                 "location": "SPL - Southgate Branch", 
                 "meetingType": "Office Hours", 
                 "member": "Ami Bera", 
-                "notes": "RSVP Link: https://bera.house.gov/upcomingevents#rsvpforlibraryofficehours", 
+                "notes": "RSVP Link: <a href=\"https://bera.house.gov/upcomingevents#rsvpforlibraryofficehours\" target=\"_blank\">https://bera.house.gov/upcomingevents#rsvpforlibraryofficehours</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "10:00 AM PST"
@@ -331,9 +331,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "8255 Red Hills Rd, Kelseyville, CA  ", 
+                "address": "8255 Red Hills Rd, Kelseyville, CA ", 
                 "date": "Saturday, Apr 1, 2017", 
-                "date8061": null, 
+                "date8061": "2017-04-01", 
                 "district": "CA-5", 
                 "location": "Boatique Winery", 
                 "meetingType": "Other", 
@@ -354,9 +354,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1499 N Camino Alto, Vallejo, CA  ", 
+                "address": "1499 N Camino Alto, Vallejo, CA ", 
                 "date": "Sunday, Apr 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-04-23", 
                 "district": "CA-5", 
                 "location": "Dan Foley Cultural Center", 
                 "meetingType": "Other", 
@@ -377,7 +377,7 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "550 White Oak Drive, Santa Rosa, CA  ", 
+                "address": "550 White Oak Drive, Santa Rosa, CA ", 
                 "date": "Sunday, May 7, 2017", 
                 "date8061": "2017-05-07", 
                 "district": "CA-5", 
@@ -440,6 +440,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -122.242313634597, 
+                    37.76673815
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2nd Floor Staff Room, 1550 Oak St, Alameda, CA 94501", 
+                "date": "Every second and fourth Thursday of the month.", 
+                "date8061": null, 
+                "district": "CA-13", 
+                "location": "Alameda", 
+                "meetingType": "Office Hours", 
+                "member": "Barbara Lee", 
+                "notes": "Staff. Rep Lee not in attendance", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "3:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -121.7454723, 
                     38.5564957
                 ], 
@@ -453,7 +476,7 @@ var geoJsonData = {
                 "location": "City of Davis Veterans Memorial Theatre", 
                 "meetingType": "Town Hall", 
                 "member": "John Garamendi", 
-                "notes": "https://<a href=\"http://www.facebook.com/events/170186310142764/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/170186310142764/</a>", 
+                "notes": "<a href=\"https://www.facebook.com/events/170186310142764/\" target=\"_blank\">https://www.facebook.com/events/170186310142764/</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "5:00 PM - 6:30 PM PST"
@@ -471,7 +494,7 @@ var geoJsonData = {
             "properties": {
                 "address": "8731 Citizens Drive, New Port Richey, FL 34654", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "FL-12", 
                 "location": "West Pasco Government Center", 
                 "meetingType": "Town Hall", 
@@ -494,12 +517,12 @@ var geoJsonData = {
             "properties": {
                 "address": "520 NW 3rd St, Pompano Beach, FL 33060", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "FL-22", 
                 "location": "Larkins Community Center", 
                 "meetingType": "Town Hall", 
                 "member": "Ted Deutch", 
-                "notes": "RSVP here - https://<a href=\"http://www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122\" _target=\"blank\" rel=\"nofollow\">www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122</a>", 
+                "notes": "RSVP here - <a href=\"https://www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122\" target=\"_blank\">https://www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122</a>", 
                 "party": "Democratic", 
                 "state": "Florida", 
                 "time": "10:30 AM EST"
@@ -517,7 +540,7 @@ var geoJsonData = {
             "properties": {
                 "address": "620 W Montrose St, Clermont, FL 34711", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "FL-15", 
                 "location": "Clermont City Center", 
                 "meetingType": "Town Hall", 
@@ -540,7 +563,7 @@ var geoJsonData = {
             "properties": {
                 "address": "6495 Caroline Street, Milton, FL 32570", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "FL-1", 
                 "location": "Milton County Commissioners Building", 
                 "meetingType": "Other", 
@@ -563,7 +586,7 @@ var geoJsonData = {
             "properties": {
                 "address": "3721 US-90, Pace, FL 32571", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "FL-1", 
                 "location": "Oops Bowling Alley", 
                 "meetingType": "Other", 
@@ -586,7 +609,7 @@ var geoJsonData = {
             "properties": {
                 "address": "5887 US-90, Pace, FL 32583", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "FL-1", 
                 "location": "Grover T's Restaurant", 
                 "meetingType": "Other", 
@@ -601,6 +624,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -81.0476402642554, 
+                    29.19167995
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "600 S. Clyde Morris Blvd, Daytona Beach, FL 32114", 
+                "date": "Monday, Apr 17, 2017", 
+                "date8061": "2017-04-17", 
+                "district": "FL-6", 
+                "location": "Willie Miller Instuctional\nCenter Auditorium", 
+                "meetingType": "Ticketed Event", 
+                "member": "Ron DeSantis", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Florida", 
+                "time": "7:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -85.3314892, 
                     34.4915207
                 ], 
@@ -609,7 +655,7 @@ var geoJsonData = {
             "properties": {
                 "address": "360 Farrar Dr., Summerville, GA 30747", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "GA-14", 
                 "location": "Chattooga County Library, Meeting Room", 
                 "meetingType": "Office Hours", 
@@ -632,7 +678,7 @@ var geoJsonData = {
             "properties": {
                 "address": "1618 Whiddon Mill Rad, Tifton, GA 31793", 
                 "date": "Monday, Feb 20, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-20", 
                 "district": "Senate", 
                 "location": "Tift County Farm Bureau", 
                 "meetingType": "Office Hours", 
@@ -655,7 +701,7 @@ var geoJsonData = {
             "properties": {
                 "address": "117 Racetrack Road, McDonough, GA 30253", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "Senate", 
                 "location": "Henry County Farm Bureau", 
                 "meetingType": "Office Hours", 
@@ -678,12 +724,12 @@ var geoJsonData = {
             "properties": {
                 "address": "495 N. Indian Creek Drive, Clarkston, GA 30021", 
                 "date": "Friday, Mar 3, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-03", 
                 "district": "GA-4", 
                 "location": "Georgia Piedmont Technical College", 
                 "meetingType": "Other", 
                 "member": "Hank Johnson", 
-                "notes": "Langugage strongly implies Congressman will be here.  Facebook event here: https://<a href=\"http://www.facebook.com/events/320180175050593/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/320180175050593/</a>", 
+                "notes": "Langugage strongly implies Congressman will be here.  Facebook event here: <a href=\"https://www.facebook.com/events/320180175050593/\" target=\"_blank\">https://www.facebook.com/events/320180175050593/</a>", 
                 "party": "Democratic", 
                 "state": "Georgia", 
                 "time": "10:00 AM EST"
@@ -701,7 +747,7 @@ var geoJsonData = {
             "properties": {
                 "address": "71 Case Avenue, Trenton, GA 30752", 
                 "date": "Tuesday, Mar 7, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-07", 
                 "district": "GA-14", 
                 "location": "Administrative Building, \"Commissioners Meeting Room\"", 
                 "meetingType": "Office Hours", 
@@ -724,7 +770,7 @@ var geoJsonData = {
             "properties": {
                 "address": "56-490 Kamehameha Hw, Kahuku, HI ", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "HI-2", 
                 "location": " ", 
                 "meetingType": "Town Hall", 
@@ -747,7 +793,7 @@ var geoJsonData = {
             "properties": {
                 "address": "239 Kuulei Rd, Kailua, HI 96734", 
                 "date": "Friday, Feb 24, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-24", 
                 "district": "HI-2", 
                 "location": "Kailua Public Library", 
                 "meetingType": "Town Hall", 
@@ -770,7 +816,7 @@ var geoJsonData = {
             "properties": {
                 "address": ", Deerfield, IL 60015", 
                 "date": "Monday, Feb 13, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-13", 
                 "district": "IL-8", 
                 "location": " ", 
                 "meetingType": "Other", 
@@ -791,9 +837,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "533 Chestnut Ave, Neoga, IL  ", 
+                "address": "533 Chestnut Ave, Neoga, IL ", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "IL-15", 
                 "location": "Neoga City Hall", 
                 "meetingType": "Office Hours", 
@@ -816,12 +862,12 @@ var geoJsonData = {
             "properties": {
                 "address": "1509 Chapel Drive, Valparaiso, IN 46383", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "IN-1", 
                 "location": "Valparaiso University \u2013 Harre Union", 
                 "meetingType": "Other", 
                 "member": "Peter J. Visclosky", 
-                "notes": "Any Northwest Indiana resident interested in participating in an exercise on how to balance the federal budget!  There is no cost to participating in the budget exercise, but space is limited.  RSVP here - https://visclosky.house.gov/contact-pete/budget-rsvp", 
+                "notes": "Any Northwest Indiana resident interested in participating in an exercise on how to balance the federal budget!  There is no cost to participating in the budget exercise, but space is limited.  RSVP here - <a href=\"https://visclosky.house.gov/contact-pete/budget-rsvp\" target=\"_blank\">https://visclosky.house.gov/contact-pete/budget-rsvp</a>", 
                 "party": "Democratic", 
                 "state": "Indiana", 
                 "time": "6:00 PM CST"
@@ -839,7 +885,7 @@ var geoJsonData = {
             "properties": {
                 "address": "8902 East 38th St., Indianapolis, IN 46226", 
                 "date": "Tuesday, Feb 28, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-28", 
                 "district": "IN-7", 
                 "location": "CAFE (Community Alliance of the Far Eastside)", 
                 "meetingType": "Office Hours", 
@@ -862,7 +908,7 @@ var geoJsonData = {
             "properties": {
                 "address": "502 N. Tremont St., Indianapolis, IN 46222", 
                 "date": "Wednesday, Mar 29, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-29", 
                 "district": "IN-7", 
                 "location": "Christamore House Family & Community Center", 
                 "meetingType": "Office Hours", 
@@ -1038,15 +1084,15 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -74.3195011875, 
-                    41.4039890625
+                    -85.83449, 
+                    41.58844
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "220 Main St, Goshen, IN  ", 
+                "address": "220 Main St, Goshen, IN ", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "IN-2", 
                 "location": "Goshen Chamber of Commerce", 
                 "meetingType": "Office Hours", 
@@ -1067,9 +1113,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "152 Culver Rd, Knox, IN  ", 
+                "address": "152 Culver Rd, Knox, IN ", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "IN-2", 
                 "location": "Henry F Schricker Library", 
                 "meetingType": "Office Hours", 
@@ -1090,9 +1136,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "310 Lane St, North Judson, IN  ", 
+                "address": "310 Lane St, North Judson, IN ", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "IN-2", 
                 "location": "North Judson Town Hall", 
                 "meetingType": "Office Hours", 
@@ -1113,9 +1159,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "100 N Brooks St, Francesville, IN  ", 
+                "address": "100 N Brooks St, Francesville, IN ", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "IN-2", 
                 "location": "Francesville Town Hall", 
                 "meetingType": "Office Hours", 
@@ -1136,9 +1182,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "35 S Broadway, Peru, IN  ", 
+                "address": "35 S Broadway, Peru, IN ", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "IN-2", 
                 "location": "Peru  City Hall, Board of Works Room", 
                 "meetingType": "Office Hours", 
@@ -1159,9 +1205,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "202 S Wabash St, Wabash, IN  ", 
+                "address": "202 S Wabash St, Wabash, IN ", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "IN-2", 
                 "location": "Wabash City Hall, Board Room", 
                 "meetingType": "Office Hours", 
@@ -1182,9 +1228,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "604 N Jefferson St, Silver Lake, IN  ", 
+                "address": "604 N Jefferson St, Silver Lake, IN ", 
                 "date": "Tuesday, Feb 28, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-28", 
                 "district": "IN-2", 
                 "location": "Silver  Lake Town Hall", 
                 "meetingType": "Office Hours", 
@@ -1205,9 +1251,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "124 N Michigan St, Plymouth, IN  ", 
+                "address": "124 N Michigan St, Plymouth, IN ", 
                 "date": "Tuesday, Feb 28, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-28", 
                 "district": "IN-2", 
                 "location": "Plymouth City Hall, Council Chambers\n", 
                 "meetingType": "Office Hours", 
@@ -1230,12 +1276,12 @@ var geoJsonData = {
             "properties": {
                 "address": "101 South Lafayette St, Corydon, IA 50060", 
                 "date": "Friday, Feb 17, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-17", 
                 "district": "Senate", 
                 "location": "Betty's Cafe", 
                 "meetingType": "Coffee", 
                 "member": "Joni Ernst", 
-                "notes": "<a href=\"http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee\" _target=\"blank\" rel=\"nofollow\">http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee</a>", 
+                "notes": "<a href=\"http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee\" target=\"_blank\">http://www.ernst.senate.gov/public/index.cfm/2017/2/senator-joni-ernst-to-hold-constituent-coffee</a>", 
                 "party": "Republican", 
                 "state": "Iowa", 
                 "time": "11:30 AM CT"
@@ -1253,7 +1299,7 @@ var geoJsonData = {
             "properties": {
                 "address": "201 East Pleasant Street, Maquoketa, IA ", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "Senate", 
                 "location": "Maquoketa City Hall\n", 
                 "meetingType": "Town Hall", 
@@ -1276,7 +1322,7 @@ var geoJsonData = {
             "properties": {
                 "address": "218 South River St, Iowa Falls, IA ", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "Senate", 
                 "location": "Iowa Falls Fire Dept\n", 
                 "meetingType": "Town Hall", 
@@ -1299,7 +1345,7 @@ var geoJsonData = {
             "properties": {
                 "address": "855 State St, Garner, IA ", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "Senate", 
                 "location": "Hancock County Courthouse", 
                 "meetingType": "Town Hall", 
@@ -1322,7 +1368,7 @@ var geoJsonData = {
             "properties": {
                 "address": "101 S Main St, Charles City, IA ", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "Senate", 
                 "location": "Floyd County Courthouse", 
                 "meetingType": "Town Hall", 
@@ -1345,7 +1391,7 @@ var geoJsonData = {
             "properties": {
                 "address": "502 3rd St, Parkersburg, IA ", 
                 "date": "Friday, Feb 24, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-24", 
                 "district": "Senate", 
                 "location": "Parkersburg Civic Center", 
                 "meetingType": "Town Hall", 
@@ -1368,7 +1414,7 @@ var geoJsonData = {
             "properties": {
                 "address": "200 Main Street, Colfax, LA 71417", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "LA-5", 
                 "location": "Grant Parish Police Jury meeting room", 
                 "meetingType": "Office Hours", 
@@ -1391,7 +1437,7 @@ var geoJsonData = {
             "properties": {
                 "address": "119 W. Main Street, No. 102, Winnfield, LA 71483", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "LA-5", 
                 "location": "Winn Parish Police Jury meeting room 112", 
                 "meetingType": "Office Hours", 
@@ -1414,7 +1460,7 @@ var geoJsonData = {
             "properties": {
                 "address": "36079 LA-16, Denham Springs, LA 70706", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "Senate", 
                 "location": "Live Oak High School Cafeteria", 
                 "meetingType": "Town Hall\n", 
@@ -1437,7 +1483,7 @@ var geoJsonData = {
             "properties": {
                 "address": "4747 West Napoleon Ave, Metairie, LA 70001", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "Senate", 
                 "location": "East Jefferson Parish Library", 
                 "meetingType": "Town Hall", 
@@ -1446,6 +1492,29 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Louisiana", 
                 "time": "3:30 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 133, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Wednesday", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Hart Senate Office Building\n", 
+                "meetingType": "Coffee", 
+                "member": "Angus King", 
+                "notes": " ", 
+                "party": "Independent", 
+                "state": "Maine", 
+                "time": "9:00 AM "
             }, 
             "type": "Feature"
         }, 
@@ -1527,14 +1596,14 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1471 Highland Ave, Needham, MA  ", 
+                "address": "1471 Highland Ave, Needham, MA ", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "MA-04", 
                 "location": "Needham Town Hall, Powers Hall", 
                 "meetingType": "Town Hall", 
                 "member": "Joe Kennedy III", 
-                "notes": "https://kennedy.house.gov/tour-34", 
+                "notes": "<a href=\"https://kennedy.house.gov/tour-34\" target=\"_blank\">https://kennedy.house.gov/tour-34</a>", 
                 "party": "Democratic", 
                 "state": "Massachusetts", 
                 "time": "10:00 AM EST"
@@ -1552,7 +1621,7 @@ var geoJsonData = {
             "properties": {
                 "address": "42 W Boylston St, West Boylston, MA 01583", 
                 "date": "Saturday, Feb 25, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-25", 
                 "district": "MA-2", 
                 "location": "The Manor Banquet Facility", 
                 "meetingType": "Ticketed Event", 
@@ -1851,12 +1920,12 @@ var geoJsonData = {
             "properties": {
                 "address": "806 West Houghton Ave, West Branch, MI 48661", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "MI-04", 
                 "location": "Ogemaw County Administration Building, Conference Room A", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "9:00 AM - 10:00 AM ET"
@@ -1874,12 +1943,12 @@ var geoJsonData = {
             "properties": {
                 "address": "1000 West Cedar Ave, Gladwin, MI 48624", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "MI-04", 
                 "location": "Gladwin City Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "11:00 AM - 12:00 PM ET"
@@ -1897,12 +1966,12 @@ var geoJsonData = {
             "properties": {
                 "address": "214 East Center St, Ithaca, MI 48847", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "MI-04", 
                 "location": "Gratiot County Courthouse, Comissioner's Room", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "11:30 AM - 12:30 PM ET"
@@ -1920,12 +1989,12 @@ var geoJsonData = {
             "properties": {
                 "address": "202 West Fifth Street, Clare, MI 48617", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "MI-04", 
                 "location": "Clare City Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "1:00 PM - 2:00 PM\n ET"
@@ -1943,12 +2012,12 @@ var geoJsonData = {
             "properties": {
                 "address": "200 South Main Street, Evart, MI 49631", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "MI-04", 
                 "location": "Evart City Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "3:00 PM - 4:00 PM ET"
@@ -1966,12 +2035,12 @@ var geoJsonData = {
             "properties": {
                 "address": "301 West Main St, Owosso, MI 48867", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "MI-04", 
                 "location": "Owosso City Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "10:00 AM - 11:00 AM ET"
@@ -1989,12 +2058,12 @@ var geoJsonData = {
             "properties": {
                 "address": "500 Lake Street, Roscommon, MI 48653", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "MI-04", 
                 "location": "Roscommon County Building", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "10:00 AM - 11:00 AM ET"
@@ -2012,12 +2081,12 @@ var geoJsonData = {
             "properties": {
                 "address": "414 East Main Street, DeWitt, MI 48820", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "MI-04", 
                 "location": "DeWitt City Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "12:00 PM - 1:00 PM ET"
@@ -2035,12 +2104,12 @@ var geoJsonData = {
             "properties": {
                 "address": "111 South Canal Street, Lake City, MI 49651", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "MI-04", 
                 "location": "Missaukee County Building", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "12:00 PM - 1:00 PM ET"
@@ -2058,12 +2127,12 @@ var geoJsonData = {
             "properties": {
                 "address": "8207 Shields Dr, Saginaw, MI 48609", 
                 "date": "Thursday, Feb 16, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-16", 
                 "district": "MI-04", 
                 "location": "Thomas Township Library", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "4:00 PM - 5:00 PM ET"
@@ -2081,15 +2150,38 @@ var geoJsonData = {
             "properties": {
                 "address": "200 North Main St, Mount Plesant, MI 48858", 
                 "date": "Tuesday, Feb 28, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-28", 
                 "district": "MI-04", 
                 "location": "Isabella County Building, Room 320", 
                 "meetingType": "Office Hours", 
                 "member": "John Moolenaar", 
-                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. https://moolenaar.house.gov/officehours", 
+                "notes": "Constituent relations representatives will be holding office hours across the district. Fourth District residents who need assistance with a federal agency are invited to attend and no appointment is necessary. <a href=\"https://moolenaar.house.gov/officehours\" target=\"_blank\">https://moolenaar.house.gov/officehours</a>", 
                 "party": "Republican", 
                 "state": "Michigan", 
                 "time": "11:30 AM - 12:30 PM ET"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 724, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Tues when Senate is in session.", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Sen. Peters D.C. office", 
+                "meetingType": "Coffee", 
+                "member": "Gary Peters", 
+                "notes": "Michigan constituents in DC register here: <a href=\"https://www.peters.senate.gov/services/coffee-with-gary\" target=\"_blank\">https://www.peters.senate.gov/services/coffee-with-gary</a>\n", 
+                "party": "Democratic", 
+                "state": "Michigan", 
+                "time": "9:00 AM - 9:30 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2104,7 +2196,7 @@ var geoJsonData = {
             "properties": {
                 "address": "125 Pine Cone Rd. N, Sartell, MN 56377", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "MN-6", 
                 "location": "Sartell City Hall", 
                 "meetingType": "Town Hall", 
@@ -2132,7 +2224,7 @@ var geoJsonData = {
                 "location": "TBD", 
                 "meetingType": "Coffee", 
                 "member": "Roger Wicker", 
-                "notes": "Sen. Wicker meets Mississippians in D.C. every Tuesday a.m. for coffee. Email for location: coffee@wicker.senate.gov", 
+                "notes": "Sen. Wicker meets Mississippians in D.C. every Tuesday a.m. for coffee. Email for location: <a href=\"mailto:coffee@wicker.senate.gov\">coffee@wicker.senate.gov</a>", 
                 "party": "Republican", 
                 "state": "Mississippi", 
                 "time": "8:30 AM EST"
@@ -2150,7 +2242,7 @@ var geoJsonData = {
             "properties": {
                 "address": "515 Box Butte Ave, Alliance, NE 69301", 
                 "date": "Monday, Feb 13, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-13", 
                 "district": "Senate", 
                 "location": "Box Butte County Courthouse", 
                 "meetingType": "Office Hours", 
@@ -2173,7 +2265,7 @@ var geoJsonData = {
             "properties": {
                 "address": "208 S Walnut St, Kimball, NE 69145", 
                 "date": "Monday, Feb 13, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-13", 
                 "district": "Senate", 
                 "location": "Kimball Public Library", 
                 "meetingType": "Office Hours", 
@@ -2196,7 +2288,7 @@ var geoJsonData = {
             "properties": {
                 "address": "115 Dewitt Ave., Ashbury Park, NJ 07712", 
                 "date": "Saturday, Feb 18, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-18", 
                 "district": "NJ-6", 
                 "location": "", 
                 "meetingType": "Town Hall", 
@@ -2219,7 +2311,7 @@ var geoJsonData = {
             "properties": {
                 "address": "118 Lamington Rd., Branchburg, NJ 08876", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "NJ-7", 
                 "location": "Raritan Valley Community College, Edward Nash Theater", 
                 "meetingType": "Town Hall", 
@@ -2242,12 +2334,12 @@ var geoJsonData = {
             "properties": {
                 "address": "500 White Horse Pike, Oaklyn, NJ 08107", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "NJ-1", 
                 "location": "Oaklyn Municipal Bldg - Court Room", 
                 "meetingType": "Town Hall", 
                 "member": "Donald Norcross", 
-                "notes": "Register at <a href=\"http://www.camdencounty.com/events/town-hall-meeting-oaklyn\" _target=\"blank\" rel=\"nofollow\">http://www.camdencounty.com/events/town-hall-meeting-oaklyn</a> or call 856-216-2119.", 
+                "notes": "Register at <a href=\"http://www.camdencounty.com/events/town-hall-meeting-oaklyn\" target=\"_blank\">http://www.camdencounty.com/events/town-hall-meeting-oaklyn</a> or call 856-216-2119.", 
                 "party": "Democratic", 
                 "state": "New Jersey", 
                 "time": "6:30 PM EST"
@@ -2265,15 +2357,61 @@ var geoJsonData = {
             "properties": {
                 "address": "29 Lewis Ave, Bellmawr, NJ 08031", 
                 "date": "Monday, Mar 6, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-06", 
                 "district": "NJ-1", 
                 "location": "Bellmawr Ballroom", 
                 "meetingType": "Town Hall", 
                 "member": "Donald Norcross", 
-                "notes": "Register at <a href=\"http://www.camdencounty.com/events/town-hall-meeting-bellmawr-0\" _target=\"blank\" rel=\"nofollow\">http://www.camdencounty.com/events/town-hall-meeting-bellmawr-0</a> or call 856-216-2119.", 
+                "notes": "Register at <a href=\"http://www.camdencounty.com/events/town-hall-meeting-bellmawr-0\" target=\"_blank\">http://www.camdencounty.com/events/town-hall-meeting-bellmawr-0</a> or call 856-216-2119.", 
                 "party": "Democratic", 
                 "state": "New Jersey", 
                 "time": "6:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.412046, 
+                    42.152388
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "5377 Stow Rd., Ashville, NY 14710", 
+                "date": "Saturday, Feb 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "NY-23", 
+                "location": "North Harmony Senior Citizens Center", 
+                "meetingType": "Town Hall", 
+                "member": "Tom Reed", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "New York", 
+                "time": "9:15 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.092803, 
+                    42.305688
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "7165 N Rd, Cherry Creek, NY 14723", 
+                "date": "Saturday, Feb 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "NY-23", 
+                "location": "Pine Valley VFW Post #2522", 
+                "meetingType": "Town Hall", 
+                "member": "Tom Reed", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "New York", 
+                "time": "11:30 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2288,7 +2426,7 @@ var geoJsonData = {
             "properties": {
                 "address": "4591 Humphrey Rd., Great Valley, NY 14741", 
                 "date": "Saturday, Feb 18, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-18", 
                 "district": "NY-23", 
                 "location": "Humphrey Fire Department", 
                 "meetingType": "Town Hall", 
@@ -2311,7 +2449,7 @@ var geoJsonData = {
             "properties": {
                 "address": "4949 Klein Rd., Fillmore, NY 14735", 
                 "date": "Saturday, Feb 18, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-18", 
                 "district": "NY-23", 
                 "location": "Allen Town Hall", 
                 "meetingType": "Town Hall", 
@@ -2334,7 +2472,7 @@ var geoJsonData = {
             "properties": {
                 "address": "17 Eastern Parkway, Brooklyn, NY 11238", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "NY-9", 
                 "location": "Union Temple", 
                 "meetingType": "Town Hall", 
@@ -2362,10 +2500,33 @@ var geoJsonData = {
                 "location": "Schenectady County Community College in the Carl B. Taylor Auditorium", 
                 "meetingType": "Town Hall", 
                 "member": "Paul Tonko", 
-                "notes": "https://<a href=\"http://www.facebook.com/events/1407179042688668/\" _target=\"blank\" rel=\"nofollow\">www.facebook.com/events/1407179042688668/</a>", 
+                "notes": "<a href=\"https://www.facebook.com/events/1407179042688668/\" target=\"_blank\">https://www.facebook.com/events/1407179042688668/</a>", 
                 "party": "Democratic", 
                 "state": "New York", 
                 "time": "5:30 PM - 8:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.8425432, 
+                    35.4101457
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "109 South Old Statesville Rd, Huntersville, NC 28078", 
+                "date": "Tuesday, Feb 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "NC-12", 
+                "location": "Arts and Culture Center", 
+                "meetingType": "Office Hours", 
+                "member": "Alma Adams", 
+                "notes": "District Office Hours - first and third Tuesday of every month", 
+                "party": "Democratic", 
+                "state": "North Carolina", 
+                "time": "9:00 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2380,7 +2541,7 @@ var geoJsonData = {
             "properties": {
                 "address": "380 Mt Vernon Ave, Marion, OH 43302", 
                 "date": "Monday, Feb 20, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-20", 
                 "district": "OH-04", 
                 "location": "Harding Home Presidential Site", 
                 "meetingType": "Other", 
@@ -2403,7 +2564,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2830 Napoleon Road, Fremont, OH 43420", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "Senate", 
                 "location": "Terra State Community College", 
                 "meetingType": "Ticketed Event", 
@@ -2426,12 +2587,12 @@ var geoJsonData = {
             "properties": {
                 "address": "9160 Lawrenceburg Rd., Harrison, OH 45030", 
                 "date": "Thursday, Feb 23, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-23", 
                 "district": "OH-1", 
                 "location": "VFW Harrison", 
                 "meetingType": "Ticketed Event", 
                 "member": "Steve Chabot", 
-                "notes": "Greater Harrison Chamber of Commerce Annual Breakfast - <a href=\"http://www.greaterharrisoncc.com/events/annual-breakfast/\" _target=\"blank\" rel=\"nofollow\">http://www.greaterharrisoncc.com/events/annual-breakfast/</a>", 
+                "notes": "Greater Harrison Chamber of Commerce Annual Breakfast - <a href=\"http://www.greaterharrisoncc.com/events/annual-breakfast/\" target=\"_blank\">http://www.greaterharrisoncc.com/events/annual-breakfast/</a>", 
                 "party": "Republican", 
                 "state": "Ohio", 
                 "time": "7:30 AM EST"
@@ -2449,7 +2610,7 @@ var geoJsonData = {
             "properties": {
                 "address": "4400 Richmond Road, Warrensville Heights, OH 44128", 
                 "date": "Saturday, Feb 25, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-25", 
                 "district": "OH-11", 
                 "location": "Corporate College East Auditorium", 
                 "meetingType": "Town Hall", 
@@ -2464,36 +2625,13 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -77.0091085494772, 
-                    38.889809
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "U.S. Capitol, Washington, DC 20002", 
-                "date": "Every Thursday", 
-                "date8061": null, 
-                "district": "Senate", 
-                "location": "Capitol Visitor Center", 
-                "meetingType": "Coffee", 
-                "member": "Sherrod Brown", 
-                "notes": "Ohioans in D.C. can RSVP: https://<a href=\"http://www.brown.senate.gov/events/coffee/\" _target=\"blank\" rel=\"nofollow\">www.brown.senate.gov/events/coffee/</a>", 
-                "party": "Democratic", 
-                "state": "Ohio", 
-                "time": "8:30 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
                     -77.0366455, 
                     38.8949549
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": ", Washington, DC  ", 
+                "address": ", Washington, DC ", 
                 "date": "Every Wednesday", 
                 "date8061": null, 
                 "district": "Senate", 
@@ -2516,9 +2654,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "400 South 8th Street, Lebanon, PA  ", 
+                "address": "400 South 8th Street, Lebanon, PA ", 
                 "date": "Wednesday, Feb 15, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-15", 
                 "district": "PA-06", 
                 "location": "101 Municipal Building", 
                 "meetingType": "Office Hours", 
@@ -2541,7 +2679,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2 Constitution Ave. NE, Washington, DC 20002", 
                 "date": "Thursday, Mar 9, 2017", 
-                "date8061": null, 
+                "date8061": "2017-03-09", 
                 "district": "Senate", 
                 "location": "Room 385, Russell Senate Office Building", 
                 "meetingType": "Coffee", 
@@ -2564,7 +2702,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2 Constitution Ave. NE, Washington, DC 20002", 
                 "date": "Thursday, Apr 6, 2017", 
-                "date8061": null, 
+                "date8061": "2017-04-06", 
                 "district": "Senate", 
                 "location": "Room 385, Russell Senate Office Building", 
                 "meetingType": "Coffee", 
@@ -2587,7 +2725,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2000 Pawtucket Ave, East Providence, RI ", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "Senate", 
                 "location": "East Providence High School Auditorium", 
                 "meetingType": "Town Hall", 
@@ -2610,7 +2748,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2000 Pawtucket Ave, East Providence, RI ", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "Senate", 
                 "location": "East Providence High School Auditorium", 
                 "meetingType": "Town Hall", 
@@ -2633,7 +2771,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2000 Pawtucket Ave, East Providence, RI ", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "RI-2", 
                 "location": "East Providence High School Auditorium", 
                 "meetingType": "Town Hall", 
@@ -2656,7 +2794,7 @@ var geoJsonData = {
             "properties": {
                 "address": "2000 Pawtucket Ave, East Providence, RI ", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "RI-1", 
                 "location": "East Providence High School Auditorium", 
                 "meetingType": "Town Hall", 
@@ -2679,12 +2817,12 @@ var geoJsonData = {
             "properties": {
                 "address": "27 Pilgrim Pkwy, Warwick, RI 02888", 
                 "date": "Monday, Feb 13, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-13", 
                 "district": "RI-2", 
                 "location": "Pilgrim Senior Center", 
                 "meetingType": "Other", 
                 "member": "Jim Langevin", 
-                "notes": "Annual Free File Briefing. https://buff.ly/2kSoj5N", 
+                "notes": "Annual Free File Briefing. <a href=\"https://buff.ly/2kSoj5N\" target=\"_blank\">https://buff.ly/2kSoj5N</a>", 
                 "party": "Democratic", 
                 "state": "Rhode Island", 
                 "time": "10:30 AM EST"
@@ -2700,7 +2838,7 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": ", Washington, DC  ", 
+                "address": ", Washington, DC ", 
                 "date": "Every Wednesday", 
                 "date8061": null, 
                 "district": "Senate", 
@@ -2725,7 +2863,7 @@ var geoJsonData = {
             "properties": {
                 "address": "3206 Poplar Ave, Memphis, TN 38111", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "TN-9", 
                 "location": "East High School", 
                 "meetingType": "Town Hall", 
@@ -2748,15 +2886,38 @@ var geoJsonData = {
             "properties": {
                 "address": "7100 City Center Way, Fairview, TN 37602", 
                 "date": "Tuesday, Feb 21, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-21", 
                 "district": "TN-07", 
                 "location": "Fairview City Hall", 
                 "meetingType": "Town Hall", 
                 "member": "Marsha Blackburn", 
-                "notes": "Please R.S.V.P. to City Recorder Brandy Johnson at recorder@fairview-tn.org.", 
+                "notes": "Please R.S.V.P. to City Recorder Brandy Johnson at <a href=\"mailto:recorder@fairview-tn.org\">recorder@fairview-tn.org</a>.", 
                 "party": "Republican", 
                 "state": "Tennessee", 
                 "time": "3:30 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 517, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Thursday", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Senator Cornyn's D.C. Office", 
+                "meetingType": "Coffee", 
+                "member": "John Cornyn", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Texas", 
+                "time": "9:30 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2769,14 +2930,14 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": ", Washington, DC  ", 
+                "address": ", Washington, DC ", 
                 "date": "Every Tuesday", 
                 "date8061": null, 
                 "district": "Senate", 
                 "location": "TBD", 
                 "meetingType": "Coffee", 
                 "member": "Ted Cruz", 
-                "notes": "Sen. Cruz hosts coffee every Tuesday morning while Senate is in session for Texans visiting D.C. To RSVP email scheduler@cruz.senate.gov with \"Texas Tuesday RSVP\" in subject line. Include full name, phone number, email address, date you will be in D.C. and number of people in group.", 
+                "notes": "Sen. Cruz hosts coffee every Tuesday morning while Senate is in session for Texans visiting D.C. To RSVP email <a href=\"mailto:scheduler@cruz.senate.gov\">scheduler@cruz.senate.gov</a> with \"Texas Tuesday RSVP\" in subject line. Include full name, phone number, email address, date you will be in D.C. and number of people in group.", 
                 "party": "Republican", 
                 "state": "Texas", 
                 "time": "9:30 AM EST"
@@ -2794,7 +2955,7 @@ var geoJsonData = {
             "properties": {
                 "address": "19753 Main Street, Buchanan, VA 24066", 
                 "date": "Tuesday, Feb 14, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-14", 
                 "district": "VA-6", 
                 "location": "Town Hall", 
                 "meetingType": "Office Hours", 
@@ -2815,9 +2976,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "5194 Chief Trail, Virginia Beach, VA  ", 
+                "address": "5194 Chief Trail, Virginia Beach, VA ", 
                 "date": "Monday, Feb 20, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-20", 
                 "district": "VA-2", 
                 "location": "Kempsville High School", 
                 "meetingType": "Town Hall", 
@@ -2838,9 +2999,9 @@ var geoJsonData = {
                 "type": "Point"
             }, 
             "properties": {
-                "address": "10227 Rogers Dr, Nassawadox, VA  ", 
+                "address": "10227 Rogers Dr, Nassawadox, VA ", 
                 "date": "Wednesday, Feb 22, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-22", 
                 "district": "VA-2", 
                 "location": "Little Italy Restaurant", 
                 "meetingType": "Town Hall", 
@@ -2863,7 +3024,7 @@ var geoJsonData = {
             "properties": {
                 "address": "1605 7th Street, Marysville, WA 98270", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "WA-2", 
                 "location": "Totem Middle School", 
                 "meetingType": "Town Hall", 
@@ -2878,15 +3039,38 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 511, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Wed Senate is in session.", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Cantwell Senate office", 
+                "meetingType": "Coffee", 
+                "member": "Maria Cantwell", 
+                "notes": "RSVP at <a href=\"https://www.cantwell.senate.gov/contact/coffee\" target=\"_blank\">https://www.cantwell.senate.gov/contact/coffee</a>", 
+                "party": "Democratic", 
+                "state": "Washington", 
+                "time": "11:30 AM - 12:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -88.8375980003091, 
                     42.92926675
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "101 N. Main St.,   Fort Atkinson, WI 53538", 
+                "address": "101 N. Main St., Fort Atkinson, WI 53538", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "WI-5", 
                 "location": "Fort Atkinson City Hall, Council Chambers on the 2nd Floor", 
                 "meetingType": "Town Hall", 
@@ -2909,7 +3093,7 @@ var geoJsonData = {
             "properties": {
                 "address": "210 Main St., Pewaukee, WI 53072", 
                 "date": "Saturday, Feb 11, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-11", 
                 "district": "WI-5", 
                 "location": "Pewaukee Public Library", 
                 "meetingType": "Town Hall", 
@@ -2932,7 +3116,7 @@ var geoJsonData = {
             "properties": {
                 "address": "13600 Juneau Blvd., Elm Grove, WI 53122", 
                 "date": "Sunday, Feb 12, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-12", 
                 "district": "WI-5", 
                 "location": "Elm Grove Village Hall", 
                 "meetingType": "Town Hall", 
@@ -2955,7 +3139,7 @@ var geoJsonData = {
             "properties": {
                 "address": "101 Center Street, Necedah, WI 54656", 
                 "date": "Friday, Feb 17, 2017", 
-                "date8061": null, 
+                "date8061": "2017-02-17", 
                 "district": "Senate", 
                 "location": "Necedah Town Hall", 
                 "meetingType": "Office Hours", 
@@ -2969,28 +3153,28 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 11, 2017 12:33 pm Central"
+        "latestLoad": "February 11, 2017 10:37 pm Central"
     }, 
     "type": "FeatureCollection"
 };
 var nonGeoData= [
     {
-        "address": ",  ,   ", 
+        "address": ", ,  ", 
         "date": "Thursday, Feb 16, 2017", 
-        "date8061": null, 
+        "date8061": "2017-02-16", 
         "district": "FL-6", 
         "location": "Call-in", 
         "meetingType": "Tele-town Hall", 
         "member": "Ron DeSantis", 
-        "notes": "RSVP  Here: <a href=\"http://desantis.house.gov/townhall\" _target=\"blank\" rel=\"nofollow\">http://desantis.house.gov/townhall</a>", 
+        "notes": "RSVP  Here: <a href=\"http://desantis.house.gov/townhall\" target=\"_blank\">http://desantis.house.gov/townhall</a>", 
         "party": "Republican", 
         "state": "Florida", 
         "time": "7:15 PM EST"
     }, 
     {
-        "address": ",  ,   ", 
+        "address": ", ,  ", 
         "date": "Thursday, Feb 23, 2017", 
-        "date8061": null, 
+        "date8061": "2017-02-23", 
         "district": "FL-1", 
         "location": "1330AM WEBY Radio", 
         "meetingType": "Tele-town Hall", 
@@ -3001,9 +3185,9 @@ var nonGeoData= [
         "time": "8:00 AM "
     }, 
     {
-        "address": ",  ,   ", 
+        "address": ", ,  ", 
         "date": "Wednesday, Mar 29, 2017", 
-        "date8061": null, 
+        "date8061": "2017-03-29", 
         "district": "FL-26", 
         "location": "Call-in", 
         "meetingType": "Tele-town Hall", 
@@ -3014,9 +3198,61 @@ var nonGeoData= [
         "time": "7:00 PM EST"
     }, 
     {
-        "address": ",  ,   ", 
+        "address": null, 
+        "date": "Tuesday, Feb 28, 2017", 
+        "date8061": "2017-02-28", 
+        "district": "GA-14", 
+        "location": "Georgia Northwestern Technical College -- Gordon County Campus, Building 400, Rm 4-103", 
+        "meetingType": "Office Hours", 
+        "member": "Tom Graves", 
+        "notes": null, 
+        "party": "Republican", 
+        "state": "Georgia", 
+        "time": "1:00 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Tuesday, Feb 14, 2017", 
+        "date8061": "2017-02-14", 
+        "district": "IA-2", 
+        "location": "121 Cannon House Office Building", 
+        "meetingType": "DC Event", 
+        "member": "Dave Loebsack", 
+        "notes": null, 
+        "party": "Democratic", 
+        "state": "Iowa", 
+        "time": "8:00 AM EST"
+    }, 
+    {
+        "address": ", Assumption Parrish, LA 70390", 
+        "date": "Thursday, Feb 23, 2017", 
+        "date8061": "2017-02-23", 
+        "district": "Senate", 
+        "location": "Assumption Parrish", 
+        "meetingType": "Town Hall", 
+        "member": "Bill Cassidy", 
+        "notes": " ", 
+        "party": "Republican", 
+        "state": "Louisiana", 
+        "time": "9:00 AM CST"
+    }, 
+    {
+        "address": ", , LA 70582", 
+        "date": "Friday, Feb 24, 2017", 
+        "date8061": "2017-02-24", 
+        "district": "Senate", 
+        "location": "St. Martin Parish", 
+        "meetingType": "Town Hall", 
+        "member": "Bill Cassidy", 
+        "notes": " ", 
+        "party": "Republican", 
+        "state": "Louisiana", 
+        "time": "TBD CST"
+    }, 
+    {
+        "address": ", ,  ", 
         "date": "Monday, Feb 13, 2017", 
-        "date8061": null, 
+        "date8061": "2017-02-13", 
         "district": "NJ-3", 
         "location": "Call-in", 
         "meetingType": "Tele-Town Hall", 
@@ -3027,9 +3263,9 @@ var nonGeoData= [
         "time": "5:00 PM EST"
     }, 
     {
-        "address": ",  ,   ", 
+        "address": ", ,  ", 
         "date": "Thursday, Feb 23, 2017", 
-        "date8061": null, 
+        "date8061": "2017-02-23", 
         "district": "NJ-3", 
         "location": " ", 
         "meetingType": "Tele-Town Hall", 
@@ -3040,16 +3276,133 @@ var nonGeoData= [
         "time": "7:00 PM EST"
     }, 
     {
-        "address": ",  ,   ", 
+        "address": null, 
+        "date": "Wednesday, Feb 15, 2017", 
+        "date8061": "2017-02-15", 
+        "district": "NM-2", 
+        "location": "", 
+        "meetingType": "Tele-town Hall", 
+        "member": "Steve Pearce", 
+        "notes": "announced in his monthly newsletter", 
+        "party": "Republican", 
+        "state": "New Mexico", 
+        "time": " MST"
+    }, 
+    {
+        "address": "805 West Broadt St, Elizabethtown, NC ", 
+        "date": "First and third Tuesday of each month", 
+        "date8061": null, 
+        "district": "NC-9", 
+        "location": "Elizabethtown Town Hall", 
+        "meetingType": "Office Hours", 
+        "member": "Richard Pittenger", 
+        "notes": "Staff only. Rep. Pittenger not in attendance. ", 
+        "party": "Republican", 
+        "state": "North Carolina", 
+        "time": "1:30 PM EST"
+    }, 
+    {
+        "address": "U.S. Capitol, Washington, DC 20002", 
+        "date": "Every Thursday", 
+        "date8061": null, 
+        "district": "Senate", 
+        "location": "Capitol Visitor Center", 
+        "meetingType": "Coffee", 
+        "member": "Sherrod Brown", 
+        "notes": "Ohioans in D.C. can RSVP: <a href=\"https://www.brown.senate.gov/events/coffee/\" target=\"_blank\">https://www.brown.senate.gov/events/coffee/</a>", 
+        "party": "Democratic", 
+        "state": "Ohio", 
+        "time": "8:30 AM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Wednesday, Feb 15, 2017", 
+        "date8061": "2017-02-15", 
+        "district": "OR-5", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Kurt Schrader", 
+        "notes": "<a href=\"https://schrader.house.gov/forms/form/?ID=3140\" target=\"_blank\">https://schrader.house.gov/forms/form/?ID=3140</a>", 
+        "party": "Democratic", 
+        "state": "Oregon", 
+        "time": "6:00 PM PST"
+    }, 
+    {
+        "address": null, 
+        "date": "Sunday, Feb 26, 2017", 
+        "date8061": "2017-02-26", 
+        "district": "Senate", 
+        "location": "Location TBD", 
+        "meetingType": "Town Hall", 
+        "member": "Ron Wyden", 
+        "notes": null, 
+        "party": "Democratic", 
+        "state": "Oregon", 
+        "time": "Time TBD "
+    }, 
+    {
+        "address": null, 
+        "date": "Wednesday, Feb 15, 2017", 
+        "date8061": "2017-02-15", 
+        "district": "Senate", 
+        "location": "Senate office Buildings", 
+        "meetingType": "Coffee", 
+        "member": "Mike Rounds", 
+        "notes": "Reservations required. Reservations for the South Dakota Sunrise Breakfast are required and must be submitted by noon on the Tuesday of the desired reservation week.\" <a href=\"https://www.rounds.senate.gov/coffee\" target=\"_blank\">https://www.rounds.senate.gov/coffee</a>", 
+        "party": "Republican", 
+        "state": "South Dakota", 
+        "time": "9:00 AM "
+    }, 
+    {
+        "address": ", ,  ", 
         "date": " ", 
         "date8061": null, 
         "district": "TX-12", 
         "location": "Phone", 
         "meetingType": "Tele-town Hall", 
         "member": "Kay Granger", 
-        "notes": "<a href=\"http://kaygranger.house.gov/contact-kay/telephone-town-hall-sign\" _target=\"blank\" rel=\"nofollow\">http://kaygranger.house.gov/contact-kay/telephone-town-hall-sign</a>\nThis is a link to a sign-up sheet. She does not provide times and dates, just says she will give you a call during the next event. ", 
+        "notes": "<a href=\"http://kaygranger.house.gov/contact-kay/telephone-town-hall-sign\" target=\"_blank\">http://kaygranger.house.gov/contact-kay/telephone-town-hall-sign</a>\nThis is a link to a sign-up sheet. She does not provide times and dates, just says she will give you a call during the next event. ", 
         "party": "Republican", 
         "state": "Texas", 
         "time": "   "
+    }, 
+    {
+        "address": null, 
+        "date": "", 
+        "date8061": null, 
+        "district": "TX-14", 
+        "location": "Phone", 
+        "meetingType": "Tele-town Hall", 
+        "member": "Randy Weber", 
+        "notes": "<a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform\" target=\"_blank\">https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform</a>", 
+        "party": "Republican", 
+        "state": "Texas", 
+        "time": " "
+    }, 
+    {
+        "address": null, 
+        "date": "Tuesday, Feb 21, 2017", 
+        "date8061": "2017-02-21", 
+        "district": "VA-2", 
+        "location": "TBD", 
+        "meetingType": "Town Hall", 
+        "member": "Scott Taylor", 
+        "notes": "More information to follow.", 
+        "party": "Republican", 
+        "state": "Virginia", 
+        "time": "6:30 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Thursday, Feb 23, 2017", 
+        "date8061": "2017-02-23", 
+        "district": "WA-08", 
+        "location": "Facebook Live", 
+        "meetingType": "Tele-town Hall", 
+        "member": "Dave Reichert", 
+        "notes": "Online town hall hosted by KCTS. <a href=\"https://www.facebook.com/repdavereichert/\" target=\"_blank\">https://www.facebook.com/repdavereichert/</a>", 
+        "party": "Republican", 
+        "state": "Washington", 
+        "time": "1:00 PM PST"
     }
 ];
