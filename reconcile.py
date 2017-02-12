@@ -1,4 +1,15 @@
 reconciled_addresses = {
+    ', Assumption Parrish, LA 70390': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '805 West Broad St',
+            u'county': 'Assumption Parrish',
+            u'city': 'Elizabethtown',
+            u'state': 'LA',
+            u'zip': '70390'
+        },
+        'corrected_string': 'Assumption Parrish, LA 70390',
+        'corrected_lat_long': {'lat': 29.9185432, 'lng': -91.0533995}
+    }},
     '805 West Broadt St, Elizabethtown, NC ': {"reconciled": {
         u'corrected_parts': {
             u'street': '805 West Broad St',

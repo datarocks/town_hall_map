@@ -1498,6 +1498,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -91.0533995, 
+                    29.9185432
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Assumption Parrish, LA 70390", 
+                "date": "Thursday, Feb 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "Senate", 
+                "location": "Assumption Parrish", 
+                "meetingType": "Town Hall", 
+                "member": "Bill Cassidy", 
+                "notes": " ", 
+                "party": "Republican", 
+                "state": "Louisiana", 
+                "time": "9:00 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -77.0041745517209, 
                     38.8928461
                 ], 
@@ -3176,7 +3199,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 11, 2017 10:50 pm Central"
+        "latestLoad": "February 11, 2017 10:58 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -3245,19 +3268,6 @@ var nonGeoData= [
         "party": "Democratic", 
         "state": "Iowa", 
         "time": "8:00 AM EST"
-    }, 
-    {
-        "address": ", Assumption Parrish, LA 70390", 
-        "date": "Thursday, Feb 23, 2017", 
-        "date8061": "2017-02-23", 
-        "district": "Senate", 
-        "location": "Assumption Parrish", 
-        "meetingType": "Town Hall", 
-        "member": "Bill Cassidy", 
-        "notes": " ", 
-        "party": "Republican", 
-        "state": "Louisiana", 
-        "time": "9:00 AM CST"
     }, 
     {
         "address": ", , LA 70582", 
