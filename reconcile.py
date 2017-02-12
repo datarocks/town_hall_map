@@ -1,11 +1,11 @@
 reconciled_addresses = {
     '155 North IH 35, Cotulla, TX 78104': {"reconciled": {
         u'corrected_parts': {
-            u'street': '100 Memorial Square',
-            u'county': 'Assumption Parrish',
-            u'city': ' Fort Davis',
+            u'street': '155 N. IH-35, 155 I-35',
+            u'county': None,
+            u'city': 'Cotulla',
             u'state': 'TX',
-            u'zip': '79734'
+            u'zip': '78014'
         },
         'corrected_string': '155 N. IH-35, 155 I-35, Cotulla, TX 78014',
         'corrected_lat_long': {'lat': 28.44654, 'lng': -99.24687}
@@ -13,8 +13,8 @@ reconciled_addresses = {
     '100 Memorial Square, Fort Davis, TX 79734': {"reconciled": {
         u'corrected_parts': {
             u'street': '100 Memorial Square',
-            u'county': 'Assumption Parrish',
-            u'city': ' Fort Davis',
+            u'county': None,
+            u'city': 'Fort Davis',
             u'state': 'TX',
             u'zip': '79734'
         },
