@@ -1,14 +1,58 @@
 reconciled_addresses = {
+    '155 North IH 35, Cotulla, TX 78104': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '100 Memorial Square',
+            u'county': 'Assumption Parrish',
+            u'city': ' Fort Davis',
+            u'state': 'TX',
+            u'zip': '79734'
+        },
+        'corrected_string': '155 N. IH-35, 155 I-35, Cotulla, TX 78014',
+        'corrected_lat_long': {'lat': 28.44654, 'lng': -99.24687}
+    }},
+    '100 Memorial Square, Fort Davis, TX 79734': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '100 Memorial Square',
+            u'county': 'Assumption Parrish',
+            u'city': ' Fort Davis',
+            u'state': 'TX',
+            u'zip': '79734'
+        },
+        'corrected_string': '100 Memorial Square, Fort Davis, TX 79734',
+        'corrected_lat_long': {'lat': 30.588443, 'lng': -103.893858}
+    }},
     ', Assumption Parrish, LA 70390': {"reconciled": {
         u'corrected_parts': {
-            u'street': '805 West Broad St',
+            u'street': None,
             u'county': 'Assumption Parrish',
-            u'city': 'Elizabethtown',
+            u'city': None,
             u'state': 'LA',
             u'zip': '70390'
         },
         'corrected_string': 'Assumption Parrish, LA 70390',
         'corrected_lat_long': {'lat': 29.9185432, 'lng': -91.0533995}
+    }},
+    ', , LA 70582': {"reconciled": {
+        u'corrected_parts': {
+            u'street': None,
+            u'county': 'St. Martin Parish',
+            u'city': None,
+            u'state': 'LA',
+            u'zip': '70390'
+        },
+        'corrected_string': 'St. Martin Parish, LA 70390',
+        'corrected_lat_long': {'lat': 30.1811426, 'lng': -91.6081115}
+    }},
+    'U.S. Capitol, Washington, DC 20002': {"reconciled": {
+        u'corrected_parts': {
+            u'street': 'First St NE',
+            u'county': None,
+            u'city': 'Washington',
+            u'state': 'DC',
+            u'zip': '20515'
+        },
+        'corrected_string': 'First St NE, Washington, DC 20515',
+        'corrected_lat_long': {'lat': 38.889816, 'lng': -77.007192}
     }},
     '805 West Broadt St, Elizabethtown, NC ': {"reconciled": {
         u'corrected_parts': {
