@@ -4073,7 +4073,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 12, 2017 11:46 am Central"
+        "latestLoad": "February 12, 2017 12:04 pm Central"
     }, 
     "type": "FeatureCollection"
 };
