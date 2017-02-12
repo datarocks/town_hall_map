@@ -1,38 +1,4 @@
-// this example has items declared globally. bad javascript. but keeps the example simple.
 
-var columnDefs = [
-    {headerName: "Member", field: "member", },
-    {headerName: "Party", field: "party"},
-    {headerName: "District", field: "district"},
-    {headerName: "State", field: "state"},
-    {headerName: "Date", field: "date"},
-    {headerName: "Meeting Type", field: "meetingType"},
-    {headerName: "Time", field: "time"},
-    {headerName: "Notes", field: "notes"}
-];
-
-
-var gridOptions = {
-    columnDefs: columnDefs,
-    rowData: nonGeoData,
-    autoSizeColumns: true
-};
-
-function autoSizeAll() {
-    var allColumnIds = [];
-    columnDefs.forEach( function(columnDef) {
-        allColumnIds.push(columnDef.field);
-    });
-    gridOptions.columnApi.autoSizeColumns(allColumnIds);
-}
-
-
-// wait for the document to be loaded, otherwise
-// ag-Grid will not find the div in the document.
-document.addEventListener("DOMContentLoaded", function() {
-    var eGridDiv = document.querySelector('#myGrid');
-    new agGrid.Grid(eGridDiv, gridOptions);
-});
 
 
 
@@ -49,3 +15,22 @@ var example_thing = {
         "state": "New Jersey",
         "time": "7:00 PM EST"
     }
+
+
+$(function() {
+    $.each(nonGeoData, function(i, item) {
+        var $tr = $('<tr>').append(
+            $('<td>').text(item.member),
+            $('<td>').text(item.state),
+            $('<td>').text(item.district),
+            $('<td>').text(item.party),
+            $('<td>').text(item.meetingType),
+            $('<td>').text(item.date),
+            $('<td>').text(item.time),
+            $('<td class="table-notes">').html(item.notes),
+            $('<td>').text(item.location),
+            $('<td>').text(item.address)
+        ).appendTo('#no_location_table');
+        //console.log($tr.wrap('<p>').html());
+    });
+});

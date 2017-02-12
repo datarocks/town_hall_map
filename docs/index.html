@@ -25,7 +25,6 @@
 		<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster.js"></script>
     	<script src="https://unpkg.com/leaflet.markercluster@1.0.3/dist/leaflet.markercluster-src.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-providers/1.1.15/leaflet-providers.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/ag-grid/8.0.1/ag-grid.min.js"></script>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
 
     	<script src="map_data.js"></script>
@@ -38,6 +37,36 @@
 		  ga('create', 'UA-91649660-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+		<style>
+			#no_location_table {
+				border-collapse: collapse;
+				width: 100%;
+			}
+
+			#no_location_table td, #no_location_table th {
+				border: 1px solid #ddd;
+				padding: 8px;
+			}
+
+			#no_location_table tr:nth-child(even){background-color: #f2f2f2;}
+
+			#no_location_table tr:hover {background-color: #ddd;}
+
+			#no_location_table th {
+				padding-top: 12px;
+				padding-bottom: 12px;
+				text-align: left;
+				background-color: #4CAF50;
+				color: white;
+
+			}
+			.table-notes th {
+				width: 40px;
+				word-wrap: break-word;
+			}
+
+
+		</style>
 
 	</head>
 	<body>
@@ -83,8 +112,21 @@
                                             <div style="width: 100%; " id="map"></div>
 										</section>
 										<section>
-											<h3>Town Halls without a location</h3>
-											<div id="myGrid" style="height: 200px;" class="ag-fresh"></div>
+											<h3>Town Halls without a location, with a table!</h3>
+											<table border="1" id="no_location_table">
+											<tr>
+												<th>Member Name</th>
+												<th>State</th>
+												<th>District</th>
+												<th>Party</th>
+												<th>Meeting Type</th>
+												<th>Date</th>
+												<th>Time</th>
+												<th class="table-notes">Notes</th>
+												<th>Location</th>
+												<th>Address</th>
+											</tr>
+											</table>
 										</section>
 
 										<section>
