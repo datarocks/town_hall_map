@@ -1094,7 +1094,7 @@ var geoJsonData = {
                 "date": "Thursday, Feb 23, 2017", 
                 "date8061": "2017-02-23", 
                 "district": "IL-07", 
-                "location": "Fine Arts Academy", 
+                "location": "Academy of Arts", 
                 "meetingType": "Town Hall", 
                 "member": "Danny K. Davis", 
                 "notes": null, 
@@ -4395,7 +4395,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 12, 2017 6:38 pm Central"
+        "latestLoad": "February 12, 2017 9:51 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -4450,7 +4450,7 @@ var nonGeoData= [
         "notes": "number: (850) 623-1330", 
         "party": "Republican", 
         "state": "Florida", 
-        "time": "8:00 AM "
+        "time": "8:00 AM EST"
     }, 
     {
         "address": ", ,  ", 

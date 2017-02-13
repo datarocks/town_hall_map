@@ -7,6 +7,16 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		});
 		var map = L.map('map');
 		L.tileLayer.provider('Stamen.Toner').addTo(map);
+		//this gets us legislative districts from the census
+		var districtLayer = L.esri.featureLayer({
+         url: "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0",
+         simplifyFactor: 0.35,
+         precision: 5
+         }).addTo(map)
+         districtLayer.once("load", function(){
+         districtLayer.bringToBack();
+            });
+
 		var markers = L.markerClusterGroup({maxClusterRadius: 5, spiderfyDistanceMultiplier:2 });
 
 		function getValue(x) {
@@ -44,4 +54,5 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		});
 		markers.addLayer(geoJsonLayer);
 		map.addLayer(markers);
+
 		map.fitBounds(markers.getBounds());
