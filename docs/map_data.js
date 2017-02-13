@@ -198,7 +198,7 @@ var geoJsonData = {
                 "date8061": "2017-02-21", 
                 "district": "CA-49", 
                 "location": "Jim Porter Recreation Center", 
-                "meetingType": "\"Empty Chair\" Town Hall\n", 
+                "meetingType": "\"Empty Chair\" Town Hall", 
                 "member": "Darrell Issa", 
                 "notes": "\"Empty chair town hall.\" Rep. Issa invited and constituents expect his presence. <a href=\"https://www.facebook.com/events/150691435436534/\" target=\"_blank\">https://www.facebook.com/events/150691435436534/</a>", 
                 "party": "Republican", 
@@ -522,7 +522,7 @@ var geoJsonData = {
                 "location": "Glendale Community College", 
                 "meetingType": "Town Hall", 
                 "member": "Adam Schiff", 
-                "notes": "conversation with Rep. Schiff about the crisis in the refugee program. Representatives from the International Rescue Committee (IRC), Muslim Public Affairs Council (MPAC), Hebrew Immigrant Aid Society (HIAS), and ACLU will join Rep. Schiff on a discussion panel.", 
+                "notes": "Conversation with Rep. Schiff about the crisis in the refugee program. Representatives from the International Rescue Committee (IRC), Muslim Public Affairs Council (MPAC), Hebrew Immigrant Aid Society (HIAS), and ACLU will join Rep. Schiff on a discussion panel.", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "7:00 PM PST"
@@ -618,6 +618,75 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "6:30 PM - 8:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.133922702398, 
+                    38.0191029022529
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "651 Pine St, Martinez, CA 94553-1213", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-05", 
+                "location": "", 
+                "meetingType": "Town Hall", 
+                "member": "Mike Thompson", 
+                "notes": "ACA Town Hall with Congressman Mike Thompson and Congressman Mike DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "10:30 AM - 12:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -117.213918039603, 
+                    32.7389720833899
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2875 Dewey Rd., San Diego, CA 92106", 
+                "date": "Wednesday, February 22nd", 
+                "date8061": null, 
+                "district": "CA-53", 
+                "location": "Corky McMillin Companies Event Center", 
+                "meetingType": "Town Hall", 
+                "member": "Susan Davis", 
+                "notes": "A \"How-to-Get-Involved\" workshop with Reps. Susan Davis and Scott Peters. Crowd size will be limited to room capacity. Priority will be given to those who RSVP. <a href=\"http://act.scottpeters.com/page/s/don-t-agonize-galvanize-\" target=\"_blank\">http://act.scottpeters.com/page/s/don-t-agonize-galvanize-</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "6:30 pm - 8 pm PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -117.213918039603, 
+                    32.7389720833899
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2875 Dewey Rd., San Diego, CA 92106", 
+                "date": "Wednesday, February 22nd", 
+                "date8061": null, 
+                "district": "CA-52", 
+                "location": "Corky McMillin Companies Event Center", 
+                "meetingType": "Town Hall", 
+                "member": "Scott Peters", 
+                "notes": "A \"How-to-Get-Involved\" workshop with Reps. Susan Davis and Scott Peters. Crowd size will be limited to room capacity. Priority will be given to those who RSVP. <a href=\"http://act.scottpeters.com/page/s/don-t-agonize-galvanize-\" target=\"_blank\">http://act.scottpeters.com/page/s/don-t-agonize-galvanize-</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "6:30 pm - 8 pm PST"
             }, 
             "type": "Feature"
         }, 
@@ -1051,7 +1120,7 @@ var geoJsonData = {
                 "location": "3rd Unitarian Church", 
                 "meetingType": "Other", 
                 "member": "Danny K. Davis", 
-                "notes": "Education Advisory Task Force", 
+                "notes": "Education Advisory Task Force. Hearing on ideas for legislation to help first generation college students.", 
                 "party": "Democratic", 
                 "state": "Illinois", 
                 "time": "1:00 PM CST"
@@ -1120,7 +1189,7 @@ var geoJsonData = {
                 "location": "Louisville Village Hall", 
                 "meetingType": "Office Hours", 
                 "member": "John Shimkus", 
-                "notes": "Traveling Town Hall", 
+                "notes": "Traveling Help Desk", 
                 "party": "Republican", 
                 "state": "Illinois", 
                 "time": "2:00 PM CST"
@@ -1676,6 +1745,29 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Iowa", 
                 "time": "8:00 AM - 9:00 AM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -84.9082768805713, 
+                    38.03883265
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1026 County Park Rd., Lawrenceburg, KY 40342", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "Senate", 
+                "location": "Anthony D. Stratton Building", 
+                "meetingType": "Ticketed event", 
+                "member": "Mitch McConnell", 
+                "notes": "Anderson County Chamber of Commerce Legislative Update. Tickets are $10.00. Please RSVP by 2/7 to Pam Brough at <a href=\"mailto:ACCOC@andersonchamber.org\">ACCOC@andersonchamber.org</a>", 
+                "party": "Republican", 
+                "state": "Kentucky", 
+                "time": "11:00 AM - 1:00 PM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2567,7 +2659,7 @@ var geoJsonData = {
                 "date8061": "2017-02-15", 
                 "district": "MO-04", 
                 "location": "Lebanon Office", 
-                "meetingType": "Other", 
+                "meetingType": "Office Hours", 
                 "member": "Vicky Hartzler", 
                 "notes": null, 
                 "party": "Republican", 
@@ -2613,7 +2705,7 @@ var geoJsonData = {
                 "date8061": "2017-02-17", 
                 "district": "MO-04", 
                 "location": "Boone County Mobile Office Hours", 
-                "meetingType": "Other", 
+                "meetingType": "Office Hours", 
                 "member": "Vicky Hartzler", 
                 "notes": null, 
                 "party": "Republican", 
@@ -2681,7 +2773,7 @@ var geoJsonData = {
                 "date": "Sat, Feb 18, 2017", 
                 "date8061": "2017-02-18", 
                 "district": "NJ-6", 
-                "location": "", 
+                "location": "West Side Community Center", 
                 "meetingType": "Town Hall", 
                 "member": "Frank Pallone", 
                 "notes": null, 
@@ -2954,7 +3046,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "165 Agriculture drive, Suite A, Kenansville, NC 28349", 
-                "date": "Wednesday, Mar 1, 2017", 
+                "date": "Wed, Mar 1, 2017", 
                 "date8061": "2017-03-01", 
                 "district": "NC-07", 
                 "location": "Kenansville Agricultural Center", 
@@ -3046,7 +3138,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "380 Mt Vernon Ave, Marion, OH 43302", 
-                "date": "Mon, Feb 20, 2017", 
+                "date": "Monday, Feb 20, 2017", 
                 "date8061": "2017-02-20", 
                 "district": "OH-04", 
                 "location": "Harding Home Presidential Site", 
@@ -3171,52 +3263,6 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Ohio", 
                 "time": "  EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -82.2596999, 
-                    40.774523
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "110 Cottage St., Ashland, OH 44805", 
-                "date": "Monday - Friday", 
-                "date8061": null, 
-                "district": "OH-07", 
-                "location": "Ashland Office", 
-                "meetingType": "Office Hours", 
-                "member": "Bob Gibbs", 
-                "notes": null, 
-                "party": "Republican", 
-                "state": "Ohio", 
-                "time": "9:00 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -81.3698779, 
-                    40.77456
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "110 Central Plaza South, Canton, OH 44702", 
-                "date": "", 
-                "date8061": null, 
-                "district": "OH-07", 
-                "location": "Canton Office", 
-                "meetingType": "Office Hours", 
-                "member": "Bob Gibbs", 
-                "notes": "Call (330) 737-1631 to schedule", 
-                "party": "Republican", 
-                "state": "Ohio", 
-                "time": "by appt. EST"
             }, 
             "type": "Feature"
         }, 
@@ -3446,7 +3492,7 @@ var geoJsonData = {
                 "notes": "Rep. Cohen confirmed in attendance.", 
                 "party": "Democratic", 
                 "state": "Tennessee", 
-                "time": "10:00 AM EST"
+                "time": "0.4166666667 EST"
             }, 
             "type": "Feature"
         }, 
@@ -3483,7 +3529,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "605 Church St, Nashville, TN 37219", 
-                "date": "Friday, Mar 3, 2017", 
+                "date": "Fri, Mar 3, 2017", 
                 "date8061": "2017-03-03", 
                 "district": "TN-05", 
                 "location": "Nashville Office", 
@@ -3552,7 +3598,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "500 N Water St, Fort Stockton, TX 79735", 
-                "date": "Thursday, Mar 30, 2017", 
+                "date": "Thu, Mar 30, 2017", 
                 "date8061": "2017-03-30", 
                 "district": "TX-23", 
                 "location": "Fort Stockton Public Library", 
@@ -3722,7 +3768,7 @@ var geoJsonData = {
                 "notes": null, 
                 "party": "Republican", 
                 "state": "Texas", 
-                "time": "10:00 AM CST"
+                "time": "0.4166666667 CST"
             }, 
             "type": "Feature"
         }, 
@@ -3828,7 +3874,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "19753 Main Street, Buchanan, VA 24066", 
-                "date": "Tue, Feb 14, 2017", 
+                "date": "Tuesday, Feb 14, 2017", 
                 "date8061": "2017-02-14", 
                 "district": "VA-6", 
                 "location": "Town Hall", 
@@ -3936,75 +3982,6 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -88.8375980003091, 
-                    42.92926675
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "101 N. Main St., Fort Atkinson, WI 53538", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WI-5", 
-                "location": "Fort Atkinson City Hall, Council Chambers on the 2nd Floor", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "9:00 AM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.261189721584, 
-                    43.0800986903282
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "210 Main St., Pewaukee, WI 53072", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WI-5", 
-                "location": "Pewaukee Public Library", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -88.0870749, 
-                    43.045839
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "13600 Juneau Blvd., Elm Grove, WI 53122", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "WI-5", 
-                "location": "Elm Grove Village Hall", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Sensenbrenner", 
-                "notes": " ", 
-                "party": "Republican", 
-                "state": "Wisconsin", 
-                "time": "1:00 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
                     -90.0742411, 
                     44.0253283
                 ], 
@@ -4035,7 +4012,7 @@ var geoJsonData = {
             }, 
             "properties": {
                 "address": "800 Main St, Lacrosse, WI 54601", 
-                "date": "Monday, February 27, 2017", 
+                "date": "Mon, Feb 27, 2017", 
                 "date8061": "2017-02-27", 
                 "district": "WI-03", 
                 "location": "Lacrosse Library", 
@@ -4070,10 +4047,355 @@ var geoJsonData = {
                 "time": "10:00 AM CST"
             }, 
             "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.0660331, 
+                    43.1047883
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "12621 W. Hampton Avenue, Butler, WI ", 
+                "date": "Friday, March 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "WI-5", 
+                "location": "Butler Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "8:30 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.1833183, 
+                    43.1394948
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "20399 W Main Street, Lannon, WI ", 
+                "date": "Friday, March 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "WI-5", 
+                "location": "Lannon Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "9:30 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.2150859, 
+                    43.1336966
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "N64W23760 Main Street, Sussex, WI ", 
+                "date": "Friday, March 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "WI-5", 
+                "location": "Sussex Civc Center", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "10:15 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.3164599, 
+                    43.141353
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "N67W28343 Sussex Road, Merton, WI ", 
+                "date": "Friday, March 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "WI-5", 
+                "location": "Merton Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "11:15 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.4049409, 
+                    43.099217
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "N44W32950 Watertown Plank Rd., Nashotah, WI ", 
+                "date": "Friday, March 3, 2017", 
+                "date8061": "2017-03-03", 
+                "district": "WI-5", 
+                "location": "Nashotah Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:15 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.4047465, 
+                    43.0548271
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "500 Genesee Street, Delafield, WI ", 
+                "date": "Saturday, March 4, 2017", 
+                "date8061": "2017-03-04", 
+                "district": "WI-5", 
+                "location": "Delafield City Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "9:00 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.9112761647779, 
+                    43.0783159
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "200 Water Street, Lake Mills, WI ", 
+                "date": "Saturday, March 4, 2017", 
+                "date8061": "2017-03-04", 
+                "district": "WI-5", 
+                "location": "Lake Mills Community Center", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.7020059, 
+                    43.404473
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "500 Lincoln Drive, Juneau, WI ", 
+                "date": "Sunday, March 5, 2017", 
+                "date8061": "2017-03-05", 
+                "district": "WI-5", 
+                "location": "Juneau Community Center", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.1003611, 
+                    43.2210339
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "N112W17001 Mequon Road, Germantown, WI ", 
+                "date": "Saturday, March 11, 2017", 
+                "date8061": "2017-03-11", 
+                "district": "WI-5", 
+                "location": "Germantown Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "9:00 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.125943, 
+                    43.059073
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2100 N. Calhoun Road, Brookfield, WI ", 
+                "date": "Saturday, March 11, 2017", 
+                "date8061": "2017-03-11", 
+                "district": "WI-5", 
+                "location": "Brookfield Public Safety Building", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.378984, 
+                    43.3192487692308
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "109 N Main St., Hartford, WI ", 
+                "date": "Sunday, March 12, 2017", 
+                "date8061": "2017-03-12", 
+                "district": "WI-5", 
+                "location": "Hartford City Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "    The meeting will be held in the Council Chambers. Please use the entrance located off of the rear parking lot. Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.0615544, 
+                    43.0599216
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "7635 W. North Avenue, Wauwatosa, WI ", 
+                "date": "Monday, March 13, 2017", 
+                "date8061": "2017-03-13", 
+                "district": "WI-5", 
+                "location": "Wauwatosa Public Library", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "7:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.1810066239181, 
+                    43.4077579159143
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1115 S. Main Street, West Bend, WI ", 
+                "date": "Saturday, March 18, 2017", 
+                "date8061": "2017-03-18", 
+                "district": "WI-5", 
+                "location": "West Bend City Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "9:00 AM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.0052438747975, 
+                    43.0120305559065
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "7421 W. National Avenue, West Allis, WI ", 
+                "date": "Saturday, March 18, 2017", 
+                "date8061": "2017-03-18", 
+                "district": "WI-5", 
+                "location": "West Allis Public Library", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "Unclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -88.2438109962428, 
+                    43.2366440038518
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "4125 Hubertus Road, Richfield, WI ", 
+                "date": "Sunday, March 19, 2017", 
+                "date8061": "2017-03-19", 
+                "district": "WI-5", 
+                "location": "Richfield Village Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Jim Sensenbrenner", 
+                "notes": "\"The meeting will be held in the Council Chambers, located in the lower level of Village Hall.\"\nUnclear if staff office hours or Town Hall with Congressman - <a href=\"http://sensenbrenner.house.gov/contact/\" target=\"_blank\">http://sensenbrenner.house.gov/contact/</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "1:00 PM CT"
+            }, 
+            "type": "Feature"
         }
     ], 
     "properties": {
-        "latestLoad": "February 12, 2017 12:04 pm Central"
+        "latestLoad": "February 12, 2017 6:38 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -4163,7 +4485,7 @@ var nonGeoData= [
         "district": "IL-6", 
         "location": "Call-in", 
         "meetingType": "Tele-Town Hall", 
-        "member": "Pete Roskam", 
+        "member": "Peter Roskam", 
         "notes": "RSVP: <a href=\"http://www.roskamforcongress.com/register-for-telephone-town-halls/\" target=\"_blank\">http://www.roskamforcongress.com/register-for-telephone-town-halls/</a>", 
         "party": "Republican", 
         "state": "Illinois", 
@@ -4212,19 +4534,6 @@ var nonGeoData= [
         "address": null, 
         "date": "Wed, Feb 15, 2017", 
         "date8061": "2017-02-15", 
-        "district": "NM-2", 
-        "location": "", 
-        "meetingType": "Tele-town Hall", 
-        "member": "Steve Pearce", 
-        "notes": "announced in his monthly newsletter", 
-        "party": "Republican", 
-        "state": "New Mexico", 
-        "time": " MST"
-    }, 
-    {
-        "address": null, 
-        "date": "Wed, Feb 15, 2017", 
-        "date8061": "2017-02-15", 
         "district": "OR-5", 
         "location": "Call-in", 
         "meetingType": "Tele-Town Hall", 
@@ -4232,7 +4541,7 @@ var nonGeoData= [
         "notes": "<a href=\"https://schrader.house.gov/forms/form/?ID=3140\" target=\"_blank\">https://schrader.house.gov/forms/form/?ID=3140</a>", 
         "party": "Democratic", 
         "state": "Oregon", 
-        "time": "6:00 PM PST"
+        "time": "0.75 PST"
     }, 
     {
         "address": null, 
