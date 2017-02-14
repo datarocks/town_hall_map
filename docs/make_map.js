@@ -11,7 +11,11 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		var districtLayer = L.esri.featureLayer({
          url: "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0",
          simplifyFactor: 0.35,
-         precision: 5
+         precision: 5,
+         style: {
+            color: '#A9A9A9',
+             weight: 1
+         }
          }).addTo(map)
          districtLayer.once("load", function(){
          districtLayer.bringToBack();
