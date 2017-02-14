@@ -278,13 +278,13 @@ def append_lat_long_to_townhall_data(town_hall_list, geocode_dict):
             reconciled = geocode_dict.get(address, {}).get('reconciled')
             nominatum = geocode_dict.get(address, {}).get('nominatum')
             smartystreets = geocode_dict.get(address, {}).get('smartystreets')
-            if nominatum:
+            if reconciled:
+                town_hall[u'lat_lng'] = reconciled['corrected_lat_long']
+                town_hall[u'address_string'] = reconciled['corrected_string']
+            elif nominatum:
                 town_hall[u'lat_lng'] = {'lat': float(nominatum[0]['lat']), 'lng': float(nominatum[0]['lon'])}
             elif smartystreets:
                 town_hall[u'lat_lng'] = {'lat': float(smartystreets['latitude']), 'lng': float(smartystreets['longitude'])}
-            elif reconciled:
-                town_hall[u'lat_lng'] = reconciled['corrected_lat_long']
-                town_hall[u'address_string'] = reconciled['corrected_string']
             else:
                 town_hall[u'lat_lng'] = None
                 non_geo_town_hall_list.append(town_hall)

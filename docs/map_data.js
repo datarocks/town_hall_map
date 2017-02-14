@@ -2671,8 +2671,8 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -99.2688299, 
-                    40.837309
+                    -93.10486, 
+                    37.62997
                 ], 
                 "type": "Point"
             }, 
@@ -4441,7 +4441,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 13, 2017 9:18 pm Central"
+        "latestLoad": "February 13, 2017 10:22 pm Central"
     }, 
     "type": "FeatureCollection"
 };

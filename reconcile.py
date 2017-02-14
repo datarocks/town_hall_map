@@ -1,4 +1,15 @@
 reconciled_addresses = {
+    '1347 South Ash Street, Buffalo, MO 65622': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '1347 South Ash Street',
+            u'county': None,
+            u'city': 'Buffalo',
+            u'state': 'MO',
+            u'zip': '65622'
+        },
+        'corrected_string': '1347 South Ash Street, Buffalo, MO 65622',
+        'corrected_lat_long': {'lat': 37.62997, 'lng': -93.10486}
+    }},
     '155 North IH 35, Cotulla, TX 78104': {"reconciled": {
         u'corrected_parts': {
             u'street': '155 N. IH-35, 155 I-35',
