@@ -3492,7 +3492,7 @@ var geoJsonData = {
                 "notes": "Rep. Cohen confirmed in attendance.", 
                 "party": "Democratic", 
                 "state": "Tennessee", 
-                "time": "0.4166666667 EST"
+                "time": "10:00 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -3768,7 +3768,7 @@ var geoJsonData = {
                 "notes": null, 
                 "party": "Republican", 
                 "state": "Texas", 
-                "time": "0.4166666667 CST"
+                "time": "10:00 AM CST"
             }, 
             "type": "Feature"
         }, 
@@ -3861,6 +3861,52 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Texas", 
                 "time": "12:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -96.54277, 
+                    33.01036
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "300 Country Club Drive #100, Wylie, TX 75098", 
+                "date": "Monday, February 13, 2017", 
+                "date8061": "2017-02-13", 
+                "district": "TX-32", 
+                "location": "Wylie City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Pete Sessions", 
+                "notes": "<a href=\"https://www.facebook.com/petesessions/\" target=\"_blank\">https://www.facebook.com/petesessions/</a>", 
+                "party": "Republican", 
+                "state": "Texas", 
+                "time": "1:30 PM - 5:30 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -96.5659266034483, 
+                    32.9030763793103
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3901 Main Street, Rowlett, TX 75088", 
+                "date": "Monday, February 13, 2017", 
+                "date8061": "2017-02-13", 
+                "district": "TX-32", 
+                "location": "Rowlett City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Pete Sessions", 
+                "notes": "<a href=\"https://www.facebook.com/petesessions/\" target=\"_blank\">https://www.facebook.com/petesessions/</a>", 
+                "party": "Republican", 
+                "state": "Texas", 
+                "time": "1:30 PM - 3:30 PM CST"
             }, 
             "type": "Feature"
         }, 
@@ -4395,11 +4441,24 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 12, 2017 9:51 pm Central"
+        "latestLoad": "February 13, 2017 8:49 pm Central"
     }, 
     "type": "FeatureCollection"
 };
 var nonGeoData= [
+    {
+        "address": null, 
+        "date": "Tuesday, February 14, 2017", 
+        "date8061": "2017-02-14", 
+        "district": "AZ-02", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Martha McSally", 
+        "notes": "877-229-8493 pin 114341", 
+        "party": "Republican", 
+        "state": "Arizona", 
+        "time": "5:30 PM MST"
+    }, 
     {
         "address": null, 
         "date": "", 
@@ -4541,7 +4600,7 @@ var nonGeoData= [
         "notes": "<a href=\"https://schrader.house.gov/forms/form/?ID=3140\" target=\"_blank\">https://schrader.house.gov/forms/form/?ID=3140</a>", 
         "party": "Democratic", 
         "state": "Oregon", 
-        "time": "0.75 PST"
+        "time": "6:00 PM PST"
     }, 
     {
         "address": null, 
