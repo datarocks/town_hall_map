@@ -49,69 +49,23 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -122.482933539709, 
-                    37.72921235
+                    -94.1892335, 
+                    35.9245299
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1101 Eucalyptus Dr, San Francisco, CA 94132", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "CA-14", 
-                "location": "Place Lowell High School - Carol Channing theater", 
-                "meetingType": "Town Hall", 
-                "member": "Jackie Speier", 
-                "notes": "Lowell High School PTSA invites you to attend when Congresswomen Jackie Speier has a \"Conversation about America\" with people who have questions about the changes that are confronting us. Ticketed event, please register HERE", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "11:00 AM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -121.665393163265, 
-                    36.6754827755102
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "411 Central Ave, Salinas, CA 93901", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "CA-20", 
-                "location": "Hartnell Community College - Steinbeck Hall", 
-                "meetingType": "Town Hall", 
-                "member": "Jimmy Panetta", 
-                "notes": "Town Hall meeting to hear from Central Coast residents about concerns regarding Pres. Trump's executive order on immigration. ", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "1:00 PM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -121.665393163265, 
-                    36.6754827755102
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "411 Central Ave, Salinas, CA 93901", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "CA-19", 
-                "location": "Hartnell Community College - Steinbeck Hall", 
-                "meetingType": "Town Hall", 
-                "member": "Zoe Lofgren", 
-                "notes": "Town Hall meeting to hear from Central Coast residents about concerns regarding Pres. Trump's executive order on immigration. ", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "1:00 PM PST"
+                "address": "262 Main St, West Fork, AR 72774", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "AR-03", 
+                "location": "", 
+                "meetingType": "Coffee", 
+                "member": "Steve Womack", 
+                "notes": "Coffee with Congressman Womack", 
+                "party": "Republican", 
+                "state": "Arkansas", 
+                "time": "8:30 AM - 9:30 AM CST"
             }, 
             "type": "Feature"
         }, 
@@ -204,6 +158,29 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "California", 
                 "time": "6:00 PM - 8:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -119.698845857143, 
+                    34.4204841428571
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "15 E. De La Guerra St., Santa Barbara, CA 93101", 
+                "date": "Sat, Feb 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-24", 
+                "location": "De La Guerra Plaza", 
+                "meetingType": "President's Day March", 
+                "member": "Salud Carbajal", 
+                "notes": "Hosted by United We Stand. A march with a speaking program.", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "11:00 AM PST"
             }, 
             "type": "Feature"
         }, 
@@ -463,29 +440,6 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -121.7454723, 
-                    38.5564957
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "203 E 14th St, Davis, CA 95616", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "CA-03", 
-                "location": "City of Davis Veterans Memorial Theatre", 
-                "meetingType": "Town Hall", 
-                "member": "John Garamendi", 
-                "notes": "<a href=\"https://www.facebook.com/events/170186310142764/\" target=\"_blank\">https://www.facebook.com/events/170186310142764/</a>", 
-                "party": "Democratic", 
-                "state": "California", 
-                "time": "5:00 PM - 6:30 PM PST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
                     -122.133922702398, 
                     38.0191029022529
                 ], 
@@ -499,7 +453,7 @@ var geoJsonData = {
                 "location": "", 
                 "meetingType": "Town Hall", 
                 "member": "Mark DeSaulnier", 
-                "notes": "ACA Town Hall with Congressman Mike Thompson and Congressman Mike DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
+                "notes": "ACA Town Hall with Rep. Thompson and Rep. DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "10:30 AM PST"
@@ -637,7 +591,7 @@ var geoJsonData = {
                 "location": "", 
                 "meetingType": "Town Hall", 
                 "member": "Mike Thompson", 
-                "notes": "ACA Town Hall with Congressman Mike Thompson and Congressman Mike DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
+                "notes": "ACA Town Hall with Rep. Thompson and Rep. DeSaulnier. <a href=\"https://www.facebook.com/events/1238408296255416/\" target=\"_blank\">https://www.facebook.com/events/1238408296255416/</a>", 
                 "party": "Democratic", 
                 "state": "California", 
                 "time": "10:30 AM - 12:00 PM PST"
@@ -693,6 +647,52 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -118.125985273384, 
+                    34.059710596602
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "320 West Newmark Ave, Monterey Park, CA 91754", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-27", 
+                "location": "Monterey Park City Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Judy Chu", 
+                "notes": "ACA Town Hall with Rep. Roybal-Allard and Rep. Chu\n", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "1:00 PM - 2:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -118.125985273384, 
+                    34.059710596602
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "320 West Newmark Ave, Monterey Park, CA 91754", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-40", 
+                "location": "Monterey Park City Hall", 
+                "meetingType": "Town Hall", 
+                "member": "Lucille Roybal-Allard", 
+                "notes": "ACA Town Hall with Rep. Roybal-Allard and Rep. Chu\n", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "1:00 PM - 2:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -75.5473350415803, 
                     39.7473554
                 ], 
@@ -710,52 +710,6 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "Delaware", 
                 "time": "4:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -82.67428, 
-                    28.26772
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "8731 Citizens Drive, New Port Richey, FL 34654", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "FL-12", 
-                "location": "West Pasco Government Center", 
-                "meetingType": "Town Hall", 
-                "member": "Gus Bilirakis", 
-                "notes": "Health Care Reform Listening Session", 
-                "party": "Republican", 
-                "state": "Florida", 
-                "time": "10:00 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -80.1594025, 
-                    26.2340599
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "520 NW 3rd St, Pompano Beach, FL 33060", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "FL-22", 
-                "location": "Larkins Community Center", 
-                "meetingType": "Town Hall", 
-                "member": "Ted Deutch", 
-                "notes": "RSVP here - <a href=\"https://www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122\" target=\"_blank\">https://www.eventbrite.com/e/pompano-beach-town-hall-with-rep-ted-deutch-tickets-31755355122</a>", 
-                "party": "Democratic", 
-                "state": "Florida", 
-                "time": "10:30 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -992,6 +946,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -81.1629794, 
+                    31.9819871
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "13040 Abercorn St, Savannah, GA 31319", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "GA-01", 
+                "location": "Armstrong College Center Auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Buddy Carter", 
+                "notes": "Chatham County Town Hall with Rep. Carter", 
+                "party": "Republican", 
+                "state": "Georgia", 
+                "time": "3:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -157.94461, 
                     21.67455
                 ], 
@@ -1003,7 +980,7 @@ var geoJsonData = {
                 "date8061": "2017-02-14", 
                 "district": "HI-2", 
                 "location": " ", 
-                "meetingType": "Town Hall", 
+                "meetingType": "Office Hours", 
                 "member": "Tulsi Gabbard", 
                 "notes": " ", 
                 "party": "Democratic", 
@@ -1026,35 +1003,12 @@ var geoJsonData = {
                 "date8061": "2017-02-24", 
                 "district": "HI-2", 
                 "location": "Kailua Public Library", 
-                "meetingType": "Town Hall", 
+                "meetingType": "Office Hours", 
                 "member": "Tulsi Gabbard", 
                 "notes": " ", 
                 "party": "Democratic", 
                 "state": "Hawaii", 
                 "time": "12:00 PM "
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -87.8445118, 
-                    42.1711365
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": ", Deerfield, IL 60015", 
-                "date": "Mon, Feb 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "IL-8", 
-                "location": " ", 
-                "meetingType": "Other", 
-                "member": "Raja Krishnamoorthi", 
-                "notes": "Joint Action Committee for Political Affairs. Call JAC to attend: 847-433-5999.", 
-                "party": "Democratic", 
-                "state": "Illinois", 
-                "time": "9:30 AM CST"
             }, 
             "type": "Feature"
         }, 
@@ -1774,6 +1728,52 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -84.5101132473641, 
+                    39.083824075446
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "638 Madison Avenue, Covington, KY 41011", 
+                "date": "Thursday, February 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "Senate", 
+                "location": "Hotel Covington", 
+                "meetingType": "Ticketed Event", 
+                "member": "Mitch McConnell", 
+                "notes": "Joint Northern Kentucky/Cincinnati Chambers' Federal Legislative Priorities Luncheon <a href=\"http://web.nkychamber.com/events/eventdetail.aspx?EventID=2590\" target=\"_blank\">http://web.nkychamber.com/events/eventdetail.aspx?EventID=2590</a>", 
+                "party": "Republican", 
+                "state": "Kentucky", 
+                "time": "11:30 AM - 1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -85.57629, 
+                    38.21782
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1903 Embassy Square Blvd, Jeffersontown, KY 404299", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "Senate", 
+                "location": "Louisville Marriott East", 
+                "meetingType": "Ticketed event", 
+                "member": "Mitch McConnell", 
+                "notes": "Jeffersontown Chamber of Commerce ticketed luncheon with Sen. McConnell", 
+                "party": "Republican", 
+                "state": "Kentucky", 
+                "time": "11:30 AM - 1:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -86.6670496464646, 
                     40.194146030303
                 ], 
@@ -2004,23 +2004,23 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -71.236203, 
-                    42.281587
+                    -77.713337, 
+                    39.66639
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1471 Highland Ave, Needham, MA ", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "MA-04", 
-                "location": "Needham Town Hall, Powers Hall", 
+                "address": "701 Northern Ave, Hagerstown, MD 21742", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "MD-06", 
+                "location": "Northern Middle School", 
                 "meetingType": "Town Hall", 
-                "member": "Joe Kennedy III", 
-                "notes": "<a href=\"https://kennedy.house.gov/tour-34\" target=\"_blank\">https://kennedy.house.gov/tour-34</a>", 
+                "member": "John Delaney", 
+                "notes": "Opioid Addiction Workshop - Register: <a href=\"https://www.eventbrite.com/e/opioid-addiction-workshop-registration-31884217553\" target=\"_blank\">https://www.eventbrite.com/e/opioid-addiction-workshop-registration-31884217553</a>", 
                 "party": "Democratic", 
-                "state": "Massachusetts", 
-                "time": "10:00 AM EST"
+                "state": "Maryland", 
+                "time": "6:00 PM EST"
             }, 
             "type": "Feature"
         }, 
@@ -2625,6 +2625,52 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -93.189403, 
+                    44.9412471666667
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2115 Summit Ave, St. Paul, MN 55105", 
+                "date": "Thursday, February 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "MN-04", 
+                "location": "University of St. Thomas - James Woulfe Alumni Hall, 3rd Floor", 
+                "meetingType": "Town Hall", 
+                "member": "Betty McCollum", 
+                "notes": "Town Hall on Climate Change", 
+                "party": "Democratic", 
+                "state": "Minnesota", 
+                "time": "4:00 PM - 5:00 PM CST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.0041745517209, 
+                    38.8928461
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "Room 309, Hart Senate Office Building, Washington, DC", 
+                "date": "Every Wednesday Senate is in session", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "309 Hart Senate Bldg", 
+                "meetingType": "Coffee", 
+                "member": "Al Franken", 
+                "notes": "Breakfast with Al Franken: <a href=\"https://www.franken.senate.gov/?p=breakfast\" target=\"_blank\">https://www.franken.senate.gov/?p=breakfast</a>", 
+                "party": "Democratic", 
+                "state": "Minnesota", 
+                "time": "8:45 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -77.0366455, 
                     38.8949549
                 ], 
@@ -2711,52 +2757,6 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Missouri", 
                 "time": "9:30 AM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -102.870680285714, 
-                    42.0994085714286
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "515 Box Butte Ave, Alliance, NE 69301", 
-                "date": "Mon, Feb 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "Senate", 
-                "location": "Box Butte County Courthouse", 
-                "meetingType": "Office Hours", 
-                "member": "Deb Fischer", 
-                "notes": "Staff. Sen. Fischer not in attendance. \n", 
-                "party": "Republican", 
-                "state": "Nebraska", 
-                "time": "9:00 AM  "
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -103.661715938776, 
-                    41.2358673469388
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "208 S Walnut St, Kimball, NE 69145", 
-                "date": "Mon, Feb 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "Senate", 
-                "location": "Kimball Public Library", 
-                "meetingType": "Office Hours", 
-                "member": "Deb Fischer", 
-                "notes": "Staff. Sen. Fischer not in attendance. \n", 
-                "party": "Republican", 
-                "state": "Nebraska", 
-                "time": "1:00 PM  "
             }, 
             "type": "Feature"
         }, 
@@ -2987,6 +2987,52 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "New York", 
                 "time": "5:30 PM - 8:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.958496, 
+                    40.7753386666667
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1157 Lexington Avenue, New York, NY 10075", 
+                "date": "Thursday, March 30, 2017", 
+                "date8061": "2017-03-30", 
+                "district": "NY-12", 
+                "location": "All Souls Church", 
+                "meetingType": "Town Hall", 
+                "member": "Carolyn Maloney", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "New York", 
+                "time": "7:30 PM - 8:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -73.7844556, 
+                    43.08339
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "474 Broadway, Saratoga Springs, NY ", 
+                "date": "Friday, February 17, 2017", 
+                "date8061": "2017-02-17", 
+                "district": "NY-20", 
+                "location": "Saratoga Springs City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Paul Tonko", 
+                "notes": "Staff only. Rep. Tonko not in attendance", 
+                "party": "Democratic", 
+                "state": "New York", 
+                "time": "1:00 PM - 4:00 PM EST"
             }, 
             "type": "Feature"
         }, 
@@ -3338,121 +3384,6 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -71.3509139, 
-                    41.831024
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "2000 Pawtucket Ave, East Providence, RI ", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "Senate", 
-                "location": "East Providence High School Auditorium", 
-                "meetingType": "Town Hall", 
-                "member": "Jack Reed", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Rhode Island", 
-                "time": "2:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -71.3509139, 
-                    41.831024
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "2000 Pawtucket Ave, East Providence, RI ", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "Senate", 
-                "location": "East Providence High School Auditorium", 
-                "meetingType": "Town Hall", 
-                "member": "Sheldon Whitehouse", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Rhode Island", 
-                "time": "2:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -71.3509139, 
-                    41.831024
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "2000 Pawtucket Ave, East Providence, RI ", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "RI-2", 
-                "location": "East Providence High School Auditorium", 
-                "meetingType": "Town Hall", 
-                "member": "Jim Langevin", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Rhode Island", 
-                "time": "2:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -71.3509139, 
-                    41.831024
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "2000 Pawtucket Ave, East Providence, RI ", 
-                "date": "Sun, Feb 12, 2017", 
-                "date8061": "2017-02-12", 
-                "district": "RI-1", 
-                "location": "East Providence High School Auditorium", 
-                "meetingType": "Town Hall", 
-                "member": "David Cicilline", 
-                "notes": null, 
-                "party": "Democratic", 
-                "state": "Rhode Island", 
-                "time": "2:00 PM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -71.4086868591995, 
-                    41.7447522888931
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "27 Pilgrim Pkwy, Warwick, RI 02888", 
-                "date": "Mon, Feb 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "RI-2", 
-                "location": "Pilgrim Senior Center", 
-                "meetingType": "Other", 
-                "member": "Jim Langevin", 
-                "notes": "Annual Free File Briefing. <a href=\"https://buff.ly/2kSoj5N\" target=\"_blank\">https://buff.ly/2kSoj5N</a>", 
-                "party": "Democratic", 
-                "state": "Rhode Island", 
-                "time": "10:30 AM EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
                     -77.0366455, 
                     38.8949549
                 ], 
@@ -3470,29 +3401,6 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "South Dakota", 
                 "time": "  EST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -89.873708, 
-                    35.1044919
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "3206 Poplar Ave, Memphis, TN 38111", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "TN-9", 
-                "location": "East High School", 
-                "meetingType": "Town Hall", 
-                "member": "Steve Cohen", 
-                "notes": "Rep. Cohen confirmed in attendance.", 
-                "party": "Democratic", 
-                "state": "Tennessee", 
-                "time": "10:00 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -3867,52 +3775,6 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -96.54277, 
-                    33.01036
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "300 Country Club Drive #100, Wylie, TX 75098", 
-                "date": "Monday, February 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "TX-32", 
-                "location": "Wylie City Hall", 
-                "meetingType": "Office Hours", 
-                "member": "Pete Sessions", 
-                "notes": "<a href=\"https://www.facebook.com/petesessions/\" target=\"_blank\">https://www.facebook.com/petesessions/</a>", 
-                "party": "Republican", 
-                "state": "Texas", 
-                "time": "1:30 PM - 5:30 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
-                    -96.5659266034483, 
-                    32.9030763793103
-                ], 
-                "type": "Point"
-            }, 
-            "properties": {
-                "address": "3901 Main Street, Rowlett, TX 75088", 
-                "date": "Monday, February 13, 2017", 
-                "date8061": "2017-02-13", 
-                "district": "TX-32", 
-                "location": "Rowlett City Hall", 
-                "meetingType": "Office Hours", 
-                "member": "Pete Sessions", 
-                "notes": "<a href=\"https://www.facebook.com/petesessions/\" target=\"_blank\">https://www.facebook.com/petesessions/</a>", 
-                "party": "Republican", 
-                "state": "Texas", 
-                "time": "1:30 PM - 3:30 PM CST"
-            }, 
-            "type": "Feature"
-        }, 
-        {
-            "geometry": {
-                "coordinates": [
                     -79.6797246306441, 
                     37.5279931041298
                 ], 
@@ -3982,23 +3844,1150 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -122.174271, 
-                    48.0550962
+                    -79.047985, 
+                    37.582888
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "1605 7th Street, Marysville, WA 98270", 
-                "date": "Sat, Feb 11, 2017", 
-                "date8061": "2017-02-11", 
-                "district": "WA-2", 
-                "location": "Totem Middle School", 
-                "meetingType": "Town Hall", 
-                "member": "Rick Larsen", 
-                "notes": "\"An Affordable Care Act Town Hall with Rep. Rick Larsen\"", 
-                "party": "Democratic", 
-                "state": "Washington", 
-                "time": "10:00 AM PST"
+                "address": "153 Washington St., Amherst, VA 24521", 
+                "date": "Tuesday, March 7, 2017", 
+                "date8061": "2017-03-07", 
+                "district": "VA-6", 
+                "location": "Amherst Co. Administration Building, Board of Supervisor's Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.047985, 
+                    37.582888
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "153 Washington St., Amherst, VA 24521", 
+                "date": "Monday, April 3, 2017", 
+                "date8061": "2017-04-03", 
+                "district": "VA-6", 
+                "location": "Amherst Co. Administration Building, Board of Supervisor's Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.6797246306441, 
+                    37.5279931041298
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "19753 Main St., Buchanan, VA 24066", 
+                "date": "Tuesday, March 14, 2017", 
+                "date8061": "2017-03-14", 
+                "district": "VA-6", 
+                "location": "Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.6797246306441, 
+                    37.5279931041298
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "19753 Main St., Buchanan, VA 24066", 
+                "date": "Tuesday, April 11, 2017", 
+                "date8061": "2017-04-11", 
+                "district": "VA-6", 
+                "location": "Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.974045, 
+                    38.384459
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "201 Green St., Bridgewater, VA 22812", 
+                "date": "Tuesday, March 7, 2017", 
+                "date8061": "2017-03-07", 
+                "district": "VA-6", 
+                "location": "Municipal Building", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.974045, 
+                    38.384459
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "201 Green St., Bridgewater, VA 22812", 
+                "date": "Saturday, April 1, 2017", 
+                "date8061": "2017-04-01", 
+                "district": "VA-6", 
+                "location": "Municipal Building", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.974045, 
+                    38.384459
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "201 Green St., Bridgewater, VA 22812", 
+                "date": "Tuesday, May 2, 2017", 
+                "date8061": "2017-05-02", 
+                "district": "VA-6", 
+                "location": "Municipal Building", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.3560161, 
+                    37.7342243
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2039 Sycamore Ave, Buena Vista, VA 24416", 
+                "date": "Thursday, March 16, 2017", 
+                "date8061": "2017-03-16", 
+                "district": "VA-6", 
+                "location": "City Hall, Circuit Courtroom", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.3560161, 
+                    37.7342243
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2039 Sycamore Ave, Buena Vista, VA 24416", 
+                "date": "Thursday, April 20, 2017", 
+                "date8061": "2017-04-20", 
+                "district": "VA-6", 
+                "location": "City Hall, Circuit Courtroom", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.795368818978, 
+                    38.6117237359624
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "116 Broadway Ave, Broadway, VA 22815", 
+                "date": "Thursday, March 9, 2017", 
+                "date8061": "2017-03-09", 
+                "district": "VA-6", 
+                "location": "Town Hall, Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.795368818978, 
+                    38.6117237359624
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "116 Broadway Ave, Broadway, VA 22815", 
+                "date": "Thursday, April 13, 2017", 
+                "date8061": "2017-04-13", 
+                "district": "VA-6", 
+                "location": "Town Hall, Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.6213899, 
+                    38.407265
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "20593 Blue and Gold Dr., Elkton, VA 22827", 
+                "date": "Thursday, March 2, 2017", 
+                "date8061": "2017-03-02", 
+                "district": "VA-6", 
+                "location": "Elkton Area Community Center", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.6213899, 
+                    38.407265
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "20593 Blue and Gold Dr., Elkton, VA 22827", 
+                "date": "Thursday, April 6, 2017", 
+                "date8061": "2017-04-06", 
+                "district": "VA-6", 
+                "location": "Elkton Area Community Center", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.87805, 
+                    37.4991
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1 W Main St., Fincastle, VA 24090", 
+                "date": "Tuesday, March 14, 2017", 
+                "date8061": "2017-03-14", 
+                "district": "VA-6", 
+                "location": "Botetourt Co. Courthouse, Second Floor Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.87805, 
+                    37.4991
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1 W Main St., Fincastle, VA 24090", 
+                "date": "Monday, April 10, 2017", 
+                "date8061": "2017-04-10", 
+                "district": "VA-6", 
+                "location": "Botetourt Co. Courthouse, Second Floor Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.2849058668099, 
+                    37.3654708982664
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "15583 Forest Rd., Forest, VA 24551", 
+                "date": "Tuesday, March 21, 2017", 
+                "date8061": "2017-03-21", 
+                "district": "VA-6", 
+                "location": "Forest Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.2849058668099, 
+                    37.3654708982664
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "15583 Forest Rd., Forest, VA 24551", 
+                "date": "Tuesday, April 18, 2017", 
+                "date8061": "2017-04-18", 
+                "district": "VA-6", 
+                "location": "Forest Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, March 1, 2017", 
+                "date8061": "2017-03-01", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, March 8, 2017", 
+                "date8061": "2017-03-08", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, March 15, 2017", 
+                "date8061": "2017-03-15", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, March 22, 2017", 
+                "date8061": "2017-03-22", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, March 29, 2017", 
+                "date8061": "2017-03-29", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, April 5, 2017", 
+                "date8061": "2017-04-05", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, April 12, 2017", 
+                "date8061": "2017-04-12", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.1854093, 
+                    38.9056584
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "330 E. Criser Rd., Front Royal, VA 22630", 
+                "date": "Wednesday, April 19, 2017", 
+                "date8061": "2017-04-19", 
+                "district": "VA-6", 
+                "location": "Samuels Public Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every Weds. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.826645, 
+                    38.266699
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "601 Dogwood Ave, Grottoes, VA 24441", 
+                "date": "Tuesday, March 21, 2017", 
+                "date8061": "2017-03-21", 
+                "district": "VA-6", 
+                "location": "Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Tuesday of every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.826645, 
+                    38.266699
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "601 Dogwood Ave, Grottoes, VA 24441", 
+                "date": "Friday, April 14, 2017", 
+                "date8061": "2017-04-14", 
+                "district": "VA-6", 
+                "location": "Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Tuesday of every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.444021, 
+                    37.7830164
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "150 South Main St., Lexington, VA 24450", 
+                "date": "Thursday, March 16, 2017", 
+                "date8061": "2017-03-16", 
+                "district": "VA-6", 
+                "location": "Rockbridge Co. Administration Building, Second Floor", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.444021, 
+                    37.7830164
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "150 South Main St., Lexington, VA 24450", 
+                "date": "Thursday, April 20, 2017", 
+                "date8061": "2017-04-20", 
+                "district": "VA-6", 
+                "location": "Rockbridge Co. Administration Building, Second Floor", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 3rd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.4583574, 
+                    38.6656746
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "45 E. Main St., Luray, VA 22835", 
+                "date": "Monday, March 6, 2017", 
+                "date8061": "2017-03-06", 
+                "district": "VA-6", 
+                "location": "Luray Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "1st&3rd Monday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.4583574, 
+                    38.6656746
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "45 E. Main St., Luray, VA 22835", 
+                "date": "Monday, March 20, 2017", 
+                "date8061": "2017-03-20", 
+                "district": "VA-6", 
+                "location": "Luray Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "1st&3rd Monday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.4583574, 
+                    38.6656746
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "45 E. Main St., Luray, VA 22835", 
+                "date": "Monday, April 3, 2017", 
+                "date8061": "2017-04-03", 
+                "district": "VA-6", 
+                "location": "Luray Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "1st&3rd Monday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.4583574, 
+                    38.6656746
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "45 E. Main St., Luray, VA 22835", 
+                "date": "Monday, April 17, 2017", 
+                "date8061": "2017-04-17", 
+                "district": "VA-6", 
+                "location": "Luray Town Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "1st&3rd Monday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.12548, 
+                    37.43398
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "174 River James Shopping Center, Madison Heights, VA 22727", 
+                "date": "Tuesday, March 7, 2017", 
+                "date8061": "2017-03-07", 
+                "district": "VA-6", 
+                "location": "Goodwill", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.12548, 
+                    37.43398
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "174 River James Shopping Center, Madison Heights, VA 22727", 
+                "date": "Monday, April 10, 2017", 
+                "date8061": "2017-04-10", 
+                "district": "VA-6", 
+                "location": "Goodwill", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 1st Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.5835129411765, 
+                    38.4119469411765
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "10 Water St., Monterey, VA 24465", 
+                "date": "Thursday, March 9, 2017", 
+                "date8061": "2017-03-09", 
+                "district": "VA-6", 
+                "location": "Highland County Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "2:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.5835129411765, 
+                    38.4119469411765
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "10 Water St., Monterey, VA 24465", 
+                "date": "Thursday, April 13, 2017", 
+                "date8061": "2017-04-13", 
+                "district": "VA-6", 
+                "location": "Highland County Library", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "2:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.6402102352963, 
+                    38.7496033017283
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "5901 Main St., Mount Jackson, VA 22842", 
+                "date": "Thursday, March 9, 2017", 
+                "date8061": "2017-03-09", 
+                "district": "VA-6", 
+                "location": "Town Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.6402102352963, 
+                    38.7496033017283
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "5901 Main St., Mount Jackson, VA 22842", 
+                "date": "Thursday, April 13, 2017", 
+                "date8061": "2017-04-13", 
+                "district": "VA-6", 
+                "location": "Town Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.8981516326531, 
+                    37.2788914489796
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "311 South Pollard St., Vinton, VA 24179", 
+                "date": "Tuesday, February 28, 2017", 
+                "date8061": "2017-02-28", 
+                "district": "VA-6", 
+                "location": "Town Hall, Town Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 4th Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "8:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.8981516326531, 
+                    37.2788914489796
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "311 South Pollard St., Vinton, VA 24179", 
+                "date": "Tuesday, March 28, 2017", 
+                "date8061": "2017-03-28", 
+                "district": "VA-6", 
+                "location": "Town Hall, Town Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 4th Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "8:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.8981516326531, 
+                    37.2788914489796
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "311 South Pollard St., Vinton, VA 24179", 
+                "date": "Tuesday, April 25, 2017", 
+                "date8061": "2017-04-25", 
+                "district": "VA-6", 
+                "location": "Town Hall, Town Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 4th Tuesday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "8:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.83876, 
+                    38.17563
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "65 Courthouse Hill Rd., Warm Springs, VA 24484", 
+                "date": "Thursday, March 9, 2017", 
+                "date8061": "2017-03-09", 
+                "district": "VA-6", 
+                "location": "Bath Co. Courthouse, Second Floor", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.83876, 
+                    38.17563
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "65 Courthouse Hill Rd., Warm Springs, VA 24484", 
+                "date": "Thursday, April 13, 2017", 
+                "date8061": "2017-04-13", 
+                "district": "VA-6", 
+                "location": "Bath Co. Courthouse, Second Floor", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held 2nd Thursday every month. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.894524, 
+                    38.061014
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "600 South Wayne Ave, Waynesboro, VA 22980", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "VA-6", 
+                "location": "Public Library, First Floor Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every 3rd Tuesday. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.894524, 
+                    38.061014
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "600 South Wayne Ave, Waynesboro, VA 22980", 
+                "date": "Tuesday, March 21, 2017", 
+                "date8061": "2017-03-21", 
+                "district": "VA-6", 
+                "location": "Public Library, First Floor Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every 3rd Tuesday. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.894524, 
+                    38.061014
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "600 South Wayne Ave, Waynesboro, VA 22980", 
+                "date": "Tuesday, April 18, 2017", 
+                "date8061": "2017-04-18", 
+                "district": "VA-6", 
+                "location": "Public Library, First Floor Conference Room", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every 3rd Tuesday. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "11:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.5001079, 
+                    38.888369
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "135 North Main St., Woodstock, VA 22664", 
+                "date": "Thursday, March 16, 2017", 
+                "date8061": "2017-03-16", 
+                "district": "VA-6", 
+                "location": "Town Hall, Town Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every 3rd Thursday. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -78.5001079, 
+                    38.888369
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "135 North Main St., Woodstock, VA 22664", 
+                "date": "Thursday, April 20, 2017", 
+                "date8061": "2017-04-20", 
+                "district": "VA-6", 
+                "location": "Town Hall, Town Council Chambers", 
+                "meetingType": "Office Hours", 
+                "member": "Bob Goodlatte", 
+                "notes": "Held every 3rd Thursday. Rep. Goodlatte not in attendance; staff attends. More info here: <a href=\"http://goodlatte.house.gov/constituent-services/open-door-meetings.htm\" target=\"_blank\">http://goodlatte.house.gov/constituent-services/open-door-meetings.htm</a>", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "9:30 AM EST"
             }, 
             "type": "Feature"
         }, 
@@ -4022,6 +5011,213 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "Washington", 
                 "time": "11:30 AM - 12:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.41181, 
+                    38.47813
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "148 Court Square, Webster Springs, WV 26288", 
+                "date": "Wednesday, February 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "Senate", 
+                "location": "Webster County Senior Center", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "10:30 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -81.5390621037709, 
+                    37.5833233731988
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "24 Main Ave, Pineville, WV 24874", 
+                "date": "Wednesday, February 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "Senate", 
+                "location": "Wyoming County Courthouse", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "11:00 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.1618191, 
+                    39.4843305
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1201 Locust Ave, Fairmont, WV 26554", 
+                "date": "Wednesday, February 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "Senate", 
+                "location": "Fairmont State University - Falcon Center\n", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "11:30 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.331051, 
+                    38.6404481
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "231 Mill Road, Franklin, WV 26807", 
+                "date": "Wednesday, February 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "Senate", 
+                "location": "Franklin Senior Center", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "11:30 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.34191, 
+                    39.28018
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "215 S Third St, Suite 101, Clarksburg, WV 26307", 
+                "date": "Wednesday, February 15, 2017", 
+                "date8061": "2017-02-15", 
+                "district": "Senate", 
+                "location": "Clarksburg Convention and Visitors Bureau", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "2:00 PM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -82.1392407379415, 
+                    38.8417716600165
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "305 Main St, Point Pleasant, WV 25550", 
+                "date": "Thursday, February 16, 2017", 
+                "date8061": "2017-02-16", 
+                "district": "Senate", 
+                "location": "Mason County Economic Development Authority", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "10:00 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.73024, 
+                    38.66343
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "33 Senior Center Dr, Sutton, WV 26601", 
+                "date": "Thursday, February 16, 2017", 
+                "date8061": "2017-02-16", 
+                "district": "Senate", 
+                "location": "Braxton County Senior Center", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "10:30 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -77.86115, 
+                    39.29588
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "103 Fifth Ave, Ranson, WV 25438", 
+                "date": "Thursday, February 16, 2017", 
+                "date8061": "2017-02-16", 
+                "district": "Senate", 
+                "location": "Jefferson County Senior Center", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "11:30 AM EST\n"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -80.9973007555556, 
+                    39.5643947111111
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "710 Main St, Sistersville, WV 26175", 
+                "date": "Thursday, February 16, 2017", 
+                "date8061": "2017-02-16", 
+                "district": "Senate", 
+                "location": "Sistersville Economic Development Authority", 
+                "meetingType": "Office Hours", 
+                "member": "Shelley Moore Capito", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "West Virginia", 
+                "time": "12:00 PM EST\n"
             }, 
             "type": "Feature"
         }, 
@@ -4438,10 +5634,33 @@ var geoJsonData = {
                 "time": "1:00 PM CT"
             }, 
             "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -89.5093189, 
+                    43.0949336
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "7425 Hubbard Ave, Middleton, WI 53562", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "Senate", 
+                "location": "Middleton Public Library", 
+                "meetingType": "\"Empty Chair\" Town Hall\n", 
+                "member": "Ron Johnson", 
+                "notes": "Sen. Johnson invited, but not confirmed. <a href=\"https://www.facebook.com/events/887785784694767\" target=\"_blank\">https://www.facebook.com/events/887785784694767</a>", 
+                "party": "Republican", 
+                "state": "Wisconsin", 
+                "time": "6:00 PM - 8:30 PM CST"
+            }, 
+            "type": "Feature"
         }
     ], 
     "properties": {
-        "latestLoad": "February 13, 2017 10:22 pm Central"
+        "latestLoad": "February 14, 2017 9:18 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -4465,7 +5684,7 @@ var nonGeoData= [
         "date8061": null, 
         "district": "CA-02", 
         "location": "Mobile", 
-        "meetingType": "Teletown Hall", 
+        "meetingType": "Tele-Town Hall", 
         "member": "Jared Huffman", 
         "notes": "Subcribe at <a href=\"https://huffman.house.gov/telephone-town-hall-request\" target=\"_blank\">https://huffman.house.gov/telephone-town-hall-request</a>", 
         "party": "Democratic", 
@@ -4484,6 +5703,19 @@ var nonGeoData= [
         "party": "Democratic", 
         "state": "California", 
         "time": "9:45 PM PST"
+    }, 
+    {
+        "address": null, 
+        "date": "Thursday, February 16, 2017", 
+        "date8061": "2017-02-16", 
+        "district": "CA-01", 
+        "location": "Dial in - see notes", 
+        "meetingType": "Teletown Hall", 
+        "member": "Doug LaMalfa", 
+        "notes": "From a tip from facebook - \"Anyone can listen into the call. Questions can be submitted during the call. Questions will be screened. If your question is selected you will be called upon to ask it on the call for everyone to hear. Call LaMalfa's office (202-225-3076) to sign up.\"", 
+        "party": "Republican", 
+        "state": "California", 
+        "time": "6:00 PM PST"
     }, 
     {
         "address": ", ,  ", 
@@ -4539,16 +5771,16 @@ var nonGeoData= [
     }, 
     {
         "address": null, 
-        "date": "Monday, February 13, 2017", 
-        "date8061": "2017-02-13", 
-        "district": "IL-6", 
+        "date": "Wednesday, February 15, 2017", 
+        "date8061": "2017-02-15", 
+        "district": "IL-13", 
         "location": "Call-in", 
-        "meetingType": "Tele-Town Hall", 
-        "member": "Peter Roskam", 
-        "notes": "RSVP: <a href=\"http://www.roskamforcongress.com/register-for-telephone-town-halls/\" target=\"_blank\">http://www.roskamforcongress.com/register-for-telephone-town-halls/</a>", 
+        "meetingType": "Teletown Hall", 
+        "member": "Rodney Davis", 
+        "notes": "To register: <a href=\"http://rodneydavis.house.gov/tele-town-hall-survey/\" target=\"_blank\">http://rodneydavis.house.gov/tele-town-hall-survey/</a>", 
         "party": "Republican", 
         "state": "Illinois", 
-        "time": "7:30 PM CST"
+        "time": "TBD CST"
     }, 
     {
         "address": null, 
@@ -4562,19 +5794,6 @@ var nonGeoData= [
         "party": "Democratic", 
         "state": "Iowa", 
         "time": "8:00 AM EST"
-    }, 
-    {
-        "address": ", ,  ", 
-        "date": "Mon, Feb 13, 2017", 
-        "date8061": "2017-02-13", 
-        "district": "NJ-3", 
-        "location": "Call-in", 
-        "meetingType": "Tele-Town Hall", 
-        "member": "Tom MacArthur", 
-        "notes": "\"Call-in information will be provided by email and social media.\"\n", 
-        "party": "Republican", 
-        "state": "New Jersey", 
-        "time": "5:00 PM EST"
     }, 
     {
         "address": ", ,  ", 
@@ -4614,6 +5833,45 @@ var nonGeoData= [
         "party": "Democratic", 
         "state": "Oregon", 
         "time": "Time TBD "
+    }, 
+    {
+        "address": null, 
+        "date": "Wednesday, February 22, 2017", 
+        "date8061": "2017-02-22", 
+        "district": "PA-6", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Ryan Costello", 
+        "notes": "To register: <a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
+        "party": "Republican", 
+        "state": "Pennsylvania", 
+        "time": "2:00 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Thursday, February 23, 2017", 
+        "date8061": "2017-02-23", 
+        "district": "PA-6", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Ryan Costello", 
+        "notes": "To register: <a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
+        "party": "Republican", 
+        "state": "Pennsylvania", 
+        "time": "7:00 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Monday, February 27, 2017", 
+        "date8061": "2017-02-27", 
+        "district": "PA-03", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Mike Kelly", 
+        "notes": "877-228-2184 - event ID 19013", 
+        "party": "Republican", 
+        "state": "Pennsylvania", 
+        "time": "7:15 PM EST"
     }, 
     {
         "address": null, 

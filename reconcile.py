@@ -115,6 +115,36 @@ reconciled_addresses = {
         'corrected_string': '600 S. Clyde Morris Blvd, Daytona Beach, FL 32114',
         'corrected_lat_long': {'lat': 29.19167995, 'lng': -81.0476402642554}
     }},
+    '1 Main St., Fincastle, VA 24090': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '1 W Main St.',
+            u'city': 'Fincastle',
+            u'state': 'VA',
+            u'zip': '24090'
+        },
+        'corrected_string': '1 W Main St., Fincastle, VA 24090',
+        'corrected_lat_long': {'lat': 37.49910, 'lng': -79.87805}
+    }},
+    '148 Courthouse Square, Webster Springs, WV 26288': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '148 Court Square',
+            u'city': 'Webster Springs',
+            u'state': 'WV',
+            u'zip': '26288'
+        },
+        'corrected_string': '148 Court Square, Webster Springs, WV 26288',
+        'corrected_lat_long': {'lat': 38.47813, 'lng': -80.41181}
+    }},
+    '33 Senior Center Dr, Sutton, WV 26601': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '33 Senior Center Dr',
+            u'city': 'Sutton',
+            u'state': 'WV',
+            u'zip': '26601'
+        },
+        'corrected_string': '33 Senior Center Dr, Sutton, WV 26601',
+        'corrected_lat_long': {'lat': 38.66343, 'lng': -80.73024}
+    }},
     '7117 Route 83, Cherry Creek, NY 14723': {"reconciled": {
         u'corrected_parts': {
             u'street': '109 South Old Statesville Rd',
@@ -141,6 +171,15 @@ reconciled_addresses = {
             u'state': 'DC',
         },
         'corrected_string': 'Room 724, Hart Senate Office Building, Washington, DC',
+        'corrected_lat_long': {'lat': 38.8928461, 'lng': -77.0041745517209}
+    }},
+    '309 Hart Senate Bldg, Washington, DC ': {"reconciled": {
+        u'corrected_parts': {
+            u'street': 'Hart Senate Office Building',
+            u'city': 'Washington',
+            u'state': 'DC',
+        },
+        'corrected_string': 'Room 309, Hart Senate Office Building, Washington, DC',
         'corrected_lat_long': {'lat': 38.8928461, 'lng': -77.0041745517209}
     }},
     '517 Hart Senate Office Building, Washington, DC ': {"reconciled": {
