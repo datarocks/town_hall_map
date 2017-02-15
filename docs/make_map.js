@@ -60,6 +60,7 @@ var tiles = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
 		});
 		var map = L.map('map');
 		L.tileLayer.provider('Stamen.Toner').addTo(map);
+		L.control.geocoder('mapzen-YiQFJPe').addTo(map);
 		//this gets us legislative districts from the census
 		var districtLayer = L.esri.featureLayer({
          url: "https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/Legislative/MapServer/0",
