@@ -155,6 +155,16 @@ reconciled_addresses = {
         'corrected_string': '7165 N Rd, Cherry Creek, NY 14723',
         'corrected_lat_long': {'lat': 42.305688, 'lng': -79.092803}
     }},
+    '45 Beach St. E, Laconia, NH 03246': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '45 Beacon St. East',
+            u'city': 'Laconia',
+            u'state': 'NH',
+            u'zip': '03246'
+        },
+        'corrected_string': '45 Beacon St. East, Laconia, NH 03246',
+        'corrected_lat_long': {'lat': 43.527895, 'lng': -71.4689076}
+    }},
     'Senate Hard Bldg, Room 511, Washington, DC ': {"reconciled": {
         u'corrected_parts': {
             u'street': 'Hart Senate Office Building',

@@ -72,6 +72,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -94.1192014, 
+                    36.1867467
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "922 East Emma Ave, Springdale, AR 72764", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "Senate", 
+                "location": "Jones Center", 
+                "meetingType": "Town Hall", 
+                "member": "Tom Cotton", 
+                "notes": "<a href=\"https://www.facebook.com/SenatorTomCotton/\" target=\"_blank\">https://www.facebook.com/SenatorTomCotton/</a>", 
+                "party": "Republican", 
+                "state": "Arkansas", 
+                "time": "5:00 PM - 6:30 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -118.3541241, 
                     34.0325157
                 ], 
@@ -693,6 +716,75 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -119.04652, 
+                    35.38214
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3100 Camino DelRio Ct, Bakersfield, CA ", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "CA-23", 
+                "location": "DoubleTree Hotel", 
+                "meetingType": "Ticketed event", 
+                "member": "Kevin McCarthy", 
+                "notes": "Kern County GOP Lincoln Day Dinner", 
+                "party": "Republican", 
+                "state": "California", 
+                "time": "6:00 PM - 7:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -119.04652, 
+                    35.38214
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3100 Camino DelRio Ct, Bakersfield, CA ", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "CA-22", 
+                "location": "DoubleTree Hotel", 
+                "meetingType": "Ticketed event", 
+                "member": "Devin Nunes", 
+                "notes": "Kern County GOP Lincoln Day Dinner", 
+                "party": "Republican", 
+                "state": "California", 
+                "time": "6:00 PM - 7:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.1711427, 
+                    37.7450907
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "2825 International Blvd, Oakland, CA 94601", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "CA-13", 
+                "location": "International Community School", 
+                "meetingType": "Town Hall", 
+                "member": "Barbara Lee", 
+                "notes": "<a href=\"https://www.facebook.com/events/217951298677153/\" target=\"_blank\">https://www.facebook.com/events/217951298677153/</a>", 
+                "party": "Democratic", 
+                "state": "California", 
+                "time": "10:00 AM - 11:30 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -75.5473350415803, 
                     39.7473554
                 ], 
@@ -808,6 +900,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -81.98362, 
+                    28.91269
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "8015 E. County Rd. 466 Suite B, The Villages, FL 32162", 
+                "date": "Friday, February 24, 2017", 
+                "date8061": "2017-02-24", 
+                "district": "FL-11", 
+                "location": "Sumter County Annex Buildings", 
+                "meetingType": "Other", 
+                "member": "Daniel Webster", 
+                "notes": "New District Office Open House", 
+                "party": "Republican", 
+                "state": "Florida", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -81.0476402642554, 
                     29.19167995
                 ], 
@@ -825,6 +940,29 @@ var geoJsonData = {
                 "party": "Republican", 
                 "state": "Florida", 
                 "time": "7:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -82.4913910769231, 
+                    27.9521209230769
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3003 W Cypress St, Tampa, Florida 33609", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "Senate", 
+                "location": "National Association of Letter Carriers Branch 599", 
+                "meetingType": "Empty Chair Town Hall", 
+                "member": "Marco Rubio", 
+                "notes": "\"Empty Chair\" event organized by Letter Carriers union. \n", 
+                "party": "Republican", 
+                "state": "Florida", 
+                "time": "7:00 PM - 9:00 PM EST"
             }, 
             "type": "Feature"
         }, 
@@ -1048,10 +1186,10 @@ var geoJsonData = {
                 "date": "Thursday, Feb 23, 2017", 
                 "date8061": "2017-02-23", 
                 "district": "IL-07", 
-                "location": "Academy of Arts", 
+                "location": "Xilin Art Academy", 
                 "meetingType": "Town Hall", 
                 "member": "Danny K. Davis", 
-                "notes": null, 
+                "notes": "Immigration Town Hall. Will also have representatives from Immigration & Customs Enforcement, Customs and Borders Protection, and Citizenship and Immigration Services present.", 
                 "party": "Democratic", 
                 "state": "Illinois", 
                 "time": "7:00 PM CST"
@@ -2763,6 +2901,190 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -71.2097230034797, 
+                    42.782229030372
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "33 Geremonty Drive, Salem, NH 03079", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Salem City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -72.2775619, 
+                    42.9356335
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3 Washington St., Keene, NH 03431", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Keene City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "10:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.1790857102436, 
+                    44.4706871930856
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "168 Main Street, Berlin, NH 03570", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Berlin City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -70.9758726702071, 
+                    43.3045910312873
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "31 Wakefield St., Rochester, NH 3867", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Rochester City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "11:00 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.2998989288392, 
+                    42.80545615
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "3 North Lowell Road, Windham, NH 3087", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Windham Town Hall Center", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.4689076, 
+                    43.527895
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "45 Beacon St. East, Laconia, NH 03246", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Laconia City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.1759281875, 
+                    44.387852375
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "20 Park St., Gorham, NH 03581", 
+                "date": "2/16/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Gorham City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -71.6465559310345, 
+                    43.4446203448276
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "316 Central St., Franklin, NH 3235", 
+                "date": "2/17/2017", 
+                "date8061": null, 
+                "district": "Senate", 
+                "location": "Franklin City Hall", 
+                "meetingType": "Office Hours", 
+                "member": "Maggie Hassan", 
+                "notes": "The Senator\u2019s Constituent Services and Policy staff will be available to discuss any issue or concern local residents may have with federal agencies.", 
+                "party": "Democratic", 
+                "state": "New Hampshire", 
+                "time": "1:00 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -74.02342, 
                     40.21679
                 ], 
@@ -3177,6 +3499,29 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -96.8635478, 
+                    46.8400823
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "5675 26th Ave S, Fargo, ND ", 
+                "date": "Thursday, February 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "ND-At Large", 
+                "location": "Beans Coffee Bar", 
+                "meetingType": "Town Hall", 
+                "member": "Kevin Cramer", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "North Dakota", 
+                "time": "1:00 PM CST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -83.1233076938775, 
                     40.586800877551
                 ], 
@@ -3315,6 +3660,282 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
+                    -83.017286751983, 
+                    40.0551984302587
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "93 West Weisheimer Road, Columbus, OH 43214", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "OH-12", 
+                "location": "First Unitarian Universalist", 
+                "meetingType": "Empty Chair Town Hall", 
+                "member": "Pat Tiberi", 
+                "notes": "<a href=\"http://bit.ly/2lRbSVa\" target=\"_blank\">http://bit.ly/2lRbSVa</a>", 
+                "party": "Republican", 
+                "state": "Ohio", 
+                "time": "7:00 PM - 8:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.560539091912, 
+                    45.3198975
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "19761 Beavercreek Rd, Oregon City, OR ", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "Senate", 
+                "location": "Oregon City High School gym\n", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "9:30 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -124.4147, 
+                    42.41031
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "94350 Sixth St, Gold Beach, OR ", 
+                "date": "Saturday, February 18, 2017", 
+                "date8061": "2017-02-18", 
+                "district": "Senate", 
+                "location": "Riley Creek School", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "5:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -124.21304325, 
+                    43.3596505833333
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "S 10th and Ingersoll St, Coos Bay, OR ", 
+                "date": "Sunday, February 19, 2017", 
+                "date8061": "2017-02-19", 
+                "district": "Senate", 
+                "location": "Marshfield High School auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "12:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -123.0421974, 
+                    44.0146942
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "4000 East 30th Ave, Eugene, OR ", 
+                "date": "Sunday, February 19, 2017", 
+                "date8061": "2017-02-19", 
+                "district": "Senate", 
+                "location": "Lane Community College - Main Campus Bldg", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": "Parking available in lots A, B, C - no permit required.", 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "4:30 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -123.278639605577, 
+                    44.5591097
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "875 SW 26th St, Corvallis, OR ", 
+                "date": "Monday, February 20, 2017", 
+                "date8061": "2017-02-20", 
+                "district": "Senate", 
+                "location": "OSU - LaSells Stewart Center - Austin Auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": "Parking available in Reser Stadium Lot or Parking Structure at corner of 26th and Washington.", 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "11:00 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -121.5679835, 
+                    44.2950276
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1700 McKinney Butte Rd, Sisters, OR ", 
+                "date": "Monday, February 20, 2017", 
+                "date8061": "2017-02-20", 
+                "district": "Senate", 
+                "location": "Sisters High School", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "5:30 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -120.835169, 
+                    44.294281
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1100 SE Lynn Blvd, Prineville, OR ", 
+                "date": "Tuesday, February 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "Senate", 
+                "location": "Crook County High School auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "12:30 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -121.123605209031, 
+                    44.6289031079239
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "412 SE Buff St, Madras, OR ", 
+                "date": "Wednesday, February 22, 2017", 
+                "date8061": "2017-02-22", 
+                "district": "Senate", 
+                "location": "Madras Performing Arts Center", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "10:00 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.69934, 
+                    42.18929
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "201 S Mountain Ave, Ashland, OR ", 
+                "date": "Thursday, February 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "Senate", 
+                "location": "Ashland High School Gym", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": "Parking may fill quickly. Please consider using public transit and carpool.", 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "9:45 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -123.852266, 
+                    46.187859
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1001 W Marine Dr, Astoria, OR ", 
+                "date": "Friday, February 24, 2017", 
+                "date8061": "2017-02-24", 
+                "district": "Senate", 
+                "location": "Astoria High School auditorium", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": null, 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "11:30 AM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -122.525910174956, 
+                    45.51491805
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "1001 SE 135th Ave, Portland, OR ", 
+                "date": "Saturday, February 25, 2017", 
+                "date8061": "2017-02-25", 
+                "district": "Senate", 
+                "location": "David Douglas High School\n", 
+                "meetingType": "Town Hall", 
+                "member": "Ron Wyden", 
+                "notes": "Parking may fill quickly. Please consider using public transit and carpool.", 
+                "party": "Democratic", 
+                "state": "Oregon", 
+                "time": "12:00 PM PST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
                     -76.42356, 
                     40.332338
                 ], 
@@ -3378,6 +3999,29 @@ var geoJsonData = {
                 "party": "Democratic", 
                 "state": "Pennsylvania", 
                 "time": "8:30 AM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -79.7663812888572, 
+                    34.1896255
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "509 S Dargan St, Florence, SC 29506", 
+                "date": "Thursday, February 23, 2017", 
+                "date8061": "2017-02-23", 
+                "district": "SC-07", 
+                "location": "Florence Public Library", 
+                "meetingType": "Town Hall", 
+                "member": "Tom Rice", 
+                "notes": null, 
+                "party": "Republican", 
+                "state": "South Carolina", 
+                "time": "6:00 PM EST"
             }, 
             "type": "Feature"
         }, 
@@ -3821,17 +4465,40 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -75.8573634002103, 
-                    37.4747378237149
+                    -76.5136009, 
+                    37.23245
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "10227 Rogers Dr, Nassawadox, VA ", 
+                "address": "9300 George Washington Memorial Highway, Yorktown, VA 23692", 
+                "date": "Tue, Feb 21, 2017", 
+                "date8061": "2017-02-21", 
+                "district": "VA-2", 
+                "location": "York High School", 
+                "meetingType": "Town Hall", 
+                "member": "Scott Taylor", 
+                "notes": "More information to follow.", 
+                "party": "Republican", 
+                "state": "Virginia", 
+                "time": "6:30 PM EST"
+            }, 
+            "type": "Feature"
+        }, 
+        {
+            "geometry": {
+                "coordinates": [
+                    -75.7423419, 
+                    37.650231
+                ], 
+                "type": "Point"
+            }, 
+            "properties": {
+                "address": "29300 Lankford Highway, Melfa, VA 23410", 
                 "date": "Wed, Feb 22, 2017", 
                 "date8061": "2017-02-22", 
                 "district": "VA-2", 
-                "location": "Little Italy Restaurant", 
+                "location": "Eastern Shore Community College", 
                 "meetingType": "Town Hall", 
                 "member": "Scott Taylor", 
                 "notes": "More information to follow.", 
@@ -5660,7 +6327,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 14, 2017 9:18 pm Central"
+        "latestLoad": "February 15, 2017 8:50 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -5677,6 +6344,19 @@ var nonGeoData= [
         "party": "Republican", 
         "state": "Arizona", 
         "time": "5:30 PM MST"
+    }, 
+    {
+        "address": null, 
+        "date": "Wednesday, February 15, 2017", 
+        "date8061": "2017-02-15", 
+        "district": "AR-02", 
+        "location": "Dial in - see notes", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "French Hill", 
+        "notes": "\"dial 877-229-8493. The passcode is 114451\"", 
+        "party": "Republican", 
+        "state": "Arkansas", 
+        "time": "7:00 PM CST"
     }, 
     {
         "address": null, 
@@ -5718,6 +6398,45 @@ var nonGeoData= [
         "time": "6:00 PM PST"
     }, 
     {
+        "address": null, 
+        "date": "Tuesday, February 21, 2017", 
+        "date8061": "2017-02-21", 
+        "district": "CT-04", 
+        "location": "West Rocks Middle School", 
+        "meetingType": "Town Hall", 
+        "member": "Jim Himes", 
+        "notes": null, 
+        "party": "Democratic", 
+        "state": "Connecticut", 
+        "time": "6:30 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Wednesday, February 22, 2017", 
+        "date8061": "2017-02-22", 
+        "district": "CT-04", 
+        "location": "Bridgeport City Hall", 
+        "meetingType": "Town Hall", 
+        "member": "Jim Himes", 
+        "notes": null, 
+        "party": "Democratic", 
+        "state": "Connecticut", 
+        "time": "6:30 PM EST"
+    }, 
+    {
+        "address": null, 
+        "date": "Saturday, March 4, 2017", 
+        "date8061": "2017-03-04", 
+        "district": "CT-04", 
+        "location": "UConn Stamford", 
+        "meetingType": "Town Hall", 
+        "member": "Jim Himes", 
+        "notes": null, 
+        "party": "Democratic", 
+        "state": "Connecticut", 
+        "time": "2:30 PM EST"
+    }, 
+    {
         "address": ", ,  ", 
         "date": "Thu, Feb 16, 2017", 
         "date8061": "2017-02-16", 
@@ -5757,14 +6476,14 @@ var nonGeoData= [
         "time": "7:00 PM EST"
     }, 
     {
-        "address": null, 
+        "address": ", ,  ", 
         "date": "Tue, Feb 28, 2017", 
         "date8061": "2017-02-28", 
         "district": "GA-14", 
         "location": "Georgia Northwestern Technical College -- Gordon County Campus, Building 400, Rm 4-103", 
         "meetingType": "Office Hours", 
         "member": "Tom Graves", 
-        "notes": null, 
+        "notes": " ", 
         "party": "Republican", 
         "state": "Georgia", 
         "time": "1:00 PM EST"
@@ -5810,6 +6529,19 @@ var nonGeoData= [
     }, 
     {
         "address": null, 
+        "date": "Thursday, February 16, 2017", 
+        "date8061": "2017-02-16", 
+        "district": "NY-12", 
+        "location": "Call-in", 
+        "meetingType": "Tele-Town Hall", 
+        "member": "Carolyn Maloney", 
+        "notes": "RSVP: <a href=\"http://bit.ly/TownhallFeb16\" target=\"_blank\">http://bit.ly/TownhallFeb16</a>", 
+        "party": "Democratic", 
+        "state": "New York", 
+        "time": "6:30 PM EST"
+    }, 
+    {
+        "address": null, 
         "date": "Wed, Feb 15, 2017", 
         "date8061": "2017-02-15", 
         "district": "OR-5", 
@@ -5822,17 +6554,17 @@ var nonGeoData= [
         "time": "6:00 PM PST"
     }, 
     {
-        "address": null, 
+        "address": ", ,  ", 
         "date": "Sun, Feb 26, 2017", 
         "date8061": "2017-02-26", 
         "district": "Senate", 
         "location": "Location TBD", 
         "meetingType": "Town Hall", 
         "member": "Ron Wyden", 
-        "notes": null, 
+        "notes": " ", 
         "party": "Democratic", 
         "state": "Oregon", 
-        "time": "Time TBD "
+        "time": "Time TBD  "
     }, 
     {
         "address": null, 
@@ -5911,19 +6643,6 @@ var nonGeoData= [
         "party": "Republican", 
         "state": "Texas", 
         "time": " "
-    }, 
-    {
-        "address": null, 
-        "date": "Tue, Feb 21, 2017", 
-        "date8061": "2017-02-21", 
-        "district": "VA-2", 
-        "location": "TBD", 
-        "meetingType": "Town Hall", 
-        "member": "Scott Taylor", 
-        "notes": "More information to follow.", 
-        "party": "Republican", 
-        "state": "Virginia", 
-        "time": "6:30 PM EST"
     }, 
     {
         "address": null, 
