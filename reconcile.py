@@ -165,6 +165,16 @@ reconciled_addresses = {
         'corrected_string': '45 Beacon St. East, Laconia, NH 03246',
         'corrected_lat_long': {'lat': 43.527895, 'lng': -71.4689076}
     }},
+    '5675 26th Ave. S, Stamford, CT ': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '45 Beacon St. East',
+            u'city': 'Laconia',
+            u'state': 'NH',
+            u'zip': '03246'
+        },
+        'corrected_string': '1 University Pl, Stamford, CT 06901',
+        'corrected_lat_long': {'lat': 41.0555892, 'lng': -73.5449187}
+    }},
     'Senate Hard Bldg, Room 511, Washington, DC ': {"reconciled": {
         u'corrected_parts': {
             u'street': 'Hart Senate Office Building',
