@@ -338,7 +338,7 @@ def generate_non_geo_townhall_list(non_geo_town_halls):
             u'notes': town_hall.get(u'Notes'),
             u'party': town_hall.get(u'Party'),
             u'state': town_hall.get(u'State Represented'),
-            u'time': xstr(town_hall.get(u'Time')) + ' ' + xstr(town_hall.get(u'Time Zone')),
+            u'time': xstr(town_hall.get(u'Start Time')) + ' ' + xstr(town_hall.get(u'Time Zone')),
             u'address': town_hall.get(u'address_string')
         }
         cleaned_list.append(jsonized)

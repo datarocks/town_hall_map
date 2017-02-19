@@ -9800,7 +9800,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 18, 2017 10:23 pm Central"
+        "latestLoad": "February 18, 2017 10:27 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -9816,7 +9816,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Republican", 
         "state": "Arizona", 
-        "time": " MST"
+        "time": "6:00 PM MST"
     }, 
     {
         "address": null, 
@@ -9842,7 +9842,7 @@ var nonGeoData= [
         "notes": "Location not yet determined.", 
         "party": "Democratic", 
         "state": "California", 
-        "time": " PST"
+        "time": "5:30 PM PST"
     }, 
     {
         "address": null, 
@@ -9855,7 +9855,7 @@ var nonGeoData= [
         "notes": "number: (850) 623-1330", 
         "party": "Republican", 
         "state": "Florida", 
-        "time": " EST"
+        "time": "8:00 AM EST"
     }, 
     {
         "address": null, 
@@ -9868,7 +9868,7 @@ var nonGeoData= [
         "notes": "Constituents can call D.C. or Miami office to retrieve phone number before meeting - Staffer @ Miami Office", 
         "party": "Republican", 
         "state": "Florida", 
-        "time": " EST"
+        "time": "7:00 PM EST"
     }, 
     {
         "address": "3000 NW 83rd St E-127, Gainesville, FL 32606", 
@@ -9881,7 +9881,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Republican", 
         "state": "Florida", 
-        "time": " EST"
+        "time": "10:00 AM EST"
     }, 
     {
         "address": null, 
@@ -9894,7 +9894,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Republican", 
         "state": "Georgia", 
-        "time": " EST"
+        "time": "1:00 PM EST"
     }, 
     {
         "address": null, 
@@ -9907,7 +9907,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Republican", 
         "state": "Louisiana", 
-        "time": " CST"
+        "time": "9:00 AM CST"
     }, 
     {
         "address": null, 
@@ -9920,7 +9920,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Republican", 
         "state": "Louisiana", 
-        "time": " CST"
+        "time": "TBD CST"
     }, 
     {
         "address": null, 
@@ -9933,7 +9933,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Independent", 
         "state": "Maine", 
-        "time": " "
+        "time": "9:00 AM "
     }, 
     {
         "address": "51 College Ln, Northhampton, MA 1060", 
@@ -9946,7 +9946,7 @@ var nonGeoData= [
         "notes": null, 
         "party": "Democratic", 
         "state": "Massachusetts", 
-        "time": " EST"
+        "time": "6:00 PM EST"
     }, 
     {
         "address": null, 
@@ -9959,7 +9959,7 @@ var nonGeoData= [
         "notes": "Sen. Wicker meets Mississippians in D.C. every Tuesday a.m. for coffee. Email for location: <a href=\"mailto:coffee@wicker.senate.gov\">coffee@wicker.senate.gov</a>", 
         "party": "Republican", 
         "state": "Mississippi", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": null, 
@@ -9972,7 +9972,7 @@ var nonGeoData= [
         "notes": "Ask the Congressman on WOBM 92.7. Call in 732-237-9626", 
         "party": "Republican", 
         "state": "New Jersey", 
-        "time": " EST"
+        "time": "7:00 PM EST"
     }, 
     {
         "address": "Lot 1, College Dr, Toms River, NJ 8753", 
@@ -9985,7 +9985,7 @@ var nonGeoData= [
         "notes": "Government & Politics: What you need to know with Congressman Tom MacArthur", 
         "party": "Republican", 
         "state": "New Jersey", 
-        "time": " EST"
+        "time": "11:00 AM EST"
     }, 
     {
         "address": "15136 State Road 75, Penasco, NM 87553", 
@@ -9998,7 +9998,7 @@ var nonGeoData= [
         "notes": "ACA Town Hall", 
         "party": "Democratic", 
         "state": "New Mexico", 
-        "time": " MST"
+        "time": "3:00 PM MST"
     }, 
     {
         "address": null, 
@@ -10024,7 +10024,7 @@ var nonGeoData= [
         "notes": "To register: <a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "2:00 PM EST"
     }, 
     {
         "address": null, 
@@ -10037,7 +10037,7 @@ var nonGeoData= [
         "notes": "To register: <a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "7:00 PM EST"
     }, 
     {
         "address": null, 
@@ -10050,7 +10050,7 @@ var nonGeoData= [
         "notes": "877-228-2184 - event ID 19013", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "7:15 PM EST"
     }, 
     {
         "address": null, 
@@ -10089,7 +10089,7 @@ var nonGeoData= [
         "notes": "Sen. Cruz hosts coffee every Tuesday morning while Senate is in session for Texans visiting D.C. To RSVP email <a href=\"mailto:scheduler@cruz.senate.gov\">scheduler@cruz.senate.gov</a> with \"Texas Tuesday RSVP\" in subject line. Include full name, phone number, email address, date you will be in D.C. and number of people in group.", 
         "party": "Republican", 
         "state": "Texas", 
-        "time": " EST"
+        "time": "9:30 AM EST"
     }, 
     {
         "address": null, 
@@ -10115,7 +10115,7 @@ var nonGeoData= [
         "notes": "Online town hall hosted by KCTS. <a href=\"https://www.facebook.com/repdavereichert/\" target=\"_blank\">https://www.facebook.com/repdavereichert/</a>", 
         "party": "Republican", 
         "state": "Washington", 
-        "time": " PST"
+        "time": "1:00 PM PST"
     }, 
     {
         "address": null, 
@@ -10128,7 +10128,7 @@ var nonGeoData= [
         "notes": "kilmer.house.gov", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " PST"
+        "time": "6:05 PM PST"
     }, 
     {
         "address": null, 
@@ -10141,7 +10141,7 @@ var nonGeoData= [
         "notes": "RSVP: 202.224.1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "9:00 AM EST"
     }, 
     {
         "address": "3000 NW 83rd St E-127, Gainesville, FL 32606", 
@@ -10154,7 +10154,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Republican", 
         "state": "Florida", 
-        "time": " EST"
+        "time": "10:00 AM EST"
     }, 
     {
         "address": "1 Courthouse Sq #4700, Kissimmee, FL 34741, Kissimmee, FL 34741", 
@@ -10167,7 +10167,7 @@ var nonGeoData= [
         "notes": "Doors open at 4:30 pm", 
         "party": "Democratic", 
         "state": "Florida", 
-        "time": " EST"
+        "time": "5:00 PM EST"
     }, 
     {
         "address": "by phone, by phone, SC by phone", 
@@ -10180,7 +10180,7 @@ var nonGeoData= [
         "notes": "Sign up here <a href=\"https://vekeo.com/repjoewilson/\" target=\"_blank\">https://vekeo.com/repjoewilson/</a>", 
         "party": "Republican", 
         "state": "South Carolina", 
-        "time": " EST"
+        "time": "6:00 PM EST"
     }, 
     {
         "address": "116 W. Hight St., Rockville, IN 47872", 
@@ -10193,7 +10193,7 @@ var nonGeoData= [
         "notes": "3rd Thursday of every month - same place and time", 
         "party": "Republican", 
         "state": "Indiana", 
-        "time": " EST"
+        "time": "12:30 PM EST"
     }, 
     {
         "address": "1201 Cedar Ln, Northbrook, IL 60062, Northbrook, IL 60062", 
@@ -10206,7 +10206,7 @@ var nonGeoData= [
         "notes": "Congressman Brad Schneider (IL-10) will host a \u201cCongress on Your Corner\u201d event to answer questions from constituents and brief attendees on his work in Washington.", 
         "party": "Democratic", 
         "state": "Illinois", 
-        "time": " CST"
+        "time": "9:15 AM CST"
     }, 
     {
         "address": "448 Russell Senate Office Building, Washinton DC, OH 20510", 
@@ -10219,7 +10219,7 @@ var nonGeoData= [
         "notes": "Weekly constituent coffee when Senate is in session", 
         "party": "Republican", 
         "state": "Ohio", 
-        "time": " EST"
+        "time": "9:00 AM EST"
     }, 
     {
         "address": "877-228-2184; ID #19013, NA, PA NA", 
@@ -10232,7 +10232,7 @@ var nonGeoData= [
         "notes": "Call 877-228-2184; ID #19013", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "7:15 AM EST"
     }, 
     {
         "address": "521 East Avenue North, Student Senate Chamber, Room #2310, La Crosse, WI 54601", 
@@ -10245,7 +10245,7 @@ var nonGeoData= [
         "notes": "Hearing from Wisconsinites about the issues that matter most to them is my favorite part of this job. I hope students will join me at this listening session to share their thoughts and opinions. I will also be sharing my Higher Education Action Plan, which helps Wisconsin students prepare for college, increases affordability, and creates job opportunities.", 
         "party": "Democratic", 
         "state": "Wisconsin", 
-        "time": " CST"
+        "time": "1:15 PM CST"
     }, 
     {
         "address": "15136 State Road 75, Penasco, NM 87553", 
@@ -10258,7 +10258,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Democratic", 
         "state": "New Mexico", 
-        "time": " MST"
+        "time": "3:00 PM MST"
     }, 
     {
         "address": "TBD, McMinnville, OR 97128", 
@@ -10271,7 +10271,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Democratic", 
         "state": "Oregon", 
-        "time": " PST"
+        "time": "6:00 PM PST"
     }, 
     {
         "address": "everywhere, Anywhere, PA 11111", 
@@ -10284,7 +10284,7 @@ var nonGeoData= [
         "notes": "<a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "2:00 PM EST"
     }, 
     {
         "address": "everywhere, anywhere, PA 11111", 
@@ -10297,7 +10297,7 @@ var nonGeoData= [
         "notes": "<a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
-        "time": " EST"
+        "time": "7:00 PM EST"
     }, 
     {
         "address": "TBA, San Diego, CA TBA", 
@@ -10310,7 +10310,7 @@ var nonGeoData= [
         "notes": "It technically starts at 5:30pm but they want everyone to arrive by 5:15pm. Doors open at 5:00pm", 
         "party": "Democratic", 
         "state": "California", 
-        "time": " PST"
+        "time": "5:15 PM PST"
     }, 
     {
         "address": "224 First St NE, Room 154, Washington, DE 20002", 
@@ -10323,7 +10323,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "224 1st St NE Room 154, Washington, DE 20002", 
@@ -10336,7 +10336,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "Cesar E. Chavez Learning Academies, San Fernando, CA 91340", 
@@ -10349,7 +10349,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Democratic", 
         "state": "California", 
-        "time": " PST"
+        "time": "6:30 PM PST"
     }, 
     {
         "address": "Room 154, Washington, DE 20002", 
@@ -10362,7 +10362,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "Room 154, Washington, DE 20002", 
@@ -10375,7 +10375,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15am; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "N/A, N/A, CO N/A", 
@@ -10388,7 +10388,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Republican", 
         "state": "Colorado", 
-        "time": " MST"
+        "time": "7:00 PM MST"
     }, 
     {
         "address": "Building 7 \u2013 Room 7101 43600 Mission Boulevard, Fremont, CA 94539", 
@@ -10401,7 +10401,7 @@ var nonGeoData= [
         "notes": "Driving Directions: <a href=\"http://www.ohlone.edu/core/mapsdirs/directions/\" target=\"_blank\">http://www.ohlone.edu/core/mapsdirs/directions/</a>", 
         "party": "Democratic", 
         "state": "California", 
-        "time": " PST"
+        "time": "7:30 PM PST"
     }, 
     {
         "address": "N.A, N.A, TX N.A", 
@@ -10414,7 +10414,7 @@ var nonGeoData= [
         "notes": "Link to sign up in source", 
         "party": "Republican", 
         "state": "Texas", 
-        "time": " CST"
+        "time": "6:00 PM CST"
     }, 
     {
         "address": "N/A, N/A, CO N/A", 
@@ -10427,7 +10427,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Democratic", 
         "state": "Colorado", 
-        "time": " MST"
+        "time": "7:00 PM MST"
     }, 
     {
         "address": "602-G Orchard Street, Arroyo Grande, CA 93420", 
@@ -10440,7 +10440,7 @@ var nonGeoData= [
         "notes": "RVSP <a href=\"https://goo.gl/aTNUW8\" target=\"_blank\">https://goo.gl/aTNUW8</a>", 
         "party": "Democratic", 
         "state": "California", 
-        "time": " PST"
+        "time": "6:00 PM PST"
     }, 
     {
         "address": "N/A, N/A, WA N/A", 
@@ -10453,7 +10453,7 @@ var nonGeoData= [
         "notes": "He will be holding a Facebook Live Event in which viewers can ask questions.", 
         "party": "Republican", 
         "state": "Washington", 
-        "time": " PST"
+        "time": "1:00 PM PST"
     }, 
     {
         "address": "Many Locations, unavailable yet; will update as I get more information, several, NV various", 
@@ -10466,7 +10466,7 @@ var nonGeoData= [
         "notes": "This \"District Tour\" will take place at various locations throughout Nevada's 4th Congressional District. Some events will be public; some private. The information should become available at twitter soon but is unavailable at this time. I will update as necessary.", 
         "party": "Democratic", 
         "state": "Nevada", 
-        "time": " PST"
+        "time": "8:00 AM PST"
     }, 
     {
         "address": "Room 154, Washington, DE 20002", 
@@ -10479,7 +10479,7 @@ var nonGeoData= [
         "notes": "Arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "Room 541, Washington, DE 20002", 
@@ -10492,7 +10492,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "Room 541, Washington, DE 20002", 
@@ -10505,7 +10505,7 @@ var nonGeoData= [
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
         "party": "Democratic", 
         "state": "Washington", 
-        "time": " EST"
+        "time": "8:30 AM EST"
     }, 
     {
         "address": "Unsure, Sioux Falls, SD Unsure.", 
@@ -10518,7 +10518,7 @@ var nonGeoData= [
         "notes": "Read about this online w/ only a date and a city - haven't successfully found more information. Will continue to research.", 
         "party": "Republican", 
         "state": "South Dakota", 
-        "time": " CST"
+        "time": "12:00 AM CST"
     }, 
     {
         "address": "pin Hide Map 8872 S Eastern Ave, Las Vegas, NV 89123-4823, United States, Las Vegas, NV 89123-4823", 
@@ -10531,7 +10531,7 @@ var nonGeoData= [
         "notes": "Informal open house with light refreshments and time to meet the Congresswoman", 
         "party": "Democratic", 
         "state": "Nevada", 
-        "time": " MST"
+        "time": "4:30 PM MST"
     }, 
     {
         "address": "N/A, N/A, UT N/A", 
@@ -10544,7 +10544,7 @@ var nonGeoData= [
         "notes": "", 
         "party": "Republican", 
         "state": "Utah", 
-        "time": " EST"
+        "time": "8:00 PM EST"
     }, 
     {
         "address": "N/A, N/A, WI N/A", 
@@ -10557,6 +10557,6 @@ var nonGeoData= [
         "notes": "Sign up: <a href=\"https://www.ronjohnson.senate.gov/public/index.cfm/telephone-town-hall-signup\" target=\"_blank\">https://www.ronjohnson.senate.gov/public/index.cfm/telephone-town-hall-signup</a>", 
         "party": "Republican", 
         "state": "Wisconsin", 
-        "time": " CST"
+        "time": "6:30 PM CST"
     }
 ];
