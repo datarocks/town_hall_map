@@ -65,6 +65,17 @@ reconciled_addresses = {
         'corrected_string': 'First St NE, Washington, DC 20515',
         'corrected_lat_long': {'lat': 38.889816, 'lng': -77.007192}
     }},
+    'U.S. Capitol, Washington, DC ': {"reconciled": {
+        u'corrected_parts': {
+            u'street': 'First St NE',
+            u'county': None,
+            u'city': 'Washington',
+            u'state': 'DC',
+            u'zip': '20515'
+        },
+        'corrected_string': 'First St NE, Washington, DC 20515',
+        'corrected_lat_long': {'lat': 38.889816, 'lng': -77.007192}
+    }},
     '805 West Broadt St, Elizabethtown, NC ': {"reconciled": {
         u'corrected_parts': {
             u'street': '805 West Broad St',
@@ -74,6 +85,16 @@ reconciled_addresses = {
         },
         'corrected_string': '805 West Broad St, Elizabethtown, NC 28337',
         'corrected_lat_long': {'lat': 34.6310969, 'lng': -78.6138042}
+    }},
+    'Highway 87, Mile Marker 251, Payson, AZ ': {"reconciled": {
+        u'corrected_parts': {
+            u'street': 'Highway 87, Mile Marker 251',
+            u'city': 'Payson',
+            u'state': 'AZ',
+            u'zip': '85541'
+        },
+        'corrected_string': 'Highway 87, Mile Marker 251, Payson, AZ 85541',
+        'corrected_lat_long': {'lat': 34.22053, 'lng': -111.33014}
     }},
     '109 South Old Statesville Rd, Huntersvile, NC 28078': {"reconciled": {
         u'corrected_parts': {
@@ -105,7 +126,27 @@ reconciled_addresses = {
         'corrected_string': '2nd Floor Staff Room, 1550 Oak St, Alameda, CA 94501',
         'corrected_lat_long': {'lat': 37.76673815, 'lng': -122.242313634597}
     }},
+    '1550 Oak St. 2nd Floor Staff Room, Alameda, CA ': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '1550 Oak St',
+            u'city': 'Alameda',
+            u'state': 'CA',
+            u'zip': '94501'
+        },
+        'corrected_string': '2nd Floor Staff Room, 1550 Oak St, Alameda, CA 94501',
+        'corrected_lat_long': {'lat': 37.76673815, 'lng': -122.242313634597}
+    }},
     '600 S. Clyse Morris Blvd, Daytona Beach, FL 32114': {"reconciled": {
+        u'corrected_parts': {
+            u'street': '1600 S. Clyde Morris Blvd',
+            u'city': 'Daytona Beach',
+            u'state': 'FL',
+            u'zip': '32114'
+        },
+        'corrected_string': '600 S. Clyde Morris Blvd, Daytona Beach, FL 32114',
+        'corrected_lat_long': {'lat': 29.19167995, 'lng': -81.0476402642554}
+    }},
+    '600 S. Clyse Morris Blvd, Daytona Beach, FL ': {"reconciled": {
         u'corrected_parts': {
             u'street': '1600 S. Clyde Morris Blvd',
             u'city': 'Daytona Beach',
