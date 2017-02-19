@@ -52,6 +52,8 @@ def convert_links(value):
     :return: text with hyperlinks
     """
     value = value.replace('https://docs.google.com/forms/d/e/1FAIpQLSdUEg_dMc3PBwogi0RZSAORVhvb98keOevkcqIrR4eplcRuGA/viewform', 'https://goo.gl/g2oSqa')
+    value = value.replace('https://docs.google.com/forms/d/e/1FAIpQLSdGQJz9eeoXY2hLHKs1NxtJl9nETJf3PIDHmLMOv5PuJwKqOw/viewform?c=0&w=1', 'https://goo.gl/aTNUW8')
+    value = value.replace('https://iqconnect.lmhostediq.com/iqextranet/iqClickTrk.aspx?&cid=PA06RC&crop=14488.9944287.5286037.8834249&report_id=&redirect=https%3a%2f%2fcostello.house.gov%2fcontact%2ftelephone-town-hall-district-verification&redir_log=974677125532542' , 'https://costello.house.gov/contact/telephone-town-hall-district-verification')
     # Replace url to link
     urls = re.compile(r"((https?):((//)|(\\\\))+[\w\d:#@%/;$()~_?\+-=\\\.&]*)", re.MULTILINE | re.UNICODE)
     value = urls.sub(r'<a href="\1" target="_blank">\1</a>', value)

@@ -9800,7 +9800,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 18, 2017 10:16 pm Central"
+        "latestLoad": "February 18, 2017 10:23 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -10281,7 +10281,7 @@ var nonGeoData= [
         "location": "", 
         "meetingType": "Teletown Hall", 
         "member": "Ryan Costello", 
-        "notes": "<a href=\"https://iqconnect.lmhostediq.com/iqextranet/iqClickTrk.aspx?&cid=PA06RC&crop=14488.9944287.5286037.8834249&report_id=&redirect=https%3a%2f%2fcostello.house.gov%2fcontact%2ftelephone-town-hall-district-verification&redir_log=974677125532542\" target=\"_blank\">https://iqconnect.lmhostediq.com/iqextranet/iqClickTrk.aspx?&cid=PA06RC&crop=14488.9944287.5286037.8834249&report_id=&redirect=https%3a%2f%2fcostello.house.gov%2fcontact%2ftelephone-town-hall-district-verification&redir_log=974677125532542</a>", 
+        "notes": "<a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
         "time": " EST"
@@ -10294,7 +10294,7 @@ var nonGeoData= [
         "location": "", 
         "meetingType": "Teletown Hall", 
         "member": "Ryan Costello", 
-        "notes": "<a href=\"https://iqconnect.lmhostediq.com/iqextranet/iqClickTrk.aspx?&cid=PA06RC&crop=14488.9944287.5286037.8834249&report_id=&redirect=https%3a%2f%2fcostello.house.gov%2fcontact%2ftelephone-town-hall-district-verification&redir_log=974677125532542\" target=\"_blank\">https://iqconnect.lmhostediq.com/iqextranet/iqClickTrk.aspx?&cid=PA06RC&crop=14488.9944287.5286037.8834249&report_id=&redirect=https%3a%2f%2fcostello.house.gov%2fcontact%2ftelephone-town-hall-district-verification&redir_log=974677125532542</a>", 
+        "notes": "<a href=\"https://costello.house.gov/contact/telephone-town-hall-district-verification\" target=\"_blank\">https://costello.house.gov/contact/telephone-town-hall-district-verification</a>", 
         "party": "Republican", 
         "state": "Pennsylvania", 
         "time": " EST"
@@ -10437,7 +10437,7 @@ var nonGeoData= [
         "location": "Lucia Mar Unified School District Building", 
         "meetingType": "Town Hall", 
         "member": "Salud Carbajal", 
-        "notes": "RVSP <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdGQJz9eeoXY2hLHKs1NxtJl9nETJf3PIDHmLMOv5PuJwKqOw/viewform?c=0&w=1\" target=\"_blank\">https://docs.google.com/forms/d/e/1FAIpQLSdGQJz9eeoXY2hLHKs1NxtJl9nETJf3PIDHmLMOv5PuJwKqOw/viewform?c=0&w=1</a>", 
+        "notes": "RVSP <a href=\"https://goo.gl/aTNUW8\" target=\"_blank\">https://goo.gl/aTNUW8</a>", 
         "party": "Democratic", 
         "state": "California", 
         "time": " PST"
