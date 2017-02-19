@@ -3177,20 +3177,20 @@ var geoJsonData = {
         {
             "geometry": {
                 "coordinates": [
-                    -73.96487335, 
-                    41.50174785
+                    -73.9729254, 
+                    41.5082654
                 ], 
                 "type": "Point"
             }, 
             "properties": {
-                "address": "477 Main St, Beacon, NY ", 
+                "address": "8 Church St, Beacon, NY 12508", 
                 "date": "Sun, Feb 26, 2017", 
                 "date8061": "2017-02-26", 
                 "district": "NY-18", 
-                "location": "Howland Cultural Center", 
-                "meetingType": "Town Hall", 
+                "location": "Springfield Baptist Church", 
+                "meetingType": "Empty Chair Town Hall", 
                 "member": "Sean Patrick Maloney", 
-                "notes": "Joined by Assemblyman Frank Skartados and fmr Sen. Terry Gipsonto", 
+                "notes": "<a href=\"https://take18february26forum.eventbrite.com\" target=\"_blank\">https://take18february26forum.eventbrite.com</a>", 
                 "party": "Democratic", 
                 "state": "New York", 
                 "time": " EST"
@@ -6250,7 +6250,7 @@ var geoJsonData = {
                 "meetingType": "Mobile Office Hours", 
                 "member": "Marc Veasey", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Texas", 
                 "time": " EST"
             }, 
@@ -6273,7 +6273,7 @@ var geoJsonData = {
                 "meetingType": "Mobile Office Hours", 
                 "member": "Mark Veasey", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Texas", 
                 "time": " CST"
             }, 
@@ -6296,7 +6296,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Steve Cohen", 
                 "notes": "From Cohen's website: \"If you have questions or problems with Social Security, Medicare, FHA, the VA or other federal agencies, I hope my staff can help. From 11:00am to 1:00pm on Friday, February 24, staff from my Memphis office will be on hand at the Whitehaven Branch Library (4120 Millbranch Rd) to answer your questions and provide assistance dealing with federal agencies.\"", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Tennessee", 
                 "time": " CST"
             }, 
@@ -6319,7 +6319,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Stephanie Murphy", 
                 "notes": "Register here: <a href=\"http://oviedowintersprings.chambermaster.com/events/details/meet-greet-with-congresswoman-stephanie-murphy-25036\" target=\"_blank\">http://oviedowintersprings.chambermaster.com/events/details/meet-greet-with-congresswoman-stephanie-murphy-25036</a>", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Florida", 
                 "time": " EST"
             }, 
@@ -6388,7 +6388,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Don Beyer", 
                 "notes": "Join Congressmen Don Beyer for a forum on your civil rights.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Virginia", 
                 "time": " EST"
             }, 
@@ -6457,7 +6457,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Jim Langevin", 
                 "notes": "Each quarter, Langevin holds open office hours at a restaurant in the Second District, and constituents are invited to come and share their questions or concerns in an informal setting. Constituent caseworkers are also on hand to provide constituents with additional resources and schedule meetings. Pizza and refreshments will be provided.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Rhode Island", 
                 "time": " EST"
             }, 
@@ -6710,7 +6710,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Adam Smith", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " PST"
             }, 
@@ -6756,7 +6756,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Kurt Schrader", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Oregon", 
                 "time": " PST"
             }, 
@@ -6779,7 +6779,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Kurt Schrader", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Oregon", 
                 "time": " PST"
             }, 
@@ -6802,7 +6802,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Seth Moultan", 
                 "notes": "District representatives will hold office hours in all 39 cities and towns in the Sixth District\n Starting with this one", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Massachusetts", 
                 "time": " EST"
             }, 
@@ -6825,7 +6825,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Andre Carson", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Indiana", 
                 "time": " EST"
             }, 
@@ -6848,7 +6848,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Andre Carson", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Indiana", 
                 "time": " EST"
             }, 
@@ -6940,7 +6940,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Ruben Gallego", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Arizona", 
                 "time": " MST"
             }, 
@@ -7377,7 +7377,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Judy Chu", 
                 "notes": "This is also an event for Representative Roybal-Allard of CA 40th district.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7423,7 +7423,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "John B Larson", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Connecticut", 
                 "time": " EST"
             }, 
@@ -7469,7 +7469,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Jim Himes", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Connecticut", 
                 "time": " EST"
             }, 
@@ -7492,7 +7492,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Jim Himes", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Connecticut", 
                 "time": " EST"
             }, 
@@ -7515,7 +7515,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Jim Himes", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Connecticut", 
                 "time": " EST"
             }, 
@@ -7561,7 +7561,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Tim Walz", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Minnesota", 
                 "time": " CST"
             }, 
@@ -7584,7 +7584,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Tom McClintock", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7630,7 +7630,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Ben Ray Lujan", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Mexico", 
                 "time": " MST"
             }, 
@@ -7676,7 +7676,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Tulsi Gabbard", 
                 "notes": "Do you need assistance with a federal agency or have an idea or concern that Congresswoman Tulsi Gabbard can help you with? Her Oahu community outreach liaison, Vandeth Sek, will be in Kailua to be of service to you! If you can't make it, please visit our \"virtual office\" at gabbard.house.gov or call (808) 541-1986 for assistance.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Hawaii", 
                 "time": " HAST"
             }, 
@@ -7745,7 +7745,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Susan Davis", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7768,7 +7768,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Adam Schiff", 
                 "notes": "Just wanted to update this from last week with RSVP email and source link", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7791,7 +7791,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Gregory Meeks", 
                 "notes": "Please attend to hear information about the services my office provides, including: IMMIGRATION ISSUES/PERMANENT RESIDENCY / CITIZENSHIP / PASSPORTS/AFFORDABLE HEALTH CARE ACT / SOCIAL SECURITY", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New York", 
                 "time": " EST"
             }, 
@@ -7814,7 +7814,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Barbara Lee", 
                 "notes": "Due to a high volume of interest for this event, it is likely that the event will fill to capacity quickly. Seating is on a first-come, first-served basis. If you would like to attend but are not able to make it, you can also follow the event via Facebook Live: <a href=\"https://www.facebook.com/RepBarbaraLee/\" target=\"_blank\">https://www.facebook.com/RepBarbaraLee/</a> \n \n The International Community School parking lots will be available for parking, and the venue is BART accessible via Fruitvale BART Station. For further information contact the Rep.'s district office at 510.763.0370", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7837,7 +7837,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Pete Aguilar", 
                 "notes": "First Tuesday of Every Month", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7860,7 +7860,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Ami Bera", 
                 "notes": "Description: We\u2019re partnering with the Volunteer Income Tax Assistance Program (VITA) to ensure area residents can get the help they need. According to the IRS, VITA provides free tax help generally to people who earn $54,000 a year or less.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7883,7 +7883,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Mark DeSaulnier", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -7906,7 +7906,7 @@ var geoJsonData = {
                 "meetingType": "Mobile Office Hours", 
                 "member": "Ed Perlmutter", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Colorado", 
                 "time": " MST"
             }, 
@@ -7952,7 +7952,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Ed Perlmutter", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Colorado", 
                 "time": " MST"
             }, 
@@ -7998,7 +7998,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Luis Gutierrez", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Illinois", 
                 "time": " CST"
             }, 
@@ -8044,7 +8044,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Rick Nolan", 
                 "notes": "He calls this \"Congress Comes to You\". It's unclear to me if the Congressman himself is there or just his staffers", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Minnesota", 
                 "time": " CST"
             }, 
@@ -8182,7 +8182,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Salud Carbajal", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "California", 
                 "time": " PST"
             }, 
@@ -8205,7 +8205,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Ruben J. Kihuen", 
                 "notes": "Open to the public", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Nevada", 
                 "time": " PST"
             }, 
@@ -8228,7 +8228,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "G.K. Butterfield", 
                 "notes": "This event is free and open to the public. Space limited, online registration requested", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "North Carolina", 
                 "time": " EST"
             }, 
@@ -8251,7 +8251,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Brian Higgins", 
                 "notes": "Satellite hours hosted by Congressional staffers. Congressman only occasionally attends.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New York", 
                 "time": " EST"
             }, 
@@ -8274,7 +8274,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Brian Higgins", 
                 "notes": "Satellite hours hosted by Congressional staffers. Congressman only occasionally attends.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New York", 
                 "time": " EST"
             }, 
@@ -8297,7 +8297,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Rep Carol Shea-Porter", 
                 "notes": "The NH Palestine Education Network (NH PEN) and members of the New England Network for Justice in Palestine (NENJP), will hold a vigil on the corner of Elm and Bridge Streets in Manchester on Saturday, February 18 from 2 pm to 3 pm. Vigilers will visit the Manchester offices of Representative Shea-Porter", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Hampshire", 
                 "time": " EST"
             }, 
@@ -8320,7 +8320,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Rep Carol Shea-Porter", 
                 "notes": "<a href=\"http://nhpeaceaction.org/wp-content/uploads/2017/02/Flyer-Freedom-People-1-page-001.jpg\" target=\"_blank\">http://nhpeaceaction.org/wp-content/uploads/2017/02/Flyer-Freedom-People-1-page-001.jpg</a>", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Hampshire", 
                 "time": " EST"
             }, 
@@ -8343,7 +8343,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Betty McCollum", 
                 "notes": "2nd Tuesday of each month. Residents are asked to schedule an appointment ahead of time by calling (651)-224-9191.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Minnesota", 
                 "time": " CST"
             }, 
@@ -8366,7 +8366,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Rep Ann McLane Kuster", 
                 "notes": "<a href=\"http://nhpeaceaction.org/wp-content/uploads/2017/02/Flyer-Freedom-People-1-page-001.jpg\" target=\"_blank\">http://nhpeaceaction.org/wp-content/uploads/2017/02/Flyer-Freedom-People-1-page-001.jpg</a>", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Hampshire", 
                 "time": " EST"
             }, 
@@ -8389,7 +8389,7 @@ var geoJsonData = {
                 "meetingType": "Mobile Office Hours", 
                 "member": "Betty McCollum", 
                 "notes": "3rd Tuesday of each month. Residents are asked to schedule an appointment ahead of time by calling (651)-224-9191.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Minnesota", 
                 "time": " CST"
             }, 
@@ -8412,7 +8412,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Rep Donald Norcross", 
                 "notes": "website claims the town hall is at max capacity", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Jersey", 
                 "time": " EST"
             }, 
@@ -8435,7 +8435,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Rep Donald Norcross", 
                 "notes": "Feb Town Hall hit max capacity; RSVP early", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "New Jersey", 
                 "time": " EST"
             }, 
@@ -8458,7 +8458,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Edward Markey", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Massachusetts", 
                 "time": " EST"
             }, 
@@ -8481,7 +8481,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "John Delaney", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Maryland", 
                 "time": " EST"
             }, 
@@ -8504,7 +8504,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Jim McGovern", 
                 "notes": "*The original event was being held in a different location. I submitted this event earlier but it needs to be deleted.*", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Massachusetts", 
                 "time": " EST"
             }, 
@@ -8573,7 +8573,7 @@ var geoJsonData = {
                 "meetingType": "Office Hours", 
                 "member": "Alma Adams", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "North Carolina", 
                 "time": " EST"
             }, 
@@ -8642,7 +8642,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Joyce Beatty", 
                 "notes": "Hosted by UHCAN Ohio.", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Ohio", 
                 "time": " EST"
             }, 
@@ -8665,7 +8665,7 @@ var geoJsonData = {
                 "meetingType": "Other", 
                 "member": "Bill Foster", 
                 "notes": "Congressman Bill Foster invites you to a discussion on the status of the fight against heroin and prescription drug abuse in the Eleventh Congressional District. Sign up at: Foster.house.gov/heroin", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Illinois", 
                 "time": " CST"
             }, 
@@ -8734,7 +8734,7 @@ var geoJsonData = {
                 "meetingType": "Town Hall", 
                 "member": "Beto O'Rourke", 
                 "notes": "", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Texas", 
                 "time": " EST"
             }, 
@@ -8757,7 +8757,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "Arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8780,7 +8780,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8803,7 +8803,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8826,7 +8826,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8849,7 +8849,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-142", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8872,7 +8872,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-142", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8895,7 +8895,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8918,7 +8918,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8941,7 +8941,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8964,7 +8964,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -8987,7 +8987,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9010,7 +9010,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9033,7 +9033,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9056,7 +9056,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9079,7 +9079,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9102,7 +9102,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9125,7 +9125,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9148,7 +9148,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9171,7 +9171,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9194,7 +9194,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9217,7 +9217,7 @@ var geoJsonData = {
                 "meetingType": "DC Event", 
                 "member": "Patty Murray", 
                 "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-                "party": "Democrat", 
+                "party": "Democratic", 
                 "state": "Washington", 
                 "time": " EST"
             }, 
@@ -9800,7 +9800,7 @@ var geoJsonData = {
         }
     ], 
     "properties": {
-        "latestLoad": "February 18, 2017 10:10 pm Central"
+        "latestLoad": "February 18, 2017 10:16 pm Central"
     }, 
     "type": "FeatureCollection"
 };
@@ -10165,7 +10165,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Darren Soto", 
         "notes": "Doors open at 4:30 pm", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Florida", 
         "time": " EST"
     }, 
@@ -10204,7 +10204,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Brad Schneider", 
         "notes": "Congressman Brad Schneider (IL-10) will host a \u201cCongress on Your Corner\u201d event to answer questions from constituents and brief attendees on his work in Washington.", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Illinois", 
         "time": " CST"
     }, 
@@ -10243,7 +10243,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Ron Kind", 
         "notes": "Hearing from Wisconsinites about the issues that matter most to them is my favorite part of this job. I hope students will join me at this listening session to share their thoughts and opinions. I will also be sharing my Higher Education Action Plan, which helps Wisconsin students prepare for college, increases affordability, and creates job opportunities.", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Wisconsin", 
         "time": " CST"
     }, 
@@ -10256,7 +10256,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Ben Ray Lujan", 
         "notes": "", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "New Mexico", 
         "time": " MST"
     }, 
@@ -10269,7 +10269,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Suzanne Bonamici", 
         "notes": "", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Oregon", 
         "time": " PST"
     }, 
@@ -10308,7 +10308,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Scott Peters", 
         "notes": "It technically starts at 5:30pm but they want everyone to arrive by 5:15pm. Doors open at 5:00pm", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "California", 
         "time": " PST"
     }, 
@@ -10321,7 +10321,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10334,7 +10334,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10347,7 +10347,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Tony C\u00e1rdenas", 
         "notes": "", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "California", 
         "time": " PST"
     }, 
@@ -10360,7 +10360,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10373,7 +10373,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15am; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10399,7 +10399,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Ro Khanna", 
         "notes": "Driving Directions: <a href=\"http://www.ohlone.edu/core/mapsdirs/directions/\" target=\"_blank\">http://www.ohlone.edu/core/mapsdirs/directions/</a>", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "California", 
         "time": " PST"
     }, 
@@ -10425,7 +10425,7 @@ var nonGeoData= [
         "meetingType": "Teletown Hall", 
         "member": "Ed Perlmutter", 
         "notes": "", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Colorado", 
         "time": " MST"
     }, 
@@ -10438,7 +10438,7 @@ var nonGeoData= [
         "meetingType": "Town Hall", 
         "member": "Salud Carbajal", 
         "notes": "RVSP <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdGQJz9eeoXY2hLHKs1NxtJl9nETJf3PIDHmLMOv5PuJwKqOw/viewform?c=0&w=1\" target=\"_blank\">https://docs.google.com/forms/d/e/1FAIpQLSdGQJz9eeoXY2hLHKs1NxtJl9nETJf3PIDHmLMOv5PuJwKqOw/viewform?c=0&w=1</a>", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "California", 
         "time": " PST"
     }, 
@@ -10464,7 +10464,7 @@ var nonGeoData= [
         "meetingType": "Other", 
         "member": "Rep Ruben J. Kihuen", 
         "notes": "This \"District Tour\" will take place at various locations throughout Nevada's 4th Congressional District. Some events will be public; some private. The information should become available at twitter soon but is unavailable at this time. I will update as necessary.", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Nevada", 
         "time": " PST"
     }, 
@@ -10477,7 +10477,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "Arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10490,7 +10490,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10503,7 +10503,7 @@ var nonGeoData= [
         "meetingType": "DC Event", 
         "member": "Patty Murray", 
         "notes": "arrive by 8:15; RSVP to 202-224-1425", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Washington", 
         "time": " EST"
     }, 
@@ -10529,7 +10529,7 @@ var nonGeoData= [
         "meetingType": "Other", 
         "member": "Jacky Rosen", 
         "notes": "Informal open house with light refreshments and time to meet the Congresswoman", 
-        "party": "Democrat", 
+        "party": "Democratic", 
         "state": "Nevada", 
         "time": " MST"
     }, 

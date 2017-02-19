@@ -40,7 +40,7 @@ def xstr(s):
     :return: a string
     """
     if s is None:
-        return ''
+        return u''
     else:
         return unicode(s)
 
@@ -155,6 +155,8 @@ def get_townhall_data():
                 town_hall[u'State Represented'] = town_hall[u'State Represented'].strip()
             if town_hall.get(u'Notes'):
                 town_hall[u'Notes'] = convert_links(town_hall[u'Notes'])
+            if town_hall.get(u'Party') == u'Democrat':
+                town_hall[u'Party'] = u'Democratic'
             if town_hall.get(u'Date'):
                 # dates looks like this: Thursday, February 9, 2017
                 print(town_hall[u'Date'])
