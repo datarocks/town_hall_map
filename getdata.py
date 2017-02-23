@@ -123,7 +123,7 @@ def get_townhall_data():
                               discoveryServiceUrl=discoveryUrl)
 
     spreadsheetId = '1yq1NT9DZ2z3B8ixhid894e77u9rN5XIgOwWtTW72IYA'
-    rangeName = 'Upcoming Events!C11:V'
+    rangeName = 'Upcoming Events!C12:V'
     result = service.spreadsheets().values().get(
         spreadsheetId=spreadsheetId, range=rangeName).execute()
     values = result.get('values', [])
@@ -315,7 +315,7 @@ def generate_geojson(geo_town_hall_list):
                 u'notes': town_hall.get(u'Notes'),
                 u'party': town_hall.get(u'Party'),
                 u'state': town_hall.get(u'State Represented'),
-                u'time': xstr(town_hall.get(u'Time'))+' '+xstr(town_hall.get(u'Time Zone')),
+                u'time': xstr(town_hall.get(u'Start Time'))+' '+xstr(town_hall.get(u'Time Zone')),
                 u'address': town_hall.get(u'address_string')
 
             }
